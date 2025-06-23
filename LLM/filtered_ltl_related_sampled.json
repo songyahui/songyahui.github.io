@@ -1,0 +1,2770 @@
+[
+    {
+        "source": "halueval",
+        "knowledge": " Chang was born when Korea was still under Japanese colonial rule.Korea under Japanese rule began with the end of the short-lived Korean Empire in 1910 and ended at the conclusion of World War II in 1945.",
+        "question": "Chang Ucchin was born in korea during a time that ended with the conclusion of what? ",
+        "right_answer": "World War II",
+        "hallucinated_answer": "Chang was born before the war ended."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Popular Unitary Action Movement or MAPU (Spanish: Movimiento de Acci\u00f3n Popular Unitario ) was a small leftist political party in Chile. It was part of the Popular Unity coalition during the government of Salvador Allende.Augusto Jos\u00e9 Ram\u00f3n Pinochet Ugarte (] or ] ; 25 November 1915 \u2013 10 December 2006) was a Chilean general, politician and the dictator of Chile between 1973 and 1990; he remained the Commander-in-Chief of the Chilean Army until 1998.",
+        "question": "In what country did the repression of citizens by a dictator during the period of 1973 to 1990 occur?",
+        "right_answer": "Chile",
+        "hallucinated_answer": "The repression of citizens by a dictator during the period of 1973 to 1990 occurred in Nicaragua."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 2007 Big East Men's Basketball Championship was played from March 7 to March 10, 2007. Jeff Green of Georgetown was given the Dave Gavitt Trophy, awarded to the tournament's most outstanding player.Jeffrey Lynn Green (born August 28, 1986) is an American professional basketball player for the Cleveland Cavaliers of the National Basketball Association (NBA).",
+        "question": "What American professional basketball player born in 1986 was awarded the Dave Gavitt Trophy during the 2007 Big East Men's Basketball Championship? ",
+        "right_answer": "Jeffrey Lynn Green",
+        "hallucinated_answer": "The recipient of the Dave Gavitt Trophy for the 2007 Big East Men's Basketball Championship was Jeff Green, who later became a professional baseball player."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Vengalil Krishnan Krishna Menon (3 May 1896 \u2013 6 October 1974) was an Indian nationalist, diplomat and politician, described by some as the second most powerful man in India, after his ally, 1st Prime Minister of India Jawaharlal Nehru.Jawaharlal Nehru ( ; ; 14 November 1889 \u2013 27 May 1964) was the first Prime Minister of India and a central figure in Indian politics before and after independence.",
+        "question": "When was the  Prime Minister of India after which V. K. Krishna Menon was regarded as the second most powerful man in India born?  ",
+        "right_answer": "14 November 1889",
+        "hallucinated_answer": "V.K. Krishna Menon was born on 3 May 1896, which is after the birth of the first Prime Minister of India."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Magnetic Resonance Imaging is a peer-reviewed scientific journal published by Elsevier, encompassing biology, physics, and clinical science as they relate to the development and use of magnetic resonance imaging technology. It was established in 1880 as a publishing company.",
+        "question": "When was the company that publishes the journal Magnetic Resonance Imaging established ?",
+        "right_answer": "1880",
+        "hallucinated_answer": "The company that publishes Magnetic Resonance Imaging was established during the 19th century."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Garrett Smithley (born April 27, 1992) is an American professional stock car racing driver. He currently competes full-time in the NASCAR Xfinity Series, driving the No. 0 Chevrolet Camaro for JD Motorsports and the No. 40 Toyota Camry for MBM Motorsports.The Toyota Camry ( ; Japanese: \u30c8\u30e8\u30bf\u30fb\u30ab\u30e0\u30ea \"Toyota Kamuri\") is an automobile sold internationally by the Japanese manufacturer Toyota since 1982, spanning multiple generations.",
+        "question": "Since when has the automobile driven by Garrett Smithley for MBM Motorsports been sold?",
+        "right_answer": "1982",
+        "hallucinated_answer": "Garrett Smithley's car was custom made."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Produced by Peter Asher, the album features musical appearances by Esperanza Spalding, Sara Watkins, Waddy Wachtel and others.Peter Asher CBE (born 22 June 1944) is a British guitarist, singer, manager and record producer.",
+        "question": "When was the record producer that produced Love Has Come for You born? ",
+        "right_answer": "22 June 1944",
+        "hallucinated_answer": "The Love Has Come for You record producer was born on August 15, 1956."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Something's Got to Give is an unfinished 1962 American feature film, directed by George Cukor for Twentieth Century-Fox and starring Marilyn Monroe, Dean Martin and Cyd Charisse. A remake of \"My Favorite Wife\" (1940), a screwball comedy starring Cary Grant and Irene Dunne, it was Monroe's last work, but from the beginning its production was disrupted by her personal troubles, and after her death on August 5, 1962, the film was abandoned.Marilyn Monroe (born Norma Jeane Mortenson; June 1, 1926 \u2013 August 5, 1962) was an American actress and model. Famous for playing comic \"dumb blonde\" characters, she became one of the most popular sex symbols of the 1950s and was emblematic of the era's attitudes towards sexuality.",
+        "question": "Before finishing her feature film, Something's Got to Give, when did American actress, model and one of the most popular sex symbols of the 1950s, Marilyn Monroe die?",
+        "right_answer": "August 5, 1962",
+        "hallucinated_answer": "Marilyn Monroe died after completing the film."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Alan Merrill (born Allan Preston Sachs; February 19, 1951) is an American vocalist, guitarist, songwriter, actor and model. He is the lead singer of the first ever released version and co-author of the song \"I Love Rock 'n' Roll\" by the Arrows in 1975.\"I Love Rock 'n' Roll\" is a rock song written in 1975 by Alan Merrill of the Arrows, who recorded the first released version. The song was later made famous by Joan Jett & the Blackhearts in 1982.",
+        "question": "Joan Jett & the Blackhearts covered a song by the first westerner to achieve pop start status in Japan.  When was that song first recorded?",
+        "right_answer": "1975",
+        "hallucinated_answer": "\"I Love Rock 'n' Roll\" was first recorded in 1975."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Enron whistleblower Jordan Mintz was the former Managing Director for Corporate Tax at Enron Corporation.The Enron scandal, publicized in October 2001, eventually led to the bankruptcy of the Enron Corporation, an American energy company based in Houston, Texas, and the \"de facto\" dissolution of Arthur Andersen, which was one of the five largest audit and accountancy partnerships in the world.",
+        "question": "When was Jordan Mintz whictleblowing publicized?",
+        "right_answer": "October 2001",
+        "hallucinated_answer": "Jordan Mintz's whistleblowing was publicized in September 2001."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " \"Lonely Feeling\" is dedicated to the Swedish actress Greta Garbo.Greta Garbo (born Greta Lovisa Gustafsson; ] ; 18 September 1905 \u2013 15 April 1990), was a Swedish-born American film actress during the 1920s and 1930s.",
+        "question": "Four Shores, is an album from the Latvian band Brainstorm, Lonely Feeling\" is dedicated to which Swedish-born American film actress, during the 1920s and 1930s? ",
+        "right_answer": "Greta Garbo",
+        "hallucinated_answer": "Hedy Lamarr."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Three Hearts is the second solo album by rock musician and former Fleetwood Mac guitarist Bob Welch.Fleetwood Mac are a British-American rock band, formed in London in 1967.",
+        "question": "When was the band for which Bob Welch was a guitarist formed ?",
+        "right_answer": "1967",
+        "hallucinated_answer": "Bob Welch was a founding member."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Friedrich Wilhelm Konrad von Brodowski, known at \"Fritz\", (November 26, 1886 \u2013 October 28, 1944) was a German army general, controversially killed while in French custody during World War II.World War II (often abbreviated to WWII or WW2), also known as the Second World War, was a global war that lasted from 1939 to 1945, although related conflicts began earlier.",
+        "question": "Fritz von Brodowski was killed during what global war that lasted from 1939 to 1945?",
+        "right_answer": "World War II",
+        "hallucinated_answer": "Fritz von Brodowski was killed during World War I."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Abraham Bankier (1910-1956) was one of the owners of the \"Rekord\" factory on Lipowa street in Cracow, Poland, that Oskar Schindler took over during World War II.Oskar Schindler (28 April 1908 \u2013 9 October 1974) was a German industrialist, spy, and member of the Nazi Party who is credited with saving the lives of 1,200 Jews during the Holocaust by employing them in his enamelware and ammunitions factories, which were located in occupied Poland and the Protectorate of Bohemia and Moravia.",
+        "question": "Abraham Bankier was one of the owners of the Rekord factory that was taken over by a German Industrialist, spy, and member of the Nazi Party who is credited with saving how many Jews during the Holocaust?",
+        "right_answer": "1,200",
+        "hallucinated_answer": "Abraham Bankier was one of the owners of the Rekord factory that was taken over by a German Industrialist, spy, and member of the Nazi Party who is credited with saving the lives of 2,000 Jews during the Holocaust."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Montagne and Inskeep succeeded longtime host Bob Edwards, initially as interim replacements, and Greene joined the team in 2012.Robert Alan \"Bob\" Edwards (born May 16, 1947) is an American broadcast journalist, a Peabody Award-winning member of the National Radio Hall of Fame.",
+        "question": "When was the host that Renee Montagne succeeded born?",
+        "right_answer": "May 16, 1947",
+        "hallucinated_answer": "Renee Montagne succeeded a host born in 1947."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He served on the Court from October 12, 1914 to his retirement on January 31, 1941, during the presidencies of Woodrow Wilson, Warren Harding, Calvin Coolidge, Herbert Hoover and Franklin Delano Roosevelt.John Calvin Coolidge Jr. ( ; July 4, 1872 \u2013 January 5, 1933) was the 30th President of the United States (1923\u201329).",
+        "question": "James Clark McReynolds (February 3, 1862 \u2013 August 24, 1946) was an American lawyer and judge who served as United States Attorney General under President Woodrow Wilson and as an Associate Justice of the United States Supreme Court, he served on the Court, during the presidency of which 30th President of the United States (1923\u201329)?",
+        "right_answer": "John Calvin Coolidge Jr.",
+        "hallucinated_answer": "Franklin Delano Roosevelt."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The series is hosted by Emma Willis and Marvin Humes, and are joined by coaches will.i.am and Ricky Wilson.Marvin Richard James Humes (born 18 March 1985) is an English disc jockey and radio host who currently presents the late show across the UK's Capital FM Network, and the Vodafone Big Top 40 chart show across UK commercial radio stations on a Sunday afternoon.",
+        "question": "When was the English disc jockey who hosted \"The Voice UK\" born? ",
+        "right_answer": "18 March 1985",
+        "hallucinated_answer": "The English disc jockey who hosted \"The Voice UK\" was born on Christmas Day."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " It saw Locke's \"Treatises of Government\", the founding of the Royal Society, the experiments and holy meditations of Robert Boyle, the hysterical attacks on theaters from Jeremy Collier, and the pioneering of literary criticism from John Dryden and John Dennis.Robert William Boyle {'1': \", '2': \", '3': \", '4': \"} (25 January 1627 \u2013 31 December 1691) was an Anglo-Irish natural philosopher, chemist, physicist and inventor born in Lismore, County Waterford, Ireland.",
+        "question": "Restoration literature is the English literature written during the historical period commonly referred to as the English Restoration (1660\u20131689), which corresponds to the last years of the direct Stuart reign, it saw Locke's \"Treatises of Government\", the founding of the Royal Society, the experiments and holy meditations of Robert William Boyle, was an Anglo-Irish natural philosopher, chemist, physicist and inventor born in Lismore, County Waterford, in which location?",
+        "right_answer": "Ireland",
+        "hallucinated_answer": "Lismore, County Kerry, Ireland."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " On board were possibly 10 tons of gold coins.The Kingdom of England was a sovereign state on the island of Great Britain from the 10th century\u2014when it emerged from various Anglo-Saxon kingdoms\u2014until 1707, when it united with Scotland to form the Kingdom of Great Britain.",
+        "question": "\"HMS \"Sussex\" was an 80-gun third-rate ship, of the line of the English Royal Navy, for which sovereign state on the island of Great Britain from the 10th century\u2014when it emerged from various Anglo-Saxon kingdoms\u2014until 1707, when it united with Scotland to form the Kingdom of Great Britain?",
+        "right_answer": "Kingdom of England",
+        "hallucinated_answer": "HMS \"Sussex\" was actually a Spanish ship captured by the English during the Tudor era."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "\"These Days\" is the third single, (fourth in the UK), from the American rock band Foo Fighters' seventh studio album \"Wasting Light\". Dave Grohl has stated that it is his favourite song that he has ever written.Wasting Light is the seventh studio album by American rock band Foo Fighters. It was released on April 12, 2011 on RCA Records, and is the first album to feature rhythm guitarist Pat Smear since \"The Colour and the Shape\" (1997), making the band a five piece with the album.",
+        "question": "In regards to the album that had, according to Dave Grohl, his favourite song he has ever written, when was it released?",
+        "right_answer": "April 12, 2011",
+        "hallucinated_answer": "The album that contained Dave Grohl's favorite song was released in 2011."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Spliced is a Canadian animated television series produced by Teletoon and Nelvana. The series has aired in Canada on Teletoon, in the United States on Qubo, in Australia on ABC3, in the United Kingdom on Nicktoons, in Latin America on Disney XD, and in Sweden on Nickelodeon.Nicktoons is a British/Irish digital television channel, launched on 22 July 2002.",
+        "question": "When did the British/Irish digital television channel, which features Spliced, first launch?",
+        "right_answer": "22 July 2002",
+        "hallucinated_answer": "The British/Irish digital television channel that features Spliced first launched in 2003."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Point of Inquiry is the radio show and flagship podcast of the Center for Inquiry (CFI), \"a think tank promoting science, reason, and secular values in public policy and at the grass roots\". Started in 2005, \"Point of Inquiry\" has consistently been ranked among the best science podcasts available in iTunes. Former guests include leading scientists, writers and public intellectuals such as Neil DeGrasse Tyson, Paul Krugman, Lisa Randall, Brian Greene, Oliver Sacks, Susan Jacoby, David Brin and Temple Grandin.Lisa Randall (born June 18, 1962) is an American theoretical physicist working in particle physics and cosmology. She is the Frank B. Baird, Jr.",
+        "question": "An American theoretical physicist who worked in particle physics and cosmology, she was also known as the Frank B. Baird, Jr., was a former guest on a podcast that was described as \"a think tank promoting science, reason, and secular values in public policy and at the grass roots\"; when was that podcast started?",
+        "right_answer": "2005",
+        "hallucinated_answer": "Lisa Randall was a former guest on \"Point of Inquiry\", a podcast promoting secular values, which was started in the 1990s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "\"Sneakin'\" is a song by Canadian rapper Drake and American rapper 21 Savage.Shayaa Bin Abraham-Joseph (born October 22, 1992), better known by his stage name 21 Savage, is an American rapper from Atlanta, Georgia.",
+        "question": "When was the American rapper from Atlanta, Georgia born who's song is \"Sneakin'\"?",
+        "right_answer": "October 22, 1992",
+        "hallucinated_answer": "21 Savage was born in 1993."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The team was led by head coach David Cutcliffe, in his sixth year, and played its home games at Wallace Wade Stadium in Durham, North Carolina. He also earned multiple college football coach of the year awards from the Walter Camp Football Foundation, the Maxwell Football Club, and the Bobby Dodd Foundation.",
+        "question": "Who was the head coach of the Duke Blue Devils football team when they played at Wallace Wade Stadium and has won multiple college football coach of the year awards?",
+        "right_answer": "David Cutcliffe",
+        "hallucinated_answer": "The Duke Blue Devils football team was coached by David Coleman at Wallace Wade Stadium and won multiple college football coach of the year awards."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Ann M. O'Leary (born 1971 or 1972) is an American political advisor, lawyer, and nonprofit leader who specializes in early childhood education. She worked in the Bill Clinton administration and for Hillary Clinton during her time as First Lady, Senate career, and 2008 and 2016 presidential campaigns.Hillary Rodham Clinton served as a United States Senator from New York from January 3, 2001 to January 21, 2009. Clinton resigned from the Senate on January 21, 2009 to become United States Secretary of State for the Obama Administration.",
+        "question": "What position did the former American first lady who employed Ann M. O'Leary during her husband's presidency hold in the Obama administration?",
+        "right_answer": "United States Secretary of State",
+        "hallucinated_answer": "The former American first lady who employed Ann M. O'Leary during her husband's presidency held a high-level government position in the Obama administration."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Group SNE is a Japanese company founded in 1986 by the current president Hitoshi Yasuda, which produces role-playing games, light novels, board games and card games. Ryo Mizuno was one of the founding members. Moreover, there are several anime adaptations based upon Group SNE's products such as \"Legend of Crystania, Mon Colle Knights and Rune Soldier.Mon Colle Knights, known as Six Gates Far Away Mon Colle Knight (Japanese: \u516d\u9580\u5929\u5916\u30e2\u30f3\u30b3\u30ec\u30ca\u30a4\u30c8 , Hepburn: Rokumon Tengai Mon Kore Naito ) in Japan, is an anime and manga series.",
+        "question": "When did the company that produced \"Six Gates Far Away Mon Colle Knight\" begin?",
+        "right_answer": "in 1986",
+        "hallucinated_answer": "The company that produced \"Six Gates Far Away Mon Colle Knight\" began in 1996."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He ran unsuccessfully against Democratic Incumbent US Rep. Dan Boren in Oklahoma's 2nd Congressional District in the July 27 Democratic primary.Daniel David Boren (born August 2, 1973) is a retired American politician, who served as the U.S. Representative for Oklahoma 's 2 congressional district from 2005 to 2013.",
+        "question": "Who is this retired American politician who was a U. S. representative of Oklahoma's 2nd Congressional District whom Oklahoma politician Jim Wilson ran against during the July 27 Democratic primary?",
+        "right_answer": "Dan Boren",
+        "hallucinated_answer": "Jim Wilson was unsuccessful."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " During the European debt crisis, the term was also increasingly used to refer to the economies of Portugal, Ireland, Greece, and Spain, four EU member states that were unable to refinance their government debt or to bail out over-indebted banks on their own during the crisis.The European debt crisis (often also referred to as the Eurozone crisis or the European sovereign debt crisis) is a multi-year debt crisis that has been taking place in the European Union since the end of 2009.",
+        "question": "During Which debt crises did PIGS  used to refer to the economies of Portugal, Ireland, Greece, and Spain, four EU member states",
+        "right_answer": "The European debt crisis",
+        "hallucinated_answer": "The term PIGS was not used."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Guardians (Hangul: \ud30c\uc218\uafbc ; RR: \"Pasuggun \"; lit.Kim Ki-bum (born September 23, 1991), better known by his stage name Key, is a South Korean singer, actor, fashion designer and television presenter.",
+        "question": "When is the cast in The Guardians born that is a South Korean singer, actor, fashion designer and television presenter?",
+        "right_answer": "September 23, 1991",
+        "hallucinated_answer": "The cast in The Guardians was born in 1991."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Fireworks incident (Dutch, \"Vuurwerkincident\") was a very serious case of Football hooliganism which took place on Easter Sunday, 20 April 2014 in De Kuip, Rotterdam, during the KNVB Cup final match between AFC Ajax and PEC Zwolle. Mass amounts of fireworks, flares and smoke bombs were launched into the penalty box around Ajax goalkeeper Kenneth Vermeer in the early minutes of the match, which had been thrown onto the pitch by the Ajax hooligan firm VAK410 twice in the early build up of the game. After a 30 minute recess in which marketing director Edwin van der Sar addressed the crowd, Ajax would go on to lose the match 5\u20131 to Zwolle.Edwin van der Sar OON (] ) (born 29 October 1970) is a Dutch former professional footballer who played as a goalkeeper.",
+        "question": "Edwin van der Sar spoke to the crowd after the fireworks incident on April 20, 2014 during the KNVB Cup final match. Which team won that game?",
+        "right_answer": "Zwolle",
+        "hallucinated_answer": "Ajax won the game despite the fireworks incident."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Karrin Murphy is a major character in Jim Butcher's contemporary fantasy series, \"The Dresden Files\". The character also appears as Connie Murphy in the television series based on the novels.The Dresden Files is a series of contemporary fantasy/mystery novels written by American author Jim Butcher. The first novel, \"Storm Front\", was published in 2000 by Roc Books.",
+        "question": "A major character in the 2000 novel \"Storm Front\" had her name changed to what when the novel series was adapted for television?",
+        "right_answer": "Connie Murphy",
+        "hallucinated_answer": "The character's name is Connie."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The Dolphins made their first round selection with the 15th pick of the 2011 NFL Draft on Florida offensive lineman Mike Pouncey.James Michael Pouncey (born July 24, 1989) is an American football center for the Miami Dolphins of the National Football League (NFL).",
+        "question": "When was the 15th pick of the 2011 NFL born ?",
+        "right_answer": "July 24, 1989",
+        "hallucinated_answer": "The 15th pick of the 2011 NFL Draft was born in the summer of 1989."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " They were invited to the Cactus Bowl where they lost to Baylor. They were invited to Cactus Bowl where they defeated Boise State.",
+        "question": "The 2016 Baylor Bears football team were invited to what event when they defeated the 2016 Boise State Broncos?",
+        "right_answer": "Cactus Bowl",
+        "hallucinated_answer": "The 2016 Baylor Bears football team were not invited to any event."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Rue d'Al\u00e9sia is a major street in the south of Paris, which runs along the entire east-west length of the 14th arrondissement. It is one of the few streets in Paris named after a French defeat, or more precisely, a Gallic defeat: the Battle of Alesia.The Battle of Alesia or Siege of Alesia was a military engagement in the Gallic Wars that took place in September, 52 BC, around the Gallic \"oppidum\" (fortified settlement) of Alesia, a major centre of the Mandubii tribe.",
+        "question": "When did the event Rue d'Al\u00e9sia is named for take place?",
+        "right_answer": "September, 52 BC",
+        "hallucinated_answer": "The Battle of Alesia took place during the early stages of the Roman Empire."
+    },
+
+
+
+
+
+-----------------
+-----------------
+-----------------
+-----------------
+
+
+
+
+
+    {
+        "source": "halueval",
+        "knowledge": "In 1943, during World War II, four diesel-electric industrial shunting type locomotives built by General Electric Company, Erie for the United States Army Transportation Corps (USATC) were imported from the United States of America by the Department of Supply under Lend-Lease conditions for use at the Dunheved munitions factory in Sydney.The Lend-Lease policy, formally titled \"An Act to Promote the Defense of the United States\", (Pub.L.",
+        "question": "In what Australian city did the United States ship supplies in 1943 as part of the Lend-lease policy during WWII",
+        "right_answer": "Sydney",
+        "hallucinated_answer": "Australia shipped supplies to the United States in 1943."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Macclesfield by-election, 1971 was a parliamentary by-election held on 30 September 1971 for the constituency of Macclesfield in Cheshire.Macclesfield is a constituency represented in the House of Commons of the UK Parliament since 2010 by David Rutley, a Conservative.",
+        "question": "When was the by-election of a constituency represented in the House of Commons of the UK Parliament since 2010 by David Rutley held on?",
+        "right_answer": "30 September 1971",
+        "hallucinated_answer": "The by-election was held in 1972."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "King of the Dancehall is a 2016 American drama film directed by Nick Cannon.Nicholas Scott \"Nick\" Cannon (born October 8, 1980) is an American rapper, actor, comedian, director, screenwriter, film producer, entrepreneur, record producer, radio and television personality.",
+        "question": "When was the director of King of the Dancehall born?",
+        "right_answer": "October 8, 1980",
+        "hallucinated_answer": "The director of King of the Dancehall was born in 1980."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Rudolph the Red-Nosed Reindeer: The Movie is a 1998 American animated musical film about Rudolph the Red-Nosed Reindeer, who first appeared in a 1939 story by Robert L. May. It stars John Goodman, Eric Idle, Whoopi Goldberg, Debbie Reynolds, Richard Simmons and Bob Newhart.Milton Teagle \"Richard\" Simmons (born July 12, 1948) is an American fitness guru, actor, and comedian. He promotes weight-loss programs, prominently through his \"Sweatin' to the Oldies\" line of aerobics videos and is known for his eccentric, flamboyant, and energetic personality.",
+        "question": "When was the American fitness guru, actor, and comedian born who is known for his eccentric, flamboyant, and energetic personality and also a star of Rudolph the Red-Nosed Reindeer: The Movie?",
+        "right_answer": "July 12, 1948",
+        "hallucinated_answer": "Richard Simmons was born in 1950."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " In the episode, after Doctor Leonard McCoy (DeForest Kelley) travels back in time and changes history, Kirk (William Shatner) and Spock (Leonard Nimoy) follow him to correct the timeline.Leonard Simon Nimoy ( ; March 26, 1931 \u2013 February 27, 2015) was an American actor, film director, photographer, author, singer and songwriter.",
+        "question": "When was American actor who acted Spock in The City on the Edge of Forever born? ",
+        "right_answer": "March 26, 1931",
+        "hallucinated_answer": "The City on the Edge of Forever was directed by Leonard Simon Nimoy in 1931."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 2007 FIFA U-20 World Cup was the sixteenth edition of the FIFA U-20 World Cup (formerly called FIFA World Youth Championship), hosted by Canada from 30 June to 22 July 2007.Sergio Leonel \"Kun\" Ag\u00fcero (] ; born 2 June 1988) is an Argentine professional footballer who plays as a striker for Premier League club Manchester City and the Argentina national team.",
+        "question": "The 2007 FIFA U-20 World Cup was the sixteenth edition of the FIFA U-20 World Cup (formerly called FIFA World Youth Championship), hosted by Canada held during which span of dates, Argentine player Sergio Ag\u00fcero was given the FIFA U-20 Golden Shoe?",
+        "right_answer": "30 June to 22 July 2007",
+        "hallucinated_answer": "The 2007 FIFA U-20 World Cup was held from 30 June to 22 July 2007, and Sergio Ag\u00fcero was given the FIFA U-20 Golden Shoe on the first day."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Catfish is a 2010 American documentary film directed by Henry Joost and Ariel Schulman, involving a young man, Nev, being filmed by his brother and friend, co-directors Ariel and Henry, as he builds a romantic relationship with a young woman on the social networking website Facebook.Yaniv \"Nev\" Schulman (born September 26, 1984) is an American producer, actor, photographer, and TV host.",
+        "question": "When was the man who was filmed by his brother and friend as he built a romantic relationship on Facebook born?",
+        "right_answer": "September 26, 1984",
+        "hallucinated_answer": "The man who built a fake romantic relationship on Facebook was born in the 90s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Auburn is an electoral district of the Legislative Assembly of the Australian state of New South Wales in Sydney's West. It is currently represented by Luke Foley, the leader of the Australian Labor Party. Foley was a member of the New South Wales Legislative Council since 19 June 2010 until his resignation to contest the Legislative Assembly seat of Auburn at the 2015 New South Wales election.",
+        "question": "When did the politician who represented the electoral district in Sydney's West resign from his political party?",
+        "right_answer": "2015",
+        "hallucinated_answer": "The politician never resigned from his political party."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The series also starred Joey Slotnick as Eliot's best friend Sam Sloan, Ming-Na Wen as Sam's wife Trudy and Ernest Borgnine as doorman Manny, throughout its entire run.Ming-Na Wen (; born November 20, 1963) is an American actress.",
+        "question": "The Single Guy is an American television sitcom that ran for two seasons on NBC, from September 1995 to April 1997, the series starred Ming-Na Wen as Sam's wife, Ming-Na Wen is an American actress, born when?",
+        "right_answer": "November 20, 1963",
+        "hallucinated_answer": "Ming-Na Wen, born in 1963."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Nuclear Fuel Cycle Royal Commission is a Royal Commission into South Australia's future role in the nuclear fuel cycle. The Commissioner was former Governor of South Australia, Kevin Scarce, a retired Royal Australian Navy Rear-Admiral and chancellor of the University of Adelaide.Rear Admiral Kevin John Scarce {'1': \", '2': \", '3': \", '4': \"} (born 4 May 1952) is a retired Royal Australian Navy officer who was the 34th Governor of South Australia, serving from August 2007 to August 2014.",
+        "question": "When was the Commissioner and former Governor of South Australia born who was also chancellor of the University of Adelaide?",
+        "right_answer": "4 May 1952)",
+        "hallucinated_answer": "The Commissioner was born on May 5th, 1952."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Girls on Top is a British ITV sitcom, broadcast in 1985 and 1986, and made by Witzend for the ITV contractor Central Independent Television. It stars Dawn French, Jennifer Saunders, Ruby Wax and Tracey Ullman, and was written by French, Saunders, and Wax with additional material from Ullman.Dawn Roma French (born 11 October 1957) is an English actress, writer, and comedian. She is best known for starring in and writing for the comedy sketch show \"French and Saunders\" with comedy partner Jennifer Saunders and for playing the lead role as Geraldine Granger in the sitcom \"The Vicar of Dibley\".",
+        "question": "When was the English actress, writer, and comedian born who was a star in Girls on Top and in French and Saunders?",
+        "right_answer": "11 October 1957",
+        "hallucinated_answer": "The English actress from Girls on Top was born in 1957, but the year and month are unknown."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "George Armistead (April 10, 1780 \u2013 April 25, 1818) was an American military officer who served as the commander of Fort McHenry during the Battle of Baltimore in the War of 1812.Fort McHenry, in Baltimore, Maryland, is a historical American coastal pentagonal bastion fort best known for its role in the War of 1812, when it successfully defended Baltimore Harbor from an attack by the British navy from the Chesapeake Bay September 13\u201314, 1814. It was first built in 1798 and was used continuously by U.S. armed forces through World War I and by the Coast Guard in World War II.",
+        "question": "When was the fort commanded by George Armistead during the Battle of Baltimore first built?",
+        "right_answer": "1798",
+        "hallucinated_answer": "The fort commanded by George Armistead was built a few years before the outbreak of the War of 1812."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Victor/Victoria is a 1982 British-American musical comedy film released by Metro-Goldwyn-Mayer and starring Julie Andrews, James Garner, Robert Preston, Lesley Ann Warren, Alex Karras, and John Rhys-Davies.Alexander George Karras (July 15, 1935 \u2013 October 10, 2012) was an American football player, professional wrestler, and actor.",
+        "question": "when was the American football player who starred in  Victor/Victoria born ",
+        "right_answer": "July 15, 1935",
+        "hallucinated_answer": "Alexander Karras was born in 1935."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Argent Corporation was a company in Las Vegas that at one time controlled the Hacienda Hotel/Casino, the Stardust Resort & Casino, the Fremont Hotel and Casino and the casino in the Marina Hotel.The Hacienda Resort Hotel and Casino was a hotel and casino on the Las Vegas Strip in Paradise, Nevada, that operated from 1956 to 1996.",
+        "question": " Argent Corporation was a company in Las Vegas that at one time controlled a hotel that operated when?",
+        "right_answer": "from 1956 to 1996",
+        "hallucinated_answer": "Argent Corporation was a company in Las Vegas that at one time controlled a hotel that operated from 1930 to 1970."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Christian Roy Kaldager (18 March 1908 \u2013 23 June 2005) was a Royal Norwegian Air Force officer. It was established as a separate arm of the Norwegian armed forces on 10 November 1944.",
+        "question": "When was the military branch, for which Christian Roy Kaldager served, established?",
+        "right_answer": "10 November 1944",
+        "hallucinated_answer": "Christian Roy Kaldager served in the Royal Norwegian Air Force, which was established on August 12, 1957."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Love for Three Oranges, Op. 33, also known by its French language title L'amour des trois oranges (Russian: \u041b\u044e\u0431\u043e\u0432\u044c \u043a \u0442\u0440\u0451\u043c \u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u0430\u043c , \"Lyubov' k tryom apel'sinam\"), is a satirical opera by Sergei Prokofiev.Sergei Sergeyevich Prokofiev ( ; Russian: \u0421\u0435\u0440\u0433\u0435\u0439 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447 \u041f\u0440\u043e\u043a\u043e\u0444\u044c\u0435\u0432 , \"Sergej Sergejevi\u010d Prokofjev\" ; 27 April 1891 \u2013 5 March 1953) was a Soviet composer, pianist and conductor.",
+        "question": "When did the Soviet composer of French language title L'amour des trois oranges die?",
+        "right_answer": "5 March 1953",
+        "hallucinated_answer": "The Soviet composer died on March 5th, 1953."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Comet in Moominland (Swedish: \"Kometjakten\" / \"Mumintrollet p\u00e5 kometjakt\" / \"Kometen kommer\") is the second in Tove Jansson's series of Moomin books. Her first solo art exhibition was in 1943.",
+        "question": "When was the first solo art exhibition of the author of the book Comet in Moominland ? ",
+        "right_answer": "1943",
+        "hallucinated_answer": "Tove Jansson's art exhibition was in 1953."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The team is currently captained by Kumar Sangakkara and coached by Mickey Arthur a former South African cricketer. He coached the South African national team from 2005 to 2010, and was the coach of the Australia national cricket team until his sacking on 23 June 2013.",
+        "question": "When did the coach of the Karachi Kings finish his time as coach of the Australia national cricket team ?",
+        "right_answer": "23 June 2013.",
+        "hallucinated_answer": "The coach of Karachi Kings was removed as coach of the Australia national cricket team in mid-2013."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Thiel Fellowship (originally named 20 under 20) is a fellowship created by Peter Thiel through the Thiel Foundation.Peter Andreas Thiel ( ; born October 11, 1967) is an American entrepreneur, venture capitalist, philanthropist, political activist, and author.",
+        "question": "When was the American entrepreneur and venture capitalist born who created the Thiel Fellowship?",
+        "right_answer": "October 11, 1967",
+        "hallucinated_answer": "Peter Thiel was born on September 23, 1967."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The game pits one person against 100 others for a chance to win one million dollars.Edward Joseph McGuire AM (born 29 October 1964) is an Australian radio and television presenter, commentator, journalist, media businessman and sporting president known for his long association with Australian rules football (AFL) and Channel Nine, with company McGuire Media",
+        "question": "When was the Australian radio and television presenter who was part of the host for 1 vs. 100 born? ",
+        "right_answer": "29 October 1964",
+        "hallucinated_answer": "Edward Joseph McGuire was born in November 1964."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Born in Darwin, She was on holiday in Melbourne when she was paralysed by polio at the age of five.is the capital city of the Northern Territory of Australia.",
+        "question": "Though Cherrie Ireland was born in Darwin, the capital city of the Northern Territory of Australia, she was on holiday in which city when she became paralysed by polio?",
+        "right_answer": "Melbourne",
+        "hallucinated_answer": "Sydney"
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Hurricane Beulah was the second tropical storm, second hurricane, and only major hurricane during the 1967 Atlantic hurricane season. It was the first Atlantic hurricane season to be included in the satellite era.",
+        "question": "Hurricane Beulah was the second tropical storm, second hurricane, and only major hurricane during which was the first Atlantic hurricane season to be included in the satellite era?",
+        "right_answer": "1967 Atlantic hurricane season",
+        "hallucinated_answer": "Hurricane Beulah was the second tropical storm, second hurricane, and only major hurricane during the first Atlantic hurricane season."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "\"I Should Be So Lucky\" is a song performed by Australian recording artist and songwriter Kylie Minogue from her debut studio album \"Kylie\" (1988).Kylie Ann Minogue, ( ; born 28 May 1968), often known simply as Kylie, is an Australian singer, songwriter, dancer and actress.",
+        "question": "When was the singer who performed \"I Should Be So Lucky\" born? ",
+        "right_answer": "28 May 1968",
+        "hallucinated_answer": "The singer who performed \"I Should Be So Lucky\" was born on May 28th."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "She Walks These Hills is a book written by Sharyn McCrumb and published by Charles Scribner's Sons in 1994, which later went on to win the Anthony Award for Best Novel in 1995.Sharyn McCrumb (born February 26, 1948) is an American writer whose books celebrate the history and folklore of Appalachia.",
+        "question": "When was the writer of the book She Walks These Hills born?",
+        "right_answer": "February 26, 1948",
+        "hallucinated_answer": "The author of She Walks These Hills was born in the 1950s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Walt Disney World Conference Center was a chalet-style building that was designed for small and medium-sized business meetings. It was later demolished when construction began on the Disney's Saratoga Springs Resort & Spa, which now stands on the grounds of the former Institute. The resort is the seventh Disney Vacation Club resort and is situated on the former site of the Disney Institute.",
+        "question": "Which chalet-style building was demolished when construction began on the seventh Disney Vacation Club resort?",
+        "right_answer": "Walt Disney World Conference Center",
+        "hallucinated_answer": "A building similar to the Walt Disney World Conference Center was demolished to make way for the Disney's Saratoga Springs Resort & Spa."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Elmer Lincoln Irey (1888 \u2013 July 19, 1948) was a United States Treasury Department official and director of the Internal Revenue Service's lead investigative unit during the federal tax evasion prosecution of Chicago mobster Al Capone.Alphonse Gabriel Capone ( ; ] ; January 17, 1899 \u2013 January 25, 1947), sometimes known by the nickname Scarface, was an American mobster, crime boss and businessman who attained fame during the Prohibition era as the co-founder and boss of the Chicago Outfit.",
+        "question": "Elmer Lincoln Irey (1888 \u2013 July 19, 1948) was a United States Treasury Department official and director of the Internal Revenue Service's lead investigative unit during the federal tax evasion prosecution of Chicago mobster Al Capone, Alphonse Gabriel Capone ( ; ] ; January 17, 1899 \u2013 January 25, 1947), sometimes known by the nickname Scarface, was an American mobster, crime boss and businessman who attained fame during the Prohibition era as the co-founder and boss, of which organization?",
+        "right_answer": "Chicago Outfit",
+        "hallucinated_answer": "Alphonse Gabriel Capone was the boss of the New York Mafia."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Robert Wallace Hester (1866-1942) was a British artist, engraver, and caricaturist who made witty illustrations of famous people for \"Vanity Fair\".The second Vanity Fair was a British weekly magazine published from 1868 to 1914.",
+        "question": "When did the magazine Wallace Hester work for run?",
+        "right_answer": "1868 to 1914",
+        "hallucinated_answer": "Wallace Hester worked for Vanity Fair magazine when it was first published."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Chumlee came to work at the pawn shop five years before filming of the first season, having been a childhood friend of Corey Harrison, whose father, Rick Harrison, and grandfather, Richard Benjamin Harrison, opened the shop in 1989.Richard Benjamin Harrison Jr., (also known by the nicknames The Old Man and The Appraiser) (born March 4, 1941), is a Las Vegas businessman and reality television personality, best known as the co-owner of the World Famous Gold & Silver Pawn Shop, as featured on the History channel series \"Pawn Stars\".",
+        "question": "When did the pawn shop, that Richard Benjamin Harrison owns, open?",
+        "right_answer": "1989",
+        "hallucinated_answer": "The pawn shop that Richard Benjamin Harrison owns opened in 1992."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 1990 European Cup Final was a football match between Milan of Italy and Benfica of Portugal, played on 23 May 1990 at the Praterstadion in Vienna, Austria.Franklin Edmundo \"Frank\" Rijkaard (] ; born 30 September 1962) is a Dutch former footballer and former manager who played as a midfielder or defender.",
+        "question": "The 1990 European Cup Final was a football match between Milan of Italy and Benfica of Portugal, played on which dater, The winning goal came in the 68th minute for Milan when Alessandro Costacurta passed the ball to Marco van Basten, who slotted it to Frank Rijkaard, who ran through the defense and scored, Franklin Edmundo \"Frank\" Rijkaard, is a Dutch former footballer and former manager who played as a midfielder or defender?",
+        "right_answer": "23 May 1990",
+        "hallucinated_answer": "The football match was played on 24 May 1990."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Job Training Partnership Act of 1982 (Pub.L. 97\u2013300 , , et seq.) was a United States federal law passed October 13, 1982, by the United States Department of Labor during the Ronald Reagan administration.Ronald Wilson Reagan ( ; February 6, 1911 \u2013 June 5, 2004) was an American statesman and actor who served as the 40th President of the United States from 1981 to 1989.",
+        "question": "What is the name of the 40th president who was in office when the Job Partnership Act of 1982 was passed?",
+        "right_answer": "Ronald Reagan",
+        "hallucinated_answer": "The Job Partnership Act of 1982 was passed during the presidency of Jimmy Carter."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " When Mayor Quimby later flees Springfield, the group takes control of the town, hoping to improve the lives of Springfieldians through the rule of the smartest.Mayor Joseph Fitzgerald O'Malley Fitzpatrick O'Donnell The Edge Quimby, nicknamed Diamond Joe, is a recurring character from the animated television series \"The Simpsons\".",
+        "question": "\"They Saved Lisa's Brain\" is the twenty-second episode of \"The Simpsons\"' tenth season, when which recurring character from the animated television series \"The Simpsons\", and is voiced by Dan Castellaneta?",
+        "right_answer": "Mayor Quimby",
+        "hallucinated_answer": "Diamond Joe Quimby voiced Dan Castellaneta."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "\"Yakety Sax\" is a pop jazz instrumental jointly composed by James Q. \"Spider\" Rich and Boots Randolph. Randolph was a major part of the \"Nashville sound\" for most of his professional career.",
+        "question": "\"Yakety Sax\" composer Boots Randolph was part of what musical style group during most of his professional career?",
+        "right_answer": "the \"Nashville sound\"",
+        "hallucinated_answer": "Boots Randolph was a part of the '70s country-pop music."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Franklin\u2013Nashville Campaign, also known as Hood's Tennessee Campaign, was a series of battles in the Western Theater, conducted from September 18 to December 27, 1864, in Alabama, Tennessee, and northwestern Georgia during the American Civil War. The Confederate Army of Tennessee under Lt. Gen. John Bell Hood drove north from Atlanta, threatening Maj. Gen. William T. Sherman's lines of communications and central Tennessee.John Bell Hood (June 1 or June 29, 1831 \u2013 August 30, 1879) was a Confederate general during the American Civil War. Arguably one of the best brigade and division commanders in the Confederate States Army, Hood gradually became increasingly ineffective as he was promoted to lead larger, independent commands late in the war; his career and reputation were marred by his decisive defeats leading an army in the Atlanta Campaign and the Franklin\u2013Nashville Campaign.",
+        "question": "When did the leader of the Confederate Army of Tennessee during Hood's Tennessee Campaign die?",
+        "right_answer": "August 30, 1879",
+        "hallucinated_answer": "The leader of the Confederate Army of Tennessee during Hood's Tennessee Campaign passed away in 1879."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "\"Oath\" is a song by English singer Cher Lloyd, featuring vocals from American rapper Becky G.Rebbeca Marie Gomez (born March 2, 1997), better known by her stage name Becky G, is a Mexican-American singer, songwriter, rapper, actress and model.",
+        "question": "When was the  Mexican-American singer, songwriter, rapper, actress and model born who was the vocal for  \"Oath\"?",
+        "right_answer": "March 2, 1997",
+        "hallucinated_answer": "Becky G was born in early 1997."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 2004 Oklahoma Sooners football team represented the University of Oklahoma during the 2004 NCAA Division I-A football season, the 110th season of Sooner football. The team was led by two-time Walter Camp Coach of the Year Award winner, Bob Stoops, in his sixth season as head coach.Robert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017.",
+        "question": "When did the football coach, who led the 2004 Oklahoma Sooners team,  announce his retirement?",
+        "right_answer": "June 7, 2017",
+        "hallucinated_answer": "Bob Stoops retired in 2017."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " With striker Didier Drogba being sold to Chelsea, and replacements Habib Bamogo and P\u00e9guy Luyindula not performing at a similar level, the goal-scoring went dry, but in spite of scoring two points less than the previous season, l'OM finished two positions above the previous season.Didier Yves Drogba T\u00e9bily (] ; born 11 March 1978) is an Ivorian professional footballer who plays as a striker for American club Phoenix Rising FC.",
+        "question": "What is the nationality of this professional footballer who was sold to Chelsea during the 2004\u201305 Olympique de Marseille season?",
+        "right_answer": "Ivorian",
+        "hallucinated_answer": "Didier Drogba is a professional footballer from Ghana."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Morse is a town in southern Saskatchewan, Canada. The town is named after the American scholar and inventor, Samuel Morse.Samuel Finley Breese Morse (April 27, 1791 \u2013 April 2, 1872) was an American painter and inventor.",
+        "question": "When was the American painter and inventor died who after who's name Morse town named in southern Saskatchewan, Canada?",
+        "right_answer": "April 2, 1872",
+        "hallucinated_answer": "Samuel Morse died on April 2, 1872, which is coincidentally the same day that Morse town was founded."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "David I. Arkin (December 19, 1906 \u2013 October 8, 1980) was an American teacher, painter, writer, and lyricist, and is the father of actor Alan Arkin.Alan Wolf Arkin (born March 26, 1934) is an American actor, director, screenwriter, musician, and singer. With a film career spanning more than 55 years, Arkin is known for his performances in \"Popi\"; \"Wait Until Dark\"; \"The Russians Are Coming, the Russians Are Coming\"; \"The Heart Is a Lonely Hunter\"; \"Catch-22\"; \"The In-Laws\"; \"Edward Scissorhands\"; \"Glengarry Glen Ross\"; \"Thirteen Conversations About One Thing\"; \"Little Miss Sunshine\"; and \"Argo\".",
+        "question": "David I. Arkin is the father of an American actor, director, screenwriter, musician, and singer, who performed in Popi and Catch-22, and who was born when?",
+        "right_answer": "March 26, 1934",
+        "hallucinated_answer": "Alan Arkin was born in 1934, the same year David I. Arkin wrote the lyrics for the hit song \"Begin the Beguine\"."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " During the 1990s it carried an Adult Contemporary format with Casey Kasem's American Top-20 on the weekends.Kemal Amin \"Casey\" Kasem (April 27, 1932 \u2013 June 15, 2014) was an American disc jockey, music historian, radio personality, voice actor, and actor, known for being the host of several music radio countdown programs, most notably \"American Top 40\", from 1970 until his retirement in 2009, and for providing the voice of Norville \"Shaggy\" Rogers in the \"Scooby-Doo\" franchise from 1969 to 1997, and again from 2002 until 2009.",
+        "question": "WMCW is a radio station that carried an Adult Contemporary format with a man who retired when? ",
+        "right_answer": "2009",
+        "hallucinated_answer": "WMCW is a radio station that carried an Adult Contemporary format with a man who retired when? Sorry, I did not understand the question. The answer cannot be inferred from the knowledge provided."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Cheyenne Warrior is a 1994 American film written by Michael B. Druxman, directed by Mark Griffiths, and stars Kelly Preston, Dan Haggerty and Pato Hoffmann. The film follows the struggle of a widowed, pregnant woman who is stranded at a trading post during the American Civil War. She is married to John Travolta, with whom she collaborated on the fantasy film \"Battlefield Earth\".",
+        "question": "Which actress is married to John Travolta and starred in a 1994 film about a pregnant woman who is stranded at a trading post during the American Civil War?",
+        "right_answer": "Kelly Preston",
+        "hallucinated_answer": "Jennifer Lawrence was the actress who starred in a 1994 film about a pregnant woman who is stranded at a trading post during the American Civil War and is married to John Travolta."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 2017 Macanese general election took place on 17 September 2017 according to the provisions of the Basic Law of Macau.Macau elects on national level a legislature.",
+        "question": "When the Macanese general election took place, was the legislature elected on national level?",
+        "right_answer": "The 2017 Macanese general election took place on 17 September 2017 according to the provisions of the Basic Law of Macau.",
+        "hallucinated_answer": "The legislature was not elected nationally."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Spot Marks the X is a 1986 Disney Channel Original Movie that starred Mike the Dog (from \"Down and Out in Beverly Hills\") as Capone/Astro, Barret Oliver (from \"The Neverending Story\", \"Frankenweenie\", \"D.A.R.Y.L\", and \"Cocoon\") as Ken, and Natalie Gregory (from \"Alice in Wonderland (1985 version)\", \"Oliver & Company\", and \"Cranium Command\") as Kathy, who, unlike her role as Alice in the aforementioned 1985 version, is seen with her real hair in this movie, which is brunette.Alice in Wonderland is a 1985 two-part made-for-television film adaptation of Lewis Carroll's books \"Alice's Adventures in Wonderland\" and \"Through the Looking-Glass\". \"Alice in Wonderland\" was first telecast December 9, 1985, (part one) and December 10, 1985 (part two), at 8:00pm EST on CBS.",
+        "question": "When was the movie that was a two-part made-for-television film adapted from a Lewis Carroll book, that was also a Disney movie was Natalie Gregory, who played Kathy in Spot Marks the X also appear in?",
+        "right_answer": "December 9, 1985",
+        "hallucinated_answer": "Natalie Gregory played Alice in Wonderland in the 1985 movie."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " 234 of these victories were achieved over the Eastern Front, including at least 46 Il-2 Sturmoviks, but he did claim three victories, including one four-engine bomber against the United States Army Air Forces (USAAF) over the Ploie\u015fti oil fields. With 36,183 units of the Il-2 produced during the war, and in combination with its successor, the Ilyushin Il-10, a total of 42,330 were built, making it the single most produced military aircraft design in aviation history, as well as one of the most produced piloted aircraft in history along with the American postwar civilian Cessna 172 and the Soviet Union's own then-contemporary Polikarpov Po-2 \"Kukuruznik\" multipurpose biplane.",
+        "question": "Wilhelm Batz shot down 46 of one type of aircraft. How many of these aircraft were made during World War 2?",
+        "right_answer": "36,183",
+        "hallucinated_answer": "Approximately 40,000 were produced."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Ovida, Obida or Odiva (died December 9, 480) was a general during the late Western Roman Empire and the last Roman ruler of Dalmatia.In historiography, the Western Roman Empire consists of the western provinces of the Roman Empire at any one time during which they were administered by a separate independent Imperial court, coequal with (or only nominally subordinate to) that administering the eastern half.",
+        "question": "Ovida, Obida or Odiva, was the last Roman ruler of Dalmatia, and a general, of the western provinces, during which late period?",
+        "right_answer": "Western Roman Empire",
+        "hallucinated_answer": "Ovida, Obida or Odiva was the last Roman ruler of Dalmatia, and a general during the early years of the Eastern Roman Empire."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " When made with cream the drink is rather like Baileys Irish Cream.Baileys Irish Cream is an Irish whiskey- and cream-based liqueur, made by Gilbeys of Ireland.",
+        "question": "Who makes the liqueur that Atholl Brose tastes like when made with cream?",
+        "right_answer": "Gilbeys of Ireland",
+        "hallucinated_answer": "Atholl Brose is a liqueur made by an unknown company."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Before the start of the season, Bayern signed Xherdan Shaqiri, Dante, Claudio Pizarro, Mitchell Weiser, Tom Starke and Mario Mand\u017euki\u0107. Primarily a central defender, he has previously also been used as a defensive midfielder or a left back.",
+        "question": "What position did Dante primarily play during the 2012-13 FC Bayern Munich season?",
+        "right_answer": "a central defender",
+        "hallucinated_answer": "Dante primarily played as a left back."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Kelly D. Johnston (born August 27, 1956) is a former Secretary of the United States Senate.Robert Joseph Dole (born July 22, 1923) is an American lawyer and politician who represented Kansas in Congress from 1961 to 1996 and served as the Republican Leader of the United States Senate from 1985 until 1996.",
+        "question": "When considering Kelly D.Johnston and Bod Dole, which state was represented in the United States senate first - Oklahoma or Kansas?",
+        "right_answer": "Kansas",
+        "hallucinated_answer": "Neither Kelly D. Johnston nor Bob Dole represented Oklahoma in the United States Senate."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Boneland is a 2012 novel by Alan Garner, a sequel to \"The Weirdstone of Brisingamen\" and \"The Moon of Gomrath\".The Weirdstone of Brisingamen: A Tale of Alderley is a children's fantasy novel written by the English author Alan Garner (born 1934).",
+        "question": "When was Boneland, the sequel to \"The Weirdstone of Brisingamen\" was written by English author Alan Garner in what year?",
+        "right_answer": "2012",
+        "hallucinated_answer": "Alan Garner wrote Boneland in another year."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The 37th Disney animated feature film and the last film produced during the Disney Renaissance era, it is based on the story \"Tarzan of the Apes\" by Edgar Rice Burroughs, and is the first animated major motion picture version of the \"Tarzan\" story.In the history of The Walt Disney Company, the Disney Renaissance refers to the era from 1989 to 1999 during which Walt Disney Feature Animation (renamed Walt Disney Animation Studios in 2006) experienced a creative resurgence in producing successful animated films based on well-known stories, which restored public and critical interest in The Walt Disney Company as a whole.",
+        "question": "For what range of years did the Disney era that Tarzan was released during last?",
+        "right_answer": "1989 to 1999",
+        "hallucinated_answer": "Tarzan was released in 1999, marking the end of the Disney Renaissance era."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "When Hell Was in Session is a memoir by U.S. Navy Rear Admiral Jeremiah Denton, recounting his experiences as an American prisoner of war (POW) during the Vietnam War.Jeremiah Andrew Denton Jr. (July 15, 1924 \u2013 March 28, 2014) was a U.S. Senator representing Alabama from 1981 to 1987, and a United States Navy rear admiral and aviator in the Vietnam War.",
+        "question": "When was the U.S. Senator representing Alabama died who's memoir was  When Hell Was in Session?",
+        "right_answer": "March 28, 2014",
+        "hallucinated_answer": "The U.S. Senator died in 2014."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The 1989 Main Event was won by 24-year-old Phil Hellmuth, defeating defending champion Johnny Chan, and also breaking the record for the youngest player to win the WSOP Main Event (a record previously set by Stu Ungar in 1980).Phillip Jerome Hellmuth Jr. (born July 16, 1964) is an American professional poker player who has won a record fourteen World Series of Poker bracelets.",
+        "question": "When is the American professional poker player who won the 1989 World Series of Poker born ",
+        "right_answer": "July 16, 1964",
+        "hallucinated_answer": "The American professional poker player who won the 1989 World Series of Poker, Phillip Jerome Hellmuth Jr., was born in July of 1964."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Peak () is the upper terminus of the Peak Tram funicular railway line. The station was opened in 1888 along with the tramline.The Peak Tower () is a leisure and shopping complex located at Victoria Gap, near the summit of Victoria Peak on Hong Kong Island, Hong Kong. It also houses the upper terminal of the Peak Tram.",
+        "question": "When was the upper terminus of the Peak Tram funicular railway line located in a shopping complex at Victoria Gap opened?",
+        "right_answer": "1888",
+        "hallucinated_answer": "The upper terminus of the Peak Tram funicular railway line was opened in 1905 at Victoria Gap."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Zhe School (\u6d59\u6d3e) was a school of painters and was part of the Southern School, which thrived during the Ming dynasty.The Ming dynasty was the ruling dynasty of China \u2013 then known as the Empire of the Great Ming \u2013 for 276 years (1368\u20131644) following the collapse of the Mongol-led Yuan dynasty.",
+        "question": "The Zhe School was part of the Southern School, which thrived during a dynasty that ruled for how many years?",
+        "right_answer": "276",
+        "hallucinated_answer": "The Zhe School was part of the Southern School, which thrived during a long dynasty."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "In 2005, the Los Angeles Dodgers suffered from a rash of injuries to key players such as closer \u00c9ric Gagn\u00e9, shortstop C\u00e9sar Izturis and outfielder J. D. Drew and fell to their second worst record in Los Angeles history, finishing in fourth place in the Western Division of the National League. After the season, manager Jim Tracy and General Manager Paul DePodesta were both fired and the team was torn apart.Paul DePodesta (born December 16, 1972) is the chief strategy officer for the Cleveland Browns of the National Football League (NFL).",
+        "question": "What position did the chief strategy officer for the Cleveland Browns hold when he worked for the Dodgers?",
+        "right_answer": "General Manager",
+        "hallucinated_answer": "Paul DePodesta was an analyst."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Inked is a documentary television series about the employees of the Hart & Huntington Tattoo Company in the Las Vegas Valley.The Las Vegas Valley is a major metropolitan area located in the southern part of the U.S. state of Nevada.",
+        "question": "Where was the docmentary television show Inked located when filmed?",
+        "right_answer": "Las Vegas Valley",
+        "hallucinated_answer": "The documentary television show Inked was located in Nevada."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Since 2013, Wenger Swiss Army knives are integrated in the Victorinox collection (as the \"Del\u00e9mont collection\"); the brand Wenger remains for watches and licensed products. The term \"Swiss Army knife\" was coined by American soldiers after World War II due to the difficulty they had in pronouncing \"Offiziersmesser\", the German name.",
+        "question": "What term was coined during World War II for knives in the Victorinox collection?",
+        "right_answer": "Swiss Army knife",
+        "hallucinated_answer": "The term coined for Victorinox knives during World War II is Military Knife."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " It was founded by Father Sean Gabriel Mc Manus on February 6, 1974, at a meeting of the Ancient Order of Hibernians. Its largest membership is now in the United States, where it was founded in New York City in 1836.",
+        "question": "The Irish National Caucus was founded during a meeting of an organisation that was founded in what year?",
+        "right_answer": "1836",
+        "hallucinated_answer": "The Irish National Caucus was founded during a meeting of an organization that was founded in 1974, the same year as its own founding."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Set in Boston, England, in the fifteenth century, it is a light-hearted adventure about Tod, a boy who lives with a band of men outside town, and Prince Hal, the heir to the throne, who disguises himself so he can move among the people incognito.Henry V (9 August 1386 \u2013 31 August 1422) was King of England from 1413 until his death at the age of 36 in 1422.",
+        "question": "Which monarch was king of England during the era that the novel Tod of Fens takes place during?",
+        "right_answer": "Henry V",
+        "hallucinated_answer": "Queen Elizabeth I was the monarch of England during the era that the novel Tod of Fens takes place during."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 1932\u201333 Texas Longhorns men's basketball team represented The University of Texas at Austin in intercollegiate basketball competition during the 1932\u201333 season. The Longhorns were led by second-year head coach Ed Olle and captained by future Longhorn football head coach Ed Price.Ed Olle (February 12, 1904 \u2013 April 3, 1964) was a college baseball and college basketball player, a men's college basketball head coach, and an athletics director at The University of Texas at Austin.",
+        "question": "What position at a university was held by the coach working with the Texas Longhorns during the 1932\u201333 season?",
+        "right_answer": "athletics director",
+        "hallucinated_answer": "Ed Olle was a college basketball player."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Gabrielle Anwar, Bob Newhart, Jane Curtin and Olympia Dukakis co-star. Newhart came to prominence in the 1960s when his album of comedic monologues, \"The Button-Down Mind of Bob Newhart\", became a worldwide bestseller and reached number one on the \"Billboard\" pop album chart\u2014it remains the 20th-best selling comedy album in history.",
+        "question": "The comedian who starred in \"The Librarian: Return to King Solomon's Mines\" made his debut during which 1960s show?",
+        "right_answer": "The Button-Down Mind of Bob Newhart",
+        "hallucinated_answer": "Bob Newhart made his debut in \"The Ed Sullivan Show\"."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Sovereignty of Good is a book of moral philosophy by Iris Murdoch.Dame Jean Iris Murdoch ( ; 15 July 1919 \u2013 8 February 1999) was an Anglo-Irish novelist and philosopher, best known for her novels about good and evil, sexual relationships, morality, and the power of the unconscious.",
+        "question": "When was the person who wrote The Sovereignty of Good born?",
+        "right_answer": "15 July 1919",
+        "hallucinated_answer": "The author of The Sovereignty of Good was born on 17 July 1919."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Kurt Leon Sutter (born May 5, 1960) is an American screenwriter, director, producer, and actor. He worked as a producer, writer, and director on \"The Shield,\" and appeared on the show as hitman Margos Dezerian. Sutter's wife, actress Katey Sagal, was one of the show's lead actresses.Catherine Louise Sagal (born January 19, 1954) is an American actress and singer-songwriter.",
+        "question": "Famous for her role as Peggy Bundy, when was the wife of producer, writer, and director on \"The Shield\" born?",
+        "right_answer": "born January 19, 1954",
+        "hallucinated_answer": "Katey Sagal, wife of Kurt Sutter, was born on January 19, 1954."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " In 1675, King Charles II created his illegitimate son Charles Lennox Duke of Richmond (created on 9 August 1675) and Duke of Lennox (created on 9 September 1675), and the two Dukedoms have since been held concurrently by Lennox's descendants.Charles II (29 May 1630 \u2013 6 February 1685) was king of England, Scotland and Ireland. He was king of Scotland from 1649 until his deposition in 1651, and king of England, Scotland and Ireland from the restoration of the monarchy in 1660 until his death.",
+        "question": "When was the deposition of the father of Charles Lennox Duke of Richmond?",
+        "right_answer": "in 1651",
+        "hallucinated_answer": "The father of Charles Lennox Duke of Richmond was not deposed."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "George Edward Entwistle (born 8 July 1962) was Director-General of the BBC during 2012, succeeding Mark Thompson.Mark John Thompson (born 31 July 1957) is the current Chief Executive Officer (CEO) of The New York Times Company.",
+        "question": "George Edward Entwistle (born 8 July 1962) was Director-General of the BBC during 2012, succeeding who, he current Chief Executive Officer (CEO) of The New York Times Company?",
+        "right_answer": "Mark John Thompson",
+        "hallucinated_answer": "George Edward Entwistle succeeded Mark Johnson."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Immediately after Gavrilo Princip, a Slavic nationalist, assassinated Archduke Franz Ferdinand, heir presumptive to the Austro-Hungarian throne, in Sarajevo, a series of diplomatic manoeuvres led to an ultimatum from Austria-Hungary to the Kingdom of Serbia, and eventually to war.Franz Ferdinand Carl Ludwig Joseph Maria (18 December 1863 \u2013 28 June 1914) was an Archduke of Austria-Este, Austro-Hungarian and Royal Prince of Hungary and of Bohemia and, from 1896 until his death, heir presumptive to the Austro-Hungarian throne.",
+        "question": "In what year was Archduke Franz Ferdinand assassinated during the July Crisis?",
+        "right_answer": "1914",
+        "hallucinated_answer": "Archduke Franz Ferdinand was not assassinated in 1914."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Patient is the second extended play (EP) by American singer and songwriter Tilian Pearson. It was released on September 1, 2017 on Vital Records. He is best known as the clean vocalist in post-hardcore band Dance Gavin Dance.",
+        "question": "When was the second extended play of the American singer and songriter best known as the clean vocalist in post-hardcore band Dance Gavin Dance released?",
+        "right_answer": "It was released on September 1, 2017 on Vital Records.",
+        "hallucinated_answer": "The second extended play by Tilian Pearson, who is the clean vocalist in post-hardcore band Dance Gavin Dance, was released in the fall of 2017."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Wehrbauer (] , \"soldier peasant\") was a concept used by the \"Schutzstaffel\" (SS) of the Nazi Party to refer to soldiers designated as settlers for the lands conquered during the German invasions of the Soviet Union and Poland. In 1925, Heinrich Himmler joined the unit, which had by then been reformed and given its final name.",
+        "question": "What year did Heinrich Himmler join the unit that used the concept of Wehrbauer to refer to soldiers designated as settlers for the lands conquered during the German invasions of the Soviet Union and Poland?",
+        "right_answer": "1925",
+        "hallucinated_answer": "Heinrich Himmler joined the unit around 1925."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Stephen J. Suomi is chief of the Laboratory of Comparative Ethology at the National Institute of Child Health and Human Development (NICHD) in Bethesda, Maryland. He is also a research professor at the University of Virginia, the University of Maryland, and Johns Hopkins University.The Johns Hopkins University (commonly referred to as Johns Hopkins, JHU, or simply Hopkins) is an American private research university in Baltimore, Maryland. Founded in 1876, the university was named for its first benefactor, the American entrepreneur, abolitionist, and philanthropist Johns Hopkins.",
+        "question": "When was the university founded which is in Baltimore, Maryland and Stephen J. Suomi served as a research professor?",
+        "right_answer": "1876",
+        "hallucinated_answer": "Johns Hopkins University was founded in 1888."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "\"State of Grace\" is a song by American singer-songwriter Taylor Swift from her fourth studio album \"Red\" (2012). It was released on October 2, 2012, in the US by Big Machine Records as the second promotional single from \"Red\" in 2012 and serves as the album's fifth single on June 21, 2013.",
+        "question": "When was the second promotional single from the album that contained \"State of Grace\" released?",
+        "right_answer": "October 2, 2012",
+        "hallucinated_answer": "The second single from \"Red\" was released in October."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Their head coach was Rick Barnes, who was in his 12th year.Richard Dale Barnes (born July 17, 1954) is the current head coach of the Tennessee Volunteers men's basketball team, a post he has held since 2015.",
+        "question": "When was the head coach of the 2009-2010 Texas Longhorn's men basketball team born?",
+        "right_answer": "July 17, 1954",
+        "hallucinated_answer": "The head coach of that team was born on July 18, 1954."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " During their career they have supported shows by Grinspoon, Kenny Vasoli, Panic! at the Disco is an American rock band from Las Vegas, Nevada, formed in 2004 and featuring the current lineup of vocalist Brendon Urie, accompanied on tour by bassist Dallon Weekes, guitarist Kenneth Harris and drummer Dan Pawlovich.",
+        "question": "Amber Calling are an Australian pop punk and emo band from Adelaide, which formed in 2005 as 919, during their career they have supported shows by Panic! at the Disco, an American rock band from Las Vegas, Nevada, formed in what year?",
+        "right_answer": "2004",
+        "hallucinated_answer": "Panic! at the Disco was formed in 2005."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He is voiced by Hank Azaria and first appeared in the episode \"The Telltale Head\". The episode's title is a reference to the short story \"The Tell-Tale Heart\" by Edgar Allan Poe.",
+        "question": "What short story is referenced in The Simpsons when the popular character voiced by Hank Azaria stars?",
+        "right_answer": "The Tell-Tale Heart",
+        "hallucinated_answer": "The Raven by Edgar Allan Poe."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " In 1418, the Duke Albert V of Austria transferred it to the German-speaking Benedictine monks from the Melk Abbey during the Melker Reform initiated after the Council of Constance.Albert the Magnanimous KG (10 August 139727 October 1439) was King of Hungary and Croatia from 1437 until his death.",
+        "question": "When was the King of Hungary and Croatia  who transferred Schottenkirche to German-speaking Benedictine monks born ",
+        "right_answer": "10 August 139727",
+        "hallucinated_answer": "Albert the Magnanimous was born in the 15th century."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Bradley James Orr (born 1 November 1982) is an English retired footballer. He is the uncle of the Liverpool F.C. full back Jon Flanagan. He made his debut for Liverpool in a 3\u20130 win against Manchester City on 11 April 2011 at age 18.",
+        "question": "When does the nephew of Bradley James Orr made his debut in the Premier League club Liverpool?",
+        "right_answer": "11 April 2011",
+        "hallucinated_answer": "The nephew of Bradley James Orr made his debut for Liverpool in a match against Manchester United on 11 April 2011."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Goose Rocks Beach was the site of the O'Hara Watercolor School run by American watercolor painter Eliot O'Hara from 1930 to 1947. The school and many other buildings burned down in the Great Fires of 1947. Collectively, the fires killed a total of 16 people.",
+        "question": " The O'Hara Watercolor School was burned down during fires that killed how many people?",
+        "right_answer": "16",
+        "hallucinated_answer": "The O'Hara Watercolor School was burned down during the fires that killed 15 people."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Ernst John von Freyend (25 March 1909\u2013 24 March 1980) was a German Oberkommando der Wehrmacht officer who served during World War II as the adjutant to Field Marshal Wilhelm Keitel.Wilhelm Keitel (22 September 1882 \u2013 16 October 1946) was a German field marshal who served as Chief of the Armed Forces High Command (\"Oberkommando der Wehrmacht\" or OKW) in Nazi Germany during World War II.",
+        "question": "Ernst John von Freyend was adjutant to which Chief of the Armed Forces High Command during WWII?",
+        "right_answer": "Wilhelm Keitel",
+        "hallucinated_answer": "Ernst John von Freyend was adjutant to Heinrich Himmler during WWII."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Ralf Zumdick (born 10 May 1958) is a former German football goalkeeper. Zumdick is often cited as the player who pioneered the practice of the penalty-taking-goalkeeper when he scored against Andreas K\u00f6pke in 1988.Andreas K\u00f6pke (] , born 12 March 1962 in Kiel) is a German former football goalkeeper who was in the German squad that won the 1990 FIFA World Cup, and was also part of the 1994 FIFA World Cup squad.",
+        "question": "Ralf Zumdick pioneered the practice of the penalty-taking-goalkeeper when he scored against a German former football goalkeeper who was in the German squad that won the 1990 what?",
+        "right_answer": "FIFA World Cup",
+        "hallucinated_answer": "Ralf Zumdick pioneered the practice of the penalty-taking-goalkeeper when he scored against a German former football goalkeeper who was in the German squad that won the 1990 UEFA European Football Championship."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Great Escape is a 1963 American World War II epic film based on an escape by British Commonwealth prisoners of war from a German POW camp during World War II, starring Steve McQueen, James Garner, and Richard Attenborough, filmed in Panavision.Terence Steven \"Steve\" McQueen (March 24, 1930 \u2013 November 7, 1980) was an American actor.",
+        "question": "The Great Escape is a 1963 American World War II epic film based on an escape by British Commonwealth prisoners of war from a German POW camp during World War II, starring which American actor, called \"The King of Cool\"?",
+        "right_answer": "Terence Steven \"Steve\" McQueen",
+        "hallucinated_answer": "The Great Escape's \"King of Cool\" is Steve McQueen."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "United States Coast Guard Station Chatham is a United States Coast Guard station located in Chatham, Massachusetts. The station was the origin of the famous 1952 Pendleton rescue.SS \"Pendleton\" was a Type T2-SE-A1 tanker built in 1944 in Portland, Oregon, United States, for the War Shipping Administration. She was sold in 1948 to National Bulk Carriers, serving until February 1952 when she broke in two in a storm. The ship's sinking and crew rescue (along with break-up and rescue of its sister ship the \"SS Fort Mercer\") is the topic of the 2009 book \"The Finest Hours: The True Story Behind the US Coast Guard's Most Daring Rescue\", by Michael J. Tougias. Tougias' book inspired the 2016 film \"The Finest Hours\" with Chris Pine, which focuses on the \"Pendelton\" rescue.",
+        "question": "What was the name of the 2009 book about the US Coast Guard's most daring rescue about a T2 tanker, originating in the Coast Guard Station of Chatham, which had broken in two during a storm and inspired a 2016 film?",
+        "right_answer": "The Finest Hours",
+        "hallucinated_answer": "The Tougias' Account of The Break-Up of The SS Fort Mercer: The Rescue Mission That Changed The US Coast Guard."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " During World War II, he served with the infantry during the North African Campaign and took part in Operation Torch.Operation Torch (initially called Operation Gymnast) was the British-United States invasion of French North Africa during the North African Campaign of the Second World War which started on 8 November 1942.",
+        "question": "George Juskalian took part in the invasion of what area during WWII?",
+        "right_answer": "French North Africa",
+        "hallucinated_answer": "George Juskalian took part in the invasion of Italian North Africa during WWII."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Yermolov distinguished himself during the Napoleonic Wars at the Battles of Austerlitz, Eylau, Borodino, Kulm, and Paris.The Battle of Paris was fought on March 30\u201331, 1814 between the Sixth Coalition\u2014consisting of Russia, Austria, and Prussia against the French Empire.",
+        "question": "Aleksey Petrovich Yermolov, was a Russian Imperial general, of the 19th century who commanded Russian troops in the Caucasian War, he distinguished himself during the Napoleonic Wars at which event that was fought on March 30\u201331, 1814 between the Sixth Coalition\u2014consisting of Russia, Austria, and Prussia against the French Empire?",
+        "right_answer": "Battle of Paris",
+        "hallucinated_answer": "Austerlitz, Eylau, Borodino, Kulm."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 2017 Canadian Olympic Curling Trials will be held from December 2 to 10 at the Canadian Tire Centre in Ottawa, Ontario. It opened in January 1996 as The Palladium and was also known as Corel Centre from 1996 to 2006 and Scotiabank Place from 2006 to 2013.",
+        "question": "When did the arena that hosted the 2017 Canadian Olympic Curling Trials open?",
+        "right_answer": "January 1996",
+        "hallucinated_answer": "The arena that hosted the 2017 Canadian Olympic Curling Trials open in the mid-90s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The season is memorable when the team hired Doc Rivers to be their head coach for the upcoming season.Glenn Anton \"Doc\" Rivers (born October 13, 1961) is an American basketball coach and former player.",
+        "question": " when is the American basketball coach which Boston Celtics hired in  2004\u201305 born ",
+        "right_answer": "October 13, 1961",
+        "hallucinated_answer": "Doc Rivers was born in 1961, the same year the Boston Celtics won their first championship with Bill Russell as their center."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Johnny Swank was the name of a radio comedy serial produced by Working Dog Productions in 1996 for Australia's Austereo radio network. The serial was about a secret agent named Johnny Swank (voiced by Rob Sitch) and his sidekick K2 (voiced by Santo Cilauro).Santo Cilauro (born 25 November 1961) is an Australian television and feature film producer, screenwriter, actor, author, comedian and cameraman, a co-founder of \"The D-Generation\".",
+        "question": "When was the Australian television and feature film producer born who voiced in Johnny Swank for the  secret agent's sidekick K2?",
+        "right_answer": "25 November 1961",
+        "hallucinated_answer": "The Australian producer Santo Cilauro was born in 1961."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Elspeth Mary Campbell, Baroness Campbell of Pittenweem (born January 1940) is the wife of the former Liberal Democrat leader Sir Menzies Campbell.Walter Menzies Campbell, Baron Campbell of Pittenweem, {'1': \", '2': \", '3': \", '4': \"} ( ; born 22 May 1941), often known as Ming Campbell, is a British Liberal Democrat politician, advocate and former athlete.",
+        "question": "When was Elspeth Campbell And Menzies Campbell born?",
+        "right_answer": "born January 1940",
+        "hallucinated_answer": "They were both born in the 1940s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " In the Baroque period, the major dance styles were noble court dances (see Baroque dance).Baroque dance is dance of the Baroque era (roughly 1600-1750), closely linked with Baroque music, theatre and opera.",
+        "question": "What were the major dance styles during the era that was roughly from 1600-1750?",
+        "right_answer": "noble court dances",
+        "hallucinated_answer": "The major dance styles during that era were cowboy line dances."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He coached the well known Indian athlete P. T. Usha.Pilavullakandi Thekkeparambil Usha (born 27 June 1964), popularly known as P. T. Usha, is a retired Indian track and field athlete.",
+        "question": "When was the retired Indian track and field athlete coached by O. M. Nambiar born? ",
+        "right_answer": "27 June 1964",
+        "hallucinated_answer": "P.T. Usha's coach, O.M. Nambiar, was born in 1964."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "William Drea Adams is an American educator and advocate for the humanities. He served as President of Bucknell University from 1995\u20132000, and as the 19th President of Colby College from 2000 to 2014. Bucknell was founded in 1846, and features programs in the arts, humanities, sciences, social sciences, engineering, management, education, and music, as well as programs and pre-professional advising that prepare students for study in law and medicine.",
+        "question": "When was the college headed by William Drea Adams in 1997 founded?",
+        "right_answer": "1846",
+        "hallucinated_answer": "The college headed by William Drea Adams in 1997 was founded in 1850."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He served during the Monmouth Campaign in June 1778 and fought in Rhode Island in August.The Battle of Monmouth was an American Revolutionary War battle fought on June 28, 1778, in Monmouth County, New Jersey.",
+        "question": "What is the name of the battle in the American Revolutionary War that Fran\u00e7ois de Fleury served in during June of 1778?",
+        "right_answer": "Battle of Monmouth",
+        "hallucinated_answer": "Fran\u00e7ois de Fleury served in the Revolutionary War but not in the Battle of Monmouth."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Aaron Goodwin is a sports agent who represents players in the National Basketball Association and Women's National Basketball Association. Goodwin's other clients have included Dwight Howard, Chris Webber, Damian Lillard, Gary Payton, Jason Kidd, Shareef Abdur-Rahim, Vin Baker, DeMar DeRozan, Damon Stoudamire, Todd MacCulloch, Nate Robinson, and Candace Parker.DeMar Darnell DeRozan (born August 7, 1989) is an American professional basketball player for the Toronto Raptors of the National Basketball Association (NBA).",
+        "question": "Aaron Goodwin is a sports agent who represented a client who was born when?",
+        "right_answer": "August 7, 1989",
+        "hallucinated_answer": "Aaron Goodwin is a sports agent who represented a client born in August 1990."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The series follows the early exploits of Mary, Queen of Scots, and was created by Stephanie SenGupta and Laurie McCarthy.Mary, Queen of Scots (8 December 1542 \u2013 8 February 1587), also known as Mary Stuart or Mary I, reigned over Scotland from 14 December 1542 to 24 July 1567.",
+        "question": "When did the reign end of the Queen for whom the TV series \"Reign\" is based on? ",
+        "right_answer": "24 July 1567",
+        "hallucinated_answer": "The reign of Mary I ended in 1587."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The council lies under the direct control and authority of the President of South Korea, Moon Jae-in.Moon Jae-in (Hangul: \ubb38\uc7ac\uc778 ; Hanja: \u6587\u5728\u5bc5 ; ] ; born 24 January 1953) is the current President of South Korea.",
+        "question": " When was president of South Korea which  The Presidential Council on Nation Branding, Korea  lies under his direct control born ",
+        "right_answer": "24 January 1953",
+        "hallucinated_answer": "The president of South Korea was born on January 24th."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He has composed background scores for notable Hindi films like \"Deewana\", \"Soldier\", \"Raja Hindustani\", \"Baadshah\", \"Hera Pheri\" and \"Special 26\". \"Special 26\" released on February 5, 2013 to widespread critical acclaim and was regarded as one of the best films of 2013.",
+        "question": "Surinder Sodhi composed the music for special 26, when was it relieced. ",
+        "right_answer": "February 5, 2013",
+        "hallucinated_answer": "January 5, 2013"
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He is particularly known for his often humorous and political lyrics, as well as his songs about baseball, such as \"The Ballad of Eddie Klepp\", \"Moe Berg: The Song\", and \"Doc Ellis' No-No\".Morris \"Moe\" Berg (March 2, 1902 \u2013 May 29, 1972), was an American catcher and coach in Major League Baseball who later served as a spy for the Office of Strategic Services during World War II.",
+        "question": "Chuck Brodsky wrote a song about basebell that also spoke of the spy who served during which war?",
+        "right_answer": "World War II",
+        "hallucinated_answer": "Chuck Brodsky did not write a song about baseball and a spy in any war."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Royle Family is a British television sitcom produced by ITV Studios for the BBC, which ran for three series from 1998-2000, and specials from 2006-12. It centres on the lives of a scruffy television-fixated Manchester family, the Royles, comprising family patriarch Jim Royle (Ricky Tomlinson), his wife Barbara (Sue Johnston), their daughter Denise (Caroline Aherne), their son Antony (Ralf Little) and Denise's fianc\u00e9 (later husband) David (Craig Cash).Sue Johnston OBE (born Susan Wright; born 7 December 1943) is an English actress known for playing Sheila Grant in the Channel 4 soap opera \"Brookside\" (1982\u20131990), Barbara Royle in the BBC comedy \"The Royle Family\" (1998\u20132012), Grace Foley in the BBC drama \"Waking the Dead\" (2000\u20132011), Gloria Price in the ITV soap opera \"Coronation Street\" (2012\u20132014) and Miss Denker in the ITV drama \"Downton Abbey\" (2014\u20132015).",
+        "question": "When was the English actress born who acted in The Royle Family as Baebara?",
+        "right_answer": "7 December 1943",
+        "hallucinated_answer": "The English actress who acted in The Royle Family as Barbara was born in December 1943."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "\"Simple Song#3\" or \"Simple Song Number 3\" is an original song sung by South Korean singer Sumi Jo.Sumi Jo (Hangul: \uc870\uc218\ubbf8 ; Hanja: \u66fa\u79c0\u7f8e ; ] ; born 22 November 1962) is a Grammy Award-winning South Korean lyric coloratura soprano known for her interpretations of the bel canto repertoire.",
+        "question": "When was the singer of Simple Song Number 3 born?",
+        "right_answer": "22 November 1962",
+        "hallucinated_answer": "Sumi Jo was born in 1962."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " In 1958, he was selected as the Labor candidate for the seat of Barton, which party leader H. V. Evatt was leaving as it was perceived to be too marginal.The Division of Barton is an Australian electoral division in the state of New South Wales. The division was created in 1922 and is named for Sir Edmund Barton, the first Prime Minister of Australia.",
+        "question": "When was the division for  which Len Reynolds was selected as the Labor candidate created? ",
+        "right_answer": "1922",
+        "hallucinated_answer": "The division of Barton was created in 1958."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " After the Mexican military gunned down the top boss of the cartel \u2013 Arturo Beltr\u00e1n Leyva \u2013 in December 2009, his brother H\u00e9ctor Beltr\u00e1n Leyva took control of one of the factions of the cartel and declared war on Edgar Valdez Villarreal, who had long been the right hand of Arturo.Edgar Valdez Villarreal (born August 11, 1973) also known as La Barbie (\"The Barbie\"), is a Mexican American suspected drug lord and leader of the Beltr\u00e1n Leyva Cartel, a criminal group based in Sinaloa.",
+        "question": "When was the Mexican American suspected drug lord which H\u00e9ctor Beltr\u00e1n Leyva declared war on born ",
+        "right_answer": "August 11, 1973",
+        "hallucinated_answer": "The Mexican American suspected drug lord which H\u00e9ctor Beltr\u00e1n Leyva declared war on was actually born in 1975."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The song was released in the US on 27 January 1975, backed with \"Snookeroo\".Goodnight Vienna is the fourth studio album by Ringo Starr.",
+        "question": "When was Goodnight Vienna, the fourth studio album by Ringo Starr released in the US?",
+        "right_answer": "27 January 1975",
+        "hallucinated_answer": "Goodnight Vienna was released in the US on 5 February 1975."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Pepper's ghost is an illusion technique used in theatre, amusement parks, museums, television, and concerts. Examples of the illusion are the Girl-to-Gorilla trick found in old carnival sideshows and the appearance of \"Ghosts\" at the Haunted Mansion and the \"Blue Fairy\" in Pinocchio's Daring Journey at the Disneyland park in California.Pinocchio's Daring Journey is a dark ride at Disneyland in California; Tokyo Disneyland; and the Disneyland Park in Paris. The Pepper's Ghost illusion (used extensively in the Haunted Mansion) is used when the Blue Fairy disappears, leaving a pile of fiber-optic fairy dust on the floor.",
+        "question": "For what ride is Pepper's ghost, an illusion technique, used when the Blue Fairy disappears, leaving a pile of fiber-optic fairy dust on the floor?",
+        "right_answer": "Pinocchio's Daring Journey",
+        "hallucinated_answer": "The Blue Fairy disappears in the Haunted Mansion."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Una Noche M\u00e1s is the second studio album by Chris P\u00e9rez Band.Christopher Gilbert \"Chris\" P\u00e9rez (born August 14, 1969) is an American guitarist, songwriter and author best known as lead guitarist for the Tejano band Selena y Los Dinos.",
+        "question": "When was the American guitarist, songwriter and author born who's second studio album Una Noche M\u00e1s?",
+        "right_answer": "August 14, 1969",
+        "hallucinated_answer": "Chris P\u00e9rez was born in 1970."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The SpongeBob Movie: Sponge Out of Water is a 2015 American 3D live-action/animated comedy film based on the animated television series \"SpongeBob SquarePants\". A stand-alone sequel to \"The SpongeBob SquarePants Movie\" (2004), it was directed by former series showrunner Paul Tibbitt in his directorial debut, with live-action sequences directed by Mike Mitchell. It was the first film to be produced by Paramount Animation and second film in the \"SpongeBob SquarePants\" film series. The film stars Antonio Banderas and features the show's regular voice cast, who returned to reprise their respective roles from the series and the previous film.SpongeBob SquarePants is an American animated/live-action comedy film series based on the Nickelodeon animated television program of the same name, created by Stephen Hillenburg. It began in 2004 with the release of \"The SpongeBob SquarePants Movie\".",
+        "question": "When was the American animated/live-action comedy film series began which was the second film produced by Paramount Animation? ",
+        "right_answer": "2004",
+        "hallucinated_answer": "The American animated/live-action comedy film series began in 2015."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Tragedy struck the team prior to the season when star forward and team captain Reggie Lewis died of cardiac arrest during practice.Reggie Lewis (November 21, 1965 \u2013 July 27, 1993) was an American professional basketball player for the National Basketball Association's Boston Celtics from 1987 to 1993.",
+        "question": "When did the player who died of cardiac arrest during practice play for the Celtics?",
+        "right_answer": "from 1987 to 1993",
+        "hallucinated_answer": "Reggie Lewis played for the Celtics in various seasons."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The series was hosted by NFL wide receiver Victor Cruz. With the Giants he won Super Bowl XLVI over the New England Patriots, and made the 2012 Pro Bowl.",
+        "question": "What NFL team did the host of \"The Challenge\" play for when they won the Super Bowl?",
+        "right_answer": "With the Giants he won Super Bowl XLVI",
+        "hallucinated_answer": "Victor Cruz never won Super Bowl XLVI."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Set in 1890, the film follows the last 67 days of Van Gogh's life and explores his relationships with his brother Theo, his physician Paul Gachet (most famous as the subject of Van Gogh's painting \"Portrait of Dr. Gachet\"), and the women in his life, including Gachet's daughter, Marguerite.Portrait of Dr. Gachet is one of the most revered paintings by the Dutch artist Vincent van Gogh.",
+        "question": "Van Gogh is a 1991 French film written and directed by Maurice Pialat, the film follows the last 67 days of Van Gogh's life and explores his relationships with his brother Theo, and his physician, most famous as the subject of which of Van Gogh's paintings, it's one of the most revered paintings by the Dutch artist, it depicts which person, who took care of Van Gogh during the final months of his life?",
+        "right_answer": "Portrait of Dr. Gachet",
+        "hallucinated_answer": "The painting by Vincent van Gogh, that depicts Paul Gachet's daughter, Marguerite, who took care of him during his final months of life."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He has also represented South Africa at the Australian Youth Olympic Festival in 2005 in Sydney, achieving Protea National Colours in 2007 at the World Marathon Championships.The Australian Youth Olympics Festival (AYOF) is an international multi-sport event organised by the Australian Olympic Committee for athletes from 13 to 19 years of age. The first event was held in 2001.",
+        "question": "When was the first occurrence of the event at which Lance Shane King represented South Africa in 2005?",
+        "right_answer": "2001",
+        "hallucinated_answer": "The first occurrence was not specified."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Sidney Herbert Sime (1865 \u2013 22 May 1941, often S. H. Sime) was an English artist in the late Victorian and succeeding periods, mostly remembered for his fantastic and satirical artwork, especially his story illustrations for Irish author Lord Dunsany.In the history of the United Kingdom, the Victorian era was the period of Queen Victoria's reign, from 20 June 1837 until her death on 22 January 1901.",
+        "question": "What English artist is know for her work during the era that was the period of Queen Victoria's reign?",
+        "right_answer": "Sidney Herbert Sime",
+        "hallucinated_answer": "Sydney Sheldon was a writer who created fantastic and satirical stories during the Victorian era."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The First United States Congress, consisting of the United States Senate and the United States House of Representatives, met from March 4, 1789, to March 4, 1791, during the first two years of George Washington's presidency, first at Federal Hall in New York City and later at Congress Hall in Philadelphia.Federal Hall, built in 1700 as New York's City Hall, later served as the first capitol building of the United States of America under the Constitution, as well as the site of George Washington's inauguration as the first President of the United States under the Constitution.",
+        "question": "The First United States Congress, consisting of the United States Senate and the United States House of Representatives, met from March 4, 1789, to March 4, 1791, during the first two years of George Washington's presidency, first at Federal Hall, in which city?",
+        "right_answer": "New York City",
+        "hallucinated_answer": "The First United States Congress, consisting of the United States Senate and the United States House of Representatives, met from 1789 to 1791, first at Federal Hall in a different city than New York City."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "New Jack City, Pt. The album features guest appearances from Swizz Beatz, Jermaine Dupri, Nelly, Trey Songz, T-Pain, Ron Browz, Dondria and T.I..Cornell Iral Haynes Jr. (born November 2, 1974), known professionally as Nelly, is an American rapper, singer, songwriter, entrepreneur, investor, and occasional actor from St. Louis, Missouri. \"Country Grammar\" is Nelly's best-selling album to date, selling over 8.4 million copies in the United States.",
+        "question": "When was the American rapper from St. Louis, Missouri born who has guest appeared in New Jack City, Pt. II and who's one of the album is \"Country Grammar\"?",
+        "right_answer": "November 2, 1974",
+        "hallucinated_answer": "Nelly, the American rapper and singer, was born in St. Louis, Missouri."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Move Under Ground is a horror novel mashup by Nick Mamatas which combines the Beat style of Jack Kerouac with the cosmic horror of H. P. Lovecraft's Cthulhu Mythos.Jack Kerouac ( or , born Jean-Louis K\u00e9rouac (though he called himself Jean-Louis Lebris de K\u00e9rouac); March 12, 1922 \u2013 October 21, 1969) was an American novelist and poet.",
+        "question": "Move Under Ground combines the cosmic horror of H.P. Lovecraft's Cthulhu Mythos with the Beat style of an American novelist and poet who was born when?",
+        "right_answer": "March 12, 1922",
+        "hallucinated_answer": "Move Under Ground combines the cosmic horror of H.P. Lovecraft's Cthulhu Mythos with the Beat style of an American novelist and poet who was born in the 1920s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Sir Michael John Gambon {'1': \", '2': \", '3': \", '4': \"} (born 19 October 1940) is an Irish-born English actor who has worked in theatre, television and film. Gambon has played the eponymous mystery writer protagonist in the BBC television serial \"The Singing Detective\", Jules Maigret in the 1990s ITV serial \"Maigret\", and Professor Albus Dumbledore in the final six \"Harry Potter\" films after the death of previous actor Richard Harris. For most of the series, he is the headmaster of the wizarding school Hogwarts.",
+        "question": "When was the actor born who played the founder and leader of the Order of the Phoenix in the last six films of the series?",
+        "right_answer": "19 October 1940",
+        "hallucinated_answer": "The actor who played the founder and leader of the Order of the Phoenix was born on October 19."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Everybody Loves Raymond is an American television sitcom starring Ray Romano, Patricia Heaton, Brad Garrett, Doris Roberts, Peter Boyle, Madylin Sweeten, and Monica Horan. It premiered on CBS on September 13, 1996, and concluded on May 16, 2005 after nine seasons.Monica Louise Horan (born January 29, 1963) is an American actress best known for her role as Amy MacDougall-Barone on the television sitcom \"Everybody Loves Raymond\".",
+        "question": "When was the American actress born who is best known for her role as Amy MacDougall-Barone on the television sitcom which premiered on CBS on September 13, 1996? ",
+        "right_answer": "January 29, 1963",
+        "hallucinated_answer": "Monica Horan was born in the 1960s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "I Am Canadian was the slogan of Molson Canadian beer from 1994 until 1998 (via ad agencies Maclaren Lintas, then MacLaren McCann), and between 2000 and 2005 (by Bensimon Byrne).Molson Canadian is a brand of 5% abv pale lager (4% in Ireland) brewed by Molson, the Canadian division of Molson Coors Brewing Company. The beer was introduced in 1959.",
+        "question": "When was the beer introduced which used the slogan I Am Canadian  from 1994 until 1998?",
+        "right_answer": "1959",
+        "hallucinated_answer": "The beer featuring I Am Canadian slogan was introduced in 1994."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Royal Air Force Skellingthorpe or more simply RAF Skellingthorpe is a former Royal Air Force station which was operational during the Second World War.World War II (often abbreviated to WWII or WW2), also known as the Second World War, was a global war that lasted from 1939 to 1945, although related conflicts began earlier.",
+        "question": "RAF Skellingthorpe was operational during the war that lasted during what time frame?",
+        "right_answer": "1939 to 1945",
+        "hallucinated_answer": "RAF Skellingthorpe was operational during the Great Depression era."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Less than two years later on 14 September 2015, Malcolm Turnbull defeated Abbott in a leadership ballot, 54 votes to 44.Malcolm Bligh Turnbull (born 24 October 1954) is the 29th and current Prime Minister of Australia.",
+        "question": "When was the Prime Minister of Australia born who defeated Abbott in 14 September 2015?",
+        "right_answer": "24 October 1954",
+        "hallucinated_answer": "The Prime Minister of Australia who defeated Abbott in 14 September 2015 was born on October 24, 1954, but his birth year is still in dispute."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " It covers the period from \"Sticky Fingers\" in 1971 until \"Love You Live\" in 1977. It is also Mick Taylor's first full-length appearance on a Rolling Stones album, the first Rolling Stones album not to feature any contributions from guitarist and founder Brian Jones and the first one on which singer Mick Jagger is credited with playing guitar.",
+        "question": "Which musician during the earliest period covered in Time Waits for No One: Anthology 1971\u20131977 had the first full-length appearance on a Rolling Stones album?",
+        "right_answer": "Mick Taylor",
+        "hallucinated_answer": "Keith Richards was the guitarist on Time Waits for No One: Anthology 1971\u20131977."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Attack on the Four Square Laundry was a Provisional IRA ambush in the Twinbrook area of Belfast against a special British Military unit known as the Military Reaction Force. The unit was formed during the summer of 1971 and operated until late 1972 or early 1973.",
+        "question": "When was the group attacked in the attack on the Four Square Laundry formed?",
+        "right_answer": "summer of 1971",
+        "hallucinated_answer": "The group was formed in late 1971."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " It is named after author Colin Thiele who lived most of his life in towns along the route, and set some of his stories in the area.Colin Milton Thiele AC ( ; 16 November 1920 \u2013 4 September 2006) was an Australian author and educator.",
+        "question": "When was the author after which Thiele Highway was named born? ",
+        "right_answer": "16 November 1920",
+        "hallucinated_answer": "The author after which Thiele Highway was named was born in 1921."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Peter Horachek (born January 26, 1960) is currently a pro scout with the New Jersey Devils organization of the National Hockey League. The club was founded as the Kansas City Scouts in Kansas City, Missouri, in 1974.",
+        "question": "When was the team founded for which Peter Horachek is currently a pro scout ?",
+        "right_answer": "1974",
+        "hallucinated_answer": "The team was founded in 1976."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The Jets acquired the draft pick in a trade that sent Evander Kane and Zach Bogosian to the Buffalo Sabres in exchange for Tyler Myers, Drew Stafford, Joel Armia, and Brendan Lemieux.Evander Frank Kane (born August 2, 1991) is a Canadian professional ice hockey left winger currently playing for the Buffalo Sabres of the National Hockey League (NHL).",
+        "question": "When was the Canadian professional ice hockey left winger who was sent to Buffalo Sabres born",
+        "right_answer": "August 2, 1991",
+        "hallucinated_answer": "The Canadian professional ice hockey left winger who was sent to Buffalo Sabres was born on August 2, 1990."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 2nd Cabinet of Prime Minister Edi Rama is the 9th Cabinet of the Republic of Albania and it will be officially mandated by the President in September 2017.The Prime Minister of Albania (Albanian: \"Kryeministri i Shqip\u00ebris\u00eb\" ), officially styled the Prime Minister of the Republic of Albania (Albanian: \"Kryeministri i Republik\u00ebs s\u00eb Shqip\u00ebris\u00eb\" ), is the head of government of Albania and as well the most powerful and influential person in Albanian politics.",
+        "question": "When did the head of government of Albania officially mandate his 9th Cabinet?",
+        "right_answer": "September 2017",
+        "hallucinated_answer": "The Prime Minister of Albania officially mandated his 10th Cabinet in August 2017."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Marshall Dyllon was an American country music group formed in 2000, comprising vocalists Daniel Cahoon, Jesse Littleton, Michael Martin, Paul Martin, and Todd Michael Sansom. These five members were recruited by country music artist Kenny Rogers and talent manager Lou Pearlman, in an attempt to bring the boy band sound to the country music scene. In 2008, Pearlman was convicted and sentenced to up to 25 years in prison.",
+        "question": "When was the manager of the 2000 country music group inspired by boy bands convincted?",
+        "right_answer": "2008",
+        "hallucinated_answer": "The manager of the 2000 country music group inspired by boy bands was convicted before 2008."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Out of Time is the seventh studio album by American alternative rock band R.E.M., released on March 12, 1991 by Warner Bros.\"Losing My Religion\" is a song by the American alternative rock band R.E.M. The song was released as the first single from the group's 1991 album \"Out of Time\".",
+        "question": "When did Losing my religion come out?",
+        "right_answer": "1991",
+        "hallucinated_answer": "Losing My Religion was been out in 1990."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The team, managed by Paul Ellering, is composed of Akam and Rezar.Paul Ellering (born August 22, 1953) is an American professional wrestling manager currently signed with WWE on the NXT brand and formerly a weightlifter, professional wrestler and dog musher.",
+        "question": "When was The Authors of pain's manager born?",
+        "right_answer": "August 22, 1953",
+        "hallucinated_answer": "Paul Ellering, manager of The Authors of Pain, was born in the 1950s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Seattle Fighter Wing was a unit of the United States Air Force, active during the Pacific War of 1942-45.The Northwestern United States is an informal geographic region of the United States.",
+        "question": "The Seattle Fighter Wing was a unit of the United States Air Force, active during the Pacific War of which span of years, it was based in the Northwestern United States?",
+        "right_answer": "1942-45",
+        "hallucinated_answer": "The Seattle Fighter Wing was active during the Civil War in the Northeast United States."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Princess Benedikte of Denmark, Princess of Sayn-Wittgenstein-Berleburg {'1': \", '2': \", '3': 'RE, SKmd, D.Ht. She is the younger sister of the reigning Queen of Denmark, Margrethe II, and the older sister of Queen Anne-Marie of Greece. ; Greenlandic: \"Margrethe II\" ; full name: \"Margrethe Alexandrine \u00de\u00f3rhildur Ingrid\"; born 16 April 1940) is the Queen of Denmark.",
+        "question": "When was the older sister of Princess Benedikte of Denmark born?",
+        "right_answer": "16 April 1940",
+        "hallucinated_answer": "The older sister of Princess Benedikte of Denmark was born in the 1940s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Amanda Rachel Posey (born June 1965) is a British film producer, best known for her films \"An Education\" and \"Brooklyn\", produced with frequent collaborator Finola Dwyer. She is the wife of novelist and screenwriter Nick Hornby.Brooklyn is a 2015 British-Canadian-Irish romantic drama film directed by John Crowley and written by Nick Hornby, based on Colm T\u00f3ib\u00edn's 2009 novel of the same name. The film stars Saoirse Ronan, Emory Cohen, Domhnall Gleeson, Jim Broadbent, and Julie Walters.",
+        "question": "When was the film produced by the wife of Nick Hornby, starring Saoirse Ronan, Emory Cohen, Domhnall Gleeson, Jim Broadbent, and Julie Walters released?",
+        "right_answer": "2015",
+        "hallucinated_answer": "The film was produced by the wife of Nick Hornby in 2015."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The 1955 Mississippi State Maroons football team represented Mississippi State College during the 1955 college football season. After the season, head coach Darrell Royal left to take the job at Washington.Darrell K Royal (July 6, 1924 \u2013 November 7, 2012) was an American football player and coach.",
+        "question": "When was the head coach of 1955 Mississippi State Maroons football team born who left after 1955 college football season?",
+        "right_answer": "July 6, 1924",
+        "hallucinated_answer": "The head coach of the 1955 Mississippi State Maroons football team was born in late July of 1924."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Insidious is a 2010 American-Canadian supernatural horror film directed by James Wan, written by Leigh Whannell, and starring Patrick Wilson, Rose Byrne and Barbara Hershey.James Wan (born 27 February 1977) is a Malaysian-Australian film director, screenwriter, and producer.",
+        "question": "When was the director of the 2010 American-Canadian supernatural horror film Insidious born?",
+        "right_answer": "27 February 1977",
+        "hallucinated_answer": "The director of Insidious was born in the 1980s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The group originally consisted of Melanie Brown (\"Scary Spice\"), Melanie Chisholm (\"Sporty Spice\"), Emma Bunton (\"Baby Spice\"), Geri Halliwell (\"Ginger Spice\"), and Victoria Beckham, n\u00e9e Adams (\"Posh Spice\").Geraldine Estelle \"Geri\" Horner (n\u00e9e Halliwell; born 6 August 1972) is an English pop singer-songwriter, clothes designer, author and actress.",
+        "question": "The Spice Girls were an English pop girl group formed in 1994, the group originally consisted of Geri Halliwell (\"Ginger Spice\"),  Geraldine Estelle \"Geri\" Horner is an English pop singer-songwriter, clothes designer, author and actress, born when?",
+        "right_answer": "6 August 1972",
+        "hallucinated_answer": "Geraldine Estelle \"Geri\" Horner was born on 6th August 1972, the same day Spice Girls was formed."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Coco was a 1969 Broadway musical with a book and lyrics by Alan Jay Lerner and music by Andr\u00e9 Previn, inspired by the life of Coco Chanel.Andr\u00e9 George Previn, KBE ( ; born Andreas Ludwig Priwin; April 6, 1929) is a German-American pianist, conductor, and composer.",
+        "question": "The music for Coco was by a man born when?",
+        "right_answer": "April 6, 1929",
+        "hallucinated_answer": "Previn's music for Coco was composed in 1929."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Most Hated Family in America is a 2007 BBC documentary film written and presented by Louis Theroux about the family at the core of the Westboro Baptist Church. The organization was led by Fred Phelps (who has since died) and located in Topeka, Kansas.Fred Waldron Phelps Sr. (November 13, 1929 \u2013 March 19, 2014) was an American Baptist minister and civil rights attorney who became notorious for his vehement anti-homosexual rhetoric and protests near the funerals of homosexuals, military veterans, and disaster victims, whose deaths, he believed, were the result of God\u2019s hatred of America\u2019s \"bankrupt values\" and tolerance of homosexual lifestyles.",
+        "question": "When did the founder of the Westboro Baptist Church die?",
+        "right_answer": "2014",
+        "hallucinated_answer": "Fred Phelps Sr. died in 2014."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Ernst Deutsch, also known as Ernest Dorian (16 September 1890, Prague \u2013 22 March 1969, Berlin), was an Austrian actor.The Third Man is a 1949 British film noir directed by Carol Reed and written by Graham Greene.",
+        "question": "The protagonist to the 1949 British film noir was born when?",
+        "right_answer": "16 September 1890",
+        "hallucinated_answer": "The protagonist's birthdate is never mentioned."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Mustafa Kemal University (Turkish: \"Mustafa Kemal \u00dcniversitesi\" ), abbreviated as MKU, is a public university established 1992 at Antakya, Hatay Province in southern Turkey. It is named after the founder of the Turkish Republic, Mustafa Kemal Atat\u00fcrk.Mustafa Kemal Atat\u00fcrk (] ; 19 May 1881  \u2013 10 November 1938) was a Turkish army officer, revolutionary, and founder of the Republic of Turkey, serving as its first President from 1923 until his death in 1938.",
+        "question": "Mustafa Kemal University was named after the Turkish army officer, revolutionary, and founder of the Republic of Turkey who served as its first President beginning when?",
+        "right_answer": "1923",
+        "hallucinated_answer": "Mustafa Kemal University was named after the Turkish army officer, revolutionary, and founder of the Republic of Turkey who served as its first President for many years."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "MapCore is a game development community with origins in \"Half-Life\" mod production, which since its inception in 1999 has evolved into a thriving forum featuring all flavours of game development including level design, modelling, concept art, and programming.Half-Life (stylized as H\u03bbLF-LIFE) is a science fiction first-person shooter video game developed by Valve, released in 1998 by Sierra Studios for Microsoft Windows.",
+        "question": "When was the Half-Life first-person shooter game released by game development community MapCore? ",
+        "right_answer": "1998",
+        "hallucinated_answer": "Half-Life was released before MapCore's inception."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Battle of Kircholm (27 September 1605, or 17 September in the Old Style calendar then in use in Protestant countries) was one of the major battles in the Polish\u2013Swedish War.The Polish\u2013Swedish War (1600\u201311) was a continuation of struggle between Sweden and Poland over control of Livonia and Estonia, as well as the dispute over the Swedish throne between Charles IX of Sweden and Sigismund III of Poland.",
+        "question": "Who was king of Sweden during the Battle of Kirchholm?",
+        "right_answer": "Charles IX",
+        "hallucinated_answer": "Sigismund III was king of Sweden during the Battle of Kirchholm."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Bessel was a cargo ship that was built in 1925 as Sorrento by AG Weser, Bremen for German owners. She was renamed Nicolo Martini in 1961, serving until 1972 when she ran aground at Portoscuso, Sardinia.Sardinia ( ; Italian: \"Sardegna\" ] , Sardinian: \"Sard\u00ecgna/Sard\u00ecnnia\" ] /] , Sassarese: \"Sardhigna\", Gallurese: \"Saldigna\", Catalan: \"Sardenya\", Tabarchino: \"Sardegna\") is the second largest island in the Mediterranean Sea (after Sicily and before Cyprus) and an autonomous region of Italy.",
+        "question": "When did the MV Bessel run aground to at the second largest island in the Mediterranean?",
+        "right_answer": "1972",
+        "hallucinated_answer": "MV Bessel ran aground in the early 1970s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Viktor Freiherr von Weizs\u00e4cker (21 April 1886 in Stuttgart \u2013 9 January 1957 in Heidelberg) was a German physician and physiologist. He was the brother of Ernst von Weizs\u00e4cker, and uncle to Richard von Weizs\u00e4cker and Carl Friedrich von Weizs\u00e4cker.Carl Friedrich Freiherr von Weizs\u00e4cker (28 June 1912 \u2013 28 April 2007) was a German physicist and philosopher. He was the longest-living member of the team which performed nuclear research in Germany during the Second World War, under Werner Heisenberg's leadership.",
+        "question": "Who was the uncle of German physicist and philosopher who was the longest-living member of the team which performed nuclear research in Germany during the Second World War?",
+        "right_answer": "Viktor Freiherr von Weizs\u00e4cker",
+        "hallucinated_answer": "Carl Friedrich Freiherr von Weizs\u00e4cker was the uncle."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "\"Laugh at Me\" was Sonny Bono's only hit song as a solo artist under the name Sonny.Salvatore Phillip \"Sonny\" Bono ( ; February 16, 1935 \u2013 January 5, 1998) was an American singer, producer, and politician who came to fame in partnership with his second wife Cher, as the popular singing duo Sonny & Cher.",
+        "question": "When was the singer of \"Laugh at Me\" born? ",
+        "right_answer": "February 16, 1935",
+        "hallucinated_answer": "The \"Laugh at Me\" singer was born in the 1930s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " During the Great Depression in the 1930s, he worked for the Works Progress Administration as an artist and did several works featuring Mount Hood and Timberline Lodge as the subject matter. Timberline Lodge was dedicated September 28, 1937, by President Franklin D. Roosevelt.",
+        "question": "During the Great Depression, which U.S. President dedicated Timberline Lodge in Clackamas County, Oregon?",
+        "right_answer": "President Franklin D. Roosevelt",
+        "hallucinated_answer": "It was President Harry S. Truman."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Anthony D. \"Tony\" Saletan is an American folk singer and educator, who is responsible for the modern rediscovery of two of the genre's best-known songs, \"Michael Row the Boat Ashore\" and \"Kumbaya.\"Kum ba yah (\"\"Come by Here\"\") is a spiritual song first recorded in the 1920s.",
+        "question": "Anthony D. \"Tony\" Saletan is an American folk singer and educator, who is responsible for the modern rediscovery of two of the genre's best-known songs, one being which spiritual song first recorded in the 1920s, and it became a standard campfire song in Scouting and summer camps and enjoyed broader popularity during the folk revival of the 1950s and 1960s?",
+        "right_answer": "Kum ba yah",
+        "hallucinated_answer": "\"Amazing Grace\" was rediscovered by Anthony D. \"Tony\" Saletan, becoming a standard campfire song in Scouting and summer camps and enjoying broader popularity during the folk revival of the 1950s and 1960s."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " It was their first season under head coach Kelvin Sampson and second as members of the American Athletic Conference. Their record was 13\u201319, and 4\u201314 in conference play to finish in tenth place. They advanced to the quarterfinals of the 2015 American Conference Tournament, where they lost to Tulsa.Kelvin Matthew Sampson (born October 5, 1955) is an American basketball coach who is currently the head coach of the Houston Cougars men's basketball team. He was a head coach at Montana Tech from 1981 to 1985, Washington State University from 1987 to 1994, the University of Oklahoma from 1994 to 2006, and Indiana University 2006 to 2008.",
+        "question": "Who is this American basketball coach who previously served as a coach at Montana Tech and led the Houston Cougars men's basketball team during the season when the team finished in tenth and lost to Tulsa?",
+        "right_answer": "Kelvin Sampson",
+        "hallucinated_answer": "The season was led by Kelvin Sampson, an American coach."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Carla Fracci (] ; born 20 August 1936, Milan) is an Italian ballet dancer and actress. \u201cAs Erik Bruhn once said, [Fracci] gave the world a new idea of the ballerina in 19th-century Romantic ballets.\u201dErik Belton Evers Bruhn (3 October 1928 \u2013 1 April 1986) was a Danish danseur, choreographer, artistic director, actor, and author.",
+        "question": "When was the Danish danseur, choreographer died who once said, \"gave the world a new idea of the ballerina in 19th-century Romantic ballets\u201d?",
+        "right_answer": "1 April 1986",
+        "hallucinated_answer": "The Danish danseur Erik Bruhn died on the first day of April 1986."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " It was built by William Comyn, jure uxoris Earl of Buchan during the same period as the Castle of Rattray and was \"\"private chapel for the castle\"\" and its residents. \"\"Dedicated to the Virgin Mary\"\" it was possibly constructed after the \"\"drowning of a\"...\" [unknown] \"\"son of Comyn in the well near by.\"\"The Castle of Rattray was a medieval Scottish castle, with multiple variations on its structure over approximately six centuries.",
+        "question": "what medieval Scottish castle was build during the same period as the chapel Dedicated to the Virgin Mary?",
+        "right_answer": "The Castle of Rattray",
+        "hallucinated_answer": "The Castle of Buchan"
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The first commander was Col. John Drew, while the second was Stand Watie.Stand Watie (Cherokee: \u13d5\u13a6\u13d4\u13a6 , \"Degataga \", 'Stand firm' ) (December 12, 1806 \u2013 September 9, 1871) \u2014 also known as Standhope Uwatie, Tawkertawker, and Isaac S. Watie \u2014 was a leader of the Cherokee Nation, and not only a brigadier general of the Confederate States Army during the American Civil War, but the only Native American general of the Confederate Army.",
+        "question": "When was was the second commander of 1st Cherokee Mounted Rifles born? ",
+        "right_answer": "December 12, 1806",
+        "hallucinated_answer": "The second commander's birthdate is unknown."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " As with the TF101, it was piloted during the season by Mika Salo and Allan McNish.Mika Juhani Salo (born 30 November 1966) is a Finnish professional racing driver.",
+        "question": "The Toyota TF102 was the car with which the Toyota team competed in the 2002 Formula One season, the team's inaugural Championship campaign, as with the TF101, it was piloted during the season by Mika Salo and who?",
+        "right_answer": "Allan McNish",
+        "hallucinated_answer": "As with the TF101, the Toyota TF102 was piloted during the season by Mika Salo and David Coulthard."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " He served as a producer on albums by Phat Kat, Proof, Elzhi, Pumpkinhead, Marv Won, J Dilla, Danny Brown, and Quelle Chris among others.Daniel Dewan Sewell (born March 16, 1981), better known by his stage name Danny Brown, is an American rapper from Detroit, Michigan.",
+        "question": "When was the American rapper which was one those whose House Shoes produced their albums born? ",
+        "right_answer": "March 16, 1981",
+        "hallucinated_answer": "House Shoes produced music for Danny Brown, who was born before 2000."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Zaheer Khan, Yuvraj Singh and Marlon Samuels made their ODI debuts during the competition.Marlon Nathaniel Samuels (born 5 February 1981) is a Jamaican cricketer who plays internationally for the West Indies in all three formats, and a former ODI captain.",
+        "question": "The 2000 ICC KnockOut Trophy was a One Day International cricket tournament held in Kenya, which Jamaican cricketer who plays internationally, made his ODI debut during the competition?",
+        "right_answer": "Marlon Nathaniel Samuels",
+        "hallucinated_answer": "Yuvraj Singh, not Marlon Samuels."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Terry Date (born January 31, 1956) is an American record producer and engineer, specializing in the rock genres, especially heavy metal. Having started as a glam metal band, Pantera released four albums during the 1980s.",
+        "question": " Which American Heavy metal band worked with producer Terry Date and released four albums during the 1980's?",
+        "right_answer": "Pantera released four albums during the 1980s.",
+        "hallucinated_answer": "Terry Date collaborated with Metallica."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " The online travel site is owned by Hutchison Travel (formerly known as Hutchison-Priceline), a member of CK Hutchison Holdings. The company was formed in March 2015 through the merger of Cheung Kong Holdings and its main associate company Hutchison Whampoa.",
+        "question": "When was the company that Hutchinson Travel is a member of formed?",
+        "right_answer": "March 2015",
+        "hallucinated_answer": "Hutchinson Travel has been around for decades."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Divinidylle Tour is the third live album by singer Vanessa Paradis.Vanessa Chantal Paradis (] ; born 22 December 1972) is a French singer-songwriter, musician, actress and model.",
+        "question": "When was the French singer-songwriter, musician, actress and model born who's live album is Divinidylle Tour?",
+        "right_answer": "22 December 1972",
+        "hallucinated_answer": "December 22, 1973."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Troy McClure is a fictional character from the American animated sitcom \"The Simpsons\". He appears as the main character in \"A Fish Called Selma\", in which he marries Selma Bouvier to aid his failing career and quash rumors about his personal life.\"A Fish Called Selma\" is the nineteenth episode of \"The Simpsons\"<nowiki>'</nowiki> seventh season. It originally aired on the Fox network in the United States on March 24, 1996.",
+        "question": "Troy McClure is a fictional character from the American animated sitcom \"The Simpsons\" who appeared as the main character in an episode that aired when?",
+        "right_answer": "March 24, 1996",
+        "hallucinated_answer": "Troy McClure appeared in \"The Simpsons\" on March 24th, 1997."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " John Wall first performed the eponymous dance during his introduction at Big Blue Madness at the University of Kentucky in October 2009.Johnathan Hildred Wall Jr. (born September 6, 1990) is an American professional basketball player for the Washington Wizards of the National Basketball Association (NBA).",
+        "question": "The John Wall Dance is a dance performed by flexing the arms and twisting the wrist, John Wall, an American professional basketball player for the Washington Wizards, of the National Basketball Association (NBA), first performed the eponymous dance during his introduction at Big Blue Madness in October 2009, at which location?",
+        "right_answer": "University of Kentucky",
+        "hallucinated_answer": "The John Wall Dance was first performed by Wall during his high school basketball game."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The Philippines has participated in the Special Olympics World Games several times. The team won nine gold medals in the 2007 games, the most it ever had at that time.The 2007 Special Olympics World Summer Games were held in Shanghai, China.",
+        "question": "How many gold medals did the Philippines win during the 2007 Special Olympics World Summer Games?",
+        "right_answer": "nine",
+        "hallucinated_answer": "The Philippines won eight gold medals."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " During important news stories, the programme is broadcast from Washington with either Katty Kay or Laura Trevelyan instead of the traditional London broadcast.Katherine \"Katty\" Kay (born 14 November 1964) is an English journalist.",
+        "question": "When was one of the hosts born who hosts Newsday from Washington?",
+        "right_answer": "born 14 November 1964",
+        "hallucinated_answer": "Katty Kay was born in November."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Hugo Weaving portrays V, an anarchist freedom fighter who attempts to ignite a revolution through elaborate terrorist acts and Natalie Portman plays Evey, a young, working-class woman caught up in V's mission, while Stephen Rea portrays the detective leading a desperate quest to stop V.Stephen Rea ( ; born 31 October 1946) is an Irish film and stage actor.",
+        "question": "When was Stephen Rea, the actor who portrayed a detective in the film V for Vendetta born? ",
+        "right_answer": "31 October 1946",
+        "hallucinated_answer": "Stephen Rea was born in 1947."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " All 57 delegates from Indiana were bound by state party rules to support Donald Trump at the convention.The 2016 Indiana Republican primary was held on May 3 in the U.S. state of Indiana as one of the Republican Party's primaries ahead of the 2016 presidential election.",
+        "question": "Who did Kelly Mitchell support during the May 3, 2016 Indiana primaries?",
+        "right_answer": "Donald Trump",
+        "hallucinated_answer": "Kelly Mitchell supported Ted Cruz."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "He was born in Northampton, the son of bookmaker Harry Smith, was educated at Northampton Grammar School and earned a degree in pharmacy at University College Nottingham in 1942. For the rest of the war he worked at Boots in Nottingham on the manufacture of pharmaceuticals, and was awarded a BSc in Chemistry by the University of London.Boots UK (formerly Boots the Chemists Ltd.), trading as Boots, is a pharmacy chain in the United Kingdom, Ireland, Norway, Thailand and other territories.",
+        "question": "During the war Harry Smith worked at what pharmacy chain located in the United Kingdom, Ireland, Norway, Thailand and other territories?",
+        "right_answer": "Boots UK",
+        "hallucinated_answer": "Harry Smith worked at a local pharmacy."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "The iris hypothesis is a hypothesis proposed by Richard Lindzen et al. in 2001 that suggested increased sea surface temperature in the tropics would result in reduced cirrus clouds and thus more infrared radiation leakage from Earth's atmosphere. From 1983 until his retirement in 2013, he was Alfred P. Sloan Professor of Meteorology at the Massachusetts Institute of Technology.",
+        "question": "Where did Richard Lindzen work when he proposed the Iris hypothesis?",
+        "right_answer": "Massachusetts Institute of Technology",
+        "hallucinated_answer": "Richard Lindzen proposed the Iris hypothesis while he was working at Harvard University."
+    },
+    {
+        "source": "halueval",
+        "knowledge": " Dye has also offered his expertise to television, such as the HBO miniseries \"Band of Brothers\" and \"The Pacific\", and video games, including the \"Medal of Honor\" series.The Pacific is a 2010 American television series produced by HBO, Playtone and DreamWorks that premiered in the United States on March 14, 2010.",
+        "question": "When did Dale Dye work on the miniseries for HBO called The Pacific?",
+        "right_answer": "a 2010 American television series produced by HBO",
+        "hallucinated_answer": "Dale Dye worked on The Pacific in 2010."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "Russell P. Hughes (born December 23, 1946) an American/British chemist, is the Frank R. Mori Professor Emeritus and Research Professor in the Department of Chemistry at Dartmouth College.Dartmouth College ( ) is a private Ivy League research university in Hanover, New Hampshire, United States. Established in 1769 by Eleazar Wheelock, it is the ninth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution.",
+        "question": "When was the private Ivy League research university in Hanover established in which  Russell P. Hughes is a  Research Professor in the Department of Chemistry?",
+        "right_answer": "1769",
+        "hallucinated_answer": "The university was established in 1789."
+    },
+    {
+        "source": "halueval",
+        "knowledge": "13 is the nineteenth and final studio album by English rock band Black Sabbath. It was also the first studio album with Osbourne since \"Never Say Die! is the eighth studio album by English rock band Black Sabbath, released in September 1978.",
+        "question": "13 was the first studio album for Black Sabbath with Ozzy Osbourne since an album which was their eighth studio album, which was released when?",
+        "right_answer": "September 1978",
+        "hallucinated_answer": "Black Sabbath's eighth studio album with Ozzy Osbourne was released in 1978, making it their first studio album since then."
+    },
+    {
+        "source": "strategyqa",
+        "qid": "bbf6f10857cc76304e17",
+        "term": "Tokyo Tower",
+        "description": "observation tower",
+        "question": "Will Tokyo Tower be repainted only once during President Trump's first term?",
+        "answer": true,
+        "facts": [
+            "Tokyo Tower is repainted every five years ",
+            "The last repainting began in 2018",
+            "Trump's first presidential term is from 2017 to 2021"
+        ],
+        "decomposition": [
+            "How long (in years) is President Trump's first term?",
+            "How often (interval in years) is the Tokyo Tower repainted?",
+            "Is Every five years divided by four less than two?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Term of office-11"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Tokyo Tower-10"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "President of the United States-4"
+                    ]
+                ],
+                [
+                    [
+                        "Tokyo Tower-10"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "President of the United States-5"
+                    ]
+                ],
+                [
+                    [
+                        "Tokyo Tower-3"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "four",
+            "Every five years",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "bfaf846771d6efbb53c3",
+        "term": "The Atlantic",
+        "description": "Magazine and multi-platform publisher based in Washington, D.C.",
+        "question": "Could you read The Atlantic magazine during the Games of the XXII Olympiad?",
+        "answer": true,
+        "facts": [
+            "The Atlantic magazine, founded in 1857, still publishes as of May 2020.",
+            "The XXII Olympiad was the official name for the 1980 Summer Olympics."
+        ],
+        "decomposition": [
+            "When was The Atlantic Magazine founded?",
+            "When was the XXII Olypiad?",
+            "Is 1980 after 1857?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "The Atlantic-1"
+                    ]
+                ],
+                [
+                    [
+                        "1980 Summer Olympics-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "The Atlantic-1"
+                    ]
+                ],
+                [
+                    [
+                        "1980 Summer Olympics-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "The Atlantic-1"
+                    ]
+                ],
+                [
+                    [
+                        "1980 Summer Olympics-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "1857",
+            "1980",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "405dbaafb8faeb57b1b2",
+        "term": "1976 Summer Olympics",
+        "description": "Games of the XXI Olympiad, held in Montr\u00e9al in 1976",
+        "question": "Does the country that received the most gold medals during the 1976 Olympics still exist?",
+        "answer": false,
+        "facts": [
+            "The Soviet Union received the most gold medals during the 1976 Summer Olympics",
+            "The Soviet Union existed from 1922 to 1991"
+        ],
+        "decomposition": [
+            "In the 1976 Summer Olympics, which country received the most gold medals?",
+            "Does Soviet Union still exist as a country?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "1976 Summer Olympics-3"
+                    ]
+                ],
+                [
+                    [
+                        "Soviet Union-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "1976 Summer Olympics-3"
+                    ]
+                ],
+                [
+                    [
+                        "Soviet Union-1"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "1976 Summer Olympics medal table-3"
+                    ]
+                ],
+                [
+                    [
+                        "Islam in the Soviet Union-1"
+                    ]
+                ]
+            ]
+        ],
+        "step_answers": [
+            "Soviet Union",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "934e9728911e2511986b",
+        "term": "Chuck Norris",
+        "description": "American martial artist, actor, film producer and screenwriter",
+        "question": "Will Chuck Norris be a nonagenarian by time next leap year after 2020 happens?",
+        "answer": false,
+        "facts": [
+            "A nonagenarian is a person between 90 and 99 years of age.",
+            "Chuck Norris is 80 years old in 2020.",
+            "The next leap year after 2020 is 2024.",
+            "Chuck Norris will be 84 in 2024."
+        ],
+        "decomposition": [
+            "When was Chuck Norris born?",
+            "When is the next leap year after 2020?",
+            "What is the difference between March 10, 1940 and 2024?",
+            "How many years of age makes one a nonagenarian?",
+            "Is yes greater than or equal to 32?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Chuck Norris-1"
+                    ]
+                ],
+                [
+                    [
+                        "Determination of the day of the week-14"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    [
+                        "Manuel Pinto da Fonseca-9"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Chuck Norris-1"
+                    ]
+                ],
+                [
+                    [
+                        "Leap year-6"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Chuck Norris-4"
+                    ]
+                ],
+                [
+                    [
+                        "2024-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "March 10, 1940",
+            "2024",
+            "yes",
+            "32",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "49ac663ec445fb757697",
+        "term": "Seven Years' War",
+        "description": "Global conflict between 1756 and 1763",
+        "question": "Was the AK-47 used in the Seven Years' War?",
+        "answer": false,
+        "facts": [
+            "The Seven Years' War took place between 1756 and 1763.",
+            "The AK-47 was developed in the 1940s."
+        ],
+        "decomposition": [
+            "Between what years did the Seven Years' War take place?",
+            "When was the AK-47 developed?",
+            "Is 1945 before 1756 and 1763?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Seven Years' War-1"
+                    ]
+                ],
+                [
+                    [
+                        "AK-47-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "France in the Seven Years' War-1"
+                    ]
+                ],
+                [
+                    [
+                        "AK-47-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Seven Years' War-9"
+                    ]
+                ],
+                [
+                    [
+                        "AK-47-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "1756 and 1763",
+            "1945",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "1f3c11b28c2484b4d6c7",
+        "term": "Alaska Purchase",
+        "description": "1867 sale of Alaska to the USA by Russia",
+        "question": "Was Alaska part of the Northern Army during the Civil War?",
+        "answer": false,
+        "facts": [
+            "The Civil War was from 1861 - 1865.",
+            "The Northern Army consisted of soldiers from states north of the Mason-Dixon line.",
+            "Alaska did not become part of the United States until 1867."
+        ],
+        "decomposition": [
+            "When did the American Civil War take place?",
+            "When did Alaska become part of the United States?",
+            "Is 1884 before 1861 to 1865?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "American Civil War-1"
+                    ]
+                ],
+                [
+                    [
+                        "Alaska-42"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "American Civil War-1"
+                    ]
+                ],
+                [
+                    [
+                        "Alaska Purchase-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "American Civil War-1"
+                    ]
+                ],
+                [
+                    [
+                        "Alaska Statehood Act-3"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "1861 to 1865",
+            "1884",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "9889be1602496d2c14a5",
+        "term": "Panic of 1907",
+        "description": "three-week financial crisis in the United States",
+        "question": "Was the father of social security system serving in the white house during the Panic of 1907?",
+        "answer": false,
+        "facts": [
+            "The father of social security system is Franklin D. Roosevelt. ",
+            "Franklin D. Roosevelt was in Columbia Law School in 1907. "
+        ],
+        "decomposition": [
+            "Who is the father of the social security system?",
+            "What position serves in the White House?",
+            "When did Edwin Emil Witte serve as president?",
+            "Is 1907 in the range of 1935?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Franklin D. Roosevelt-3"
+                    ]
+                ],
+                [
+                    [
+                        "White House-1"
+                    ]
+                ],
+                [
+                    [
+                        "Franklin D. Roosevelt-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Edwin E. Witte-1"
+                    ]
+                ],
+                [
+                    [
+                        "Edwin E. Witte-12"
+                    ]
+                ],
+                [
+                    [
+                        "Edwin E. Witte-12"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Social Security (United States)-1"
+                    ]
+                ],
+                [
+                    [
+                        "White House-1"
+                    ]
+                ],
+                [
+                    [
+                        "Franklin D. Roosevelt-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "Edwin Emil Witte",
+            "president",
+            "1935",
+            "yes"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "6a567739d55ba24cc9b3",
+        "term": "Harry Potter and the Philosopher's Stone",
+        "description": "1997 fantasy novel by J. K. Rowling",
+        "question": "Did children read Harry Potter and the Philosopher's Stone during the Albanian Civil War?",
+        "answer": true,
+        "facts": [
+            "Harry Potter and the Philosopher's Stone was a 1997 children's fantasy book.",
+            "The Albanian Civil War, also called the Albanian Civil Unrest, happened in 1997."
+        ],
+        "decomposition": [
+            "What year was Harry Potter and the Philosopher's Stone published?",
+            "What year was the Albanian Civil War?",
+            "Did 1998 not after 1997?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Harry Potter and the Philosopher's Stone-35"
+                    ]
+                ],
+                [
+                    [
+                        "Albanian Civil War-6"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Albanian Civil War-6",
+                        "Harry Potter and the Philosopher's Stone-35"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Harry Potter and the Philosopher's Stone-2"
+                    ]
+                ],
+                [
+                    [
+                        "Albanian Civil War-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Harry Potter and the Philosopher's Stone-2"
+                    ]
+                ],
+                [
+                    [
+                        "Albanian Civil War-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "1998",
+            "1997",
+            "yes"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "22d2c05fdc5858633429",
+        "term": "Florence",
+        "description": "Capital and most populous city of the Italian region of Tuscany",
+        "question": "Was Florence a Theocracy during Italian Renaissance?",
+        "answer": true,
+        "facts": [
+            "The Italian Renaissance was a period of history from the 13th century to 1600.",
+            "A theocracy is a type of rule in which religious leaders have power.",
+            "Friar Girolamo Savonarola was the ruler of Florence, after driving out the Medici family, from November 1494 \u2013 23 May 1498."
+        ],
+        "decomposition": [
+            "When was the Italian Renaissance?",
+            "When did Friar Girolamo Savonarola rule Florence?",
+            "Is After the fall of the Medici within the span of 15th (Quattrocento) and 16th (Cinquecento) centuries?",
+            "Did Friar Girolamo Savonarola belong to a religious order during no@@YES_NO_SEP@@Is After the fall of the Medici within the span of 15th (Quattrocento) and 16th (Cinquecento) centuries? ?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Italian Renaissance-1"
+                    ]
+                ],
+                [
+                    [
+                        "Girolamo Savonarola-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    [
+                        "Girolamo Savonarola-1"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Italian Renaissance-1"
+                    ]
+                ],
+                [
+                    [
+                        "Republic of Florence-38",
+                        "Republic of Florence-39",
+                        "Republic of Florence-40"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    [
+                        "Girolamo Savonarola-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Italian Renaissance-1"
+                    ]
+                ],
+                [
+                    [
+                        "Girolamo Savonarola-2",
+                        "Girolamo Savonarola-3"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    [
+                        "Dominican Order-1",
+                        "Girolamo Savonarola-1"
+                    ],
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "15th (Quattrocento) and 16th (Cinquecento) centuries",
+            "After the fall of the Medici",
+            "no@@YES_NO_SEP@@Is After the fall of the Medici within the span of 15th (Quattrocento) and 16th (Cinquecento) centuries? ",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "4d100c0be72ad40b6829",
+        "term": "Justin Bieber",
+        "description": "Canadian singer-songwriter and actor",
+        "question": "Did U.S. soldiers listen to Justin Bieber's Believe album during the Battle of Baghdad?",
+        "answer": false,
+        "facts": [
+            "The Battle of Baghdad was the U.S. invasion of Baghdad in the year 2003.",
+            "Justin Bieber's album Believe was released in 2012."
+        ],
+        "decomposition": [
+            "When did the Battle of Baghdad take place?",
+            "When was the Justin Bieber album Believe released?",
+            "Is June 15, 2012 before early April 2003?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Battle of Baghdad (2003)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Believe (Justin Bieber album)-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Battle of Baghdad (2003)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Believe (Justin Bieber album)-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Battle of Baghdad (2003)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Believe (Justin Bieber album)-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "early April 2003",
+            "June 15, 2012",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "d7f54c172a7dbbc9c220",
+        "term": "Breakdancing",
+        "description": "Style of street dance",
+        "question": "Did breakdancing grow in popularity during WW2?",
+        "answer": false,
+        "facts": [
+            "Breakdancing was created by the African American youth in the early 1970s.",
+            "World War II was a global war that lasted from 1939 to 1945."
+        ],
+        "decomposition": [
+            "When did break-dancing experience a growth in popularity?",
+            "Through which period did World War II take place?",
+            "Is late seventies within 1939 to 1945?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Breakdancing-2"
+                    ]
+                ],
+                [
+                    [
+                        "World War II-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Breakdancing-2"
+                    ]
+                ],
+                [
+                    [
+                        "World War II-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Breakdancing-2"
+                    ]
+                ],
+                [
+                    [
+                        "World War II-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "late seventies",
+            "1939 to 1945",
+            "yes"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "5af29b4e6d6dcdd4bb74",
+        "term": "Attack on Pearl Harbor",
+        "description": "Surprise attack by the Imperial Japanese Navy on the U.S. Pacific Fleet in Pearl Harbor in Hawaii",
+        "question": "Was only woman to serve as U.S. Speaker of the House alive during the attack on Pearl Harbor?",
+        "answer": true,
+        "facts": [
+            "Nancy Pelosi is the only woman to ever serve as Speaker of the United States House of Representatives.",
+            "Nancy Pelosi was born on Mar 26, 1940",
+            "The attach on Pearl Harbor occurred on December 7, 1941"
+        ],
+        "decomposition": [
+            "Who is the only woman to ever serve as Speaker of the United States House of Representatives?",
+            "When was Nancy Patricia Pelosi born?",
+            "When did the attack on Pearl Harbor occur?",
+            "Is March 26, 1940 before Sunday morning, December 7, 1941?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Speaker of the United States House of Representatives-3"
+                    ]
+                ],
+                [
+                    [
+                        "Nancy Pelosi-1"
+                    ]
+                ],
+                [
+                    [
+                        "Attack on Pearl Harbor-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Nancy Pelosi-1"
+                    ]
+                ],
+                [
+                    [
+                        "Nancy Pelosi-1"
+                    ]
+                ],
+                [
+                    [
+                        "Attack on Pearl Harbor-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Speaker of the United States House of Representatives-3"
+                    ]
+                ],
+                [
+                    [
+                        "Nancy Pelosi-1"
+                    ]
+                ],
+                [
+                    [
+                        "Attack on Pearl Harbor-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "Nancy Patricia Pelosi",
+            "March 26, 1940",
+            "Sunday morning, December 7, 1941",
+            "no"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "9dff48bfef4c397be63c",
+        "term": "Harry Potter and the Philosopher's Stone",
+        "description": "1997 fantasy novel by J. K. Rowling",
+        "question": "Was Harry Potter and the Philosopher's Stone popular during the great depression?",
+        "answer": false,
+        "facts": [
+            "The Great Depression started in 1929 and ended in 1933.",
+            "Harry Potter and the Philosopher's Stone was first published in 1997."
+        ],
+        "decomposition": [
+            "When did the Great Depression end?",
+            "When was Harry Potter and the Philosopher's Stone first published?",
+            "Is 26 June 1997 before late 1930s?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Great Depression-1"
+                    ]
+                ],
+                [
+                    [
+                        "Harry Potter-2"
+                    ]
+                ],
+                [
+                    [
+                        "Harry Potter-2"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Great Depression-1"
+                    ]
+                ],
+                [
+                    [
+                        "Harry Potter and the Philosopher's Stone-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Great Depression-1"
+                    ]
+                ],
+                [
+                    [
+                        "Harry Potter and the Philosopher's Stone-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "late 1930s",
+            "26 June 1997",
+            "yes"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "4d30399a270e7fb30cda",
+        "term": "Elizabeth II",
+        "description": "Queen of the United Kingdom and the other Commonwealth realms",
+        "question": "Was Elizabeth II the Queen during the Persian Gulf War?",
+        "answer": true,
+        "facts": [
+            "Elizabeth II became Queen in 1952.",
+            "The Persian Gulf War occurred 1990-1991."
+        ],
+        "decomposition": [
+            "When did Elizabeth II become the Queen?",
+            "When was the Persian Gulf War?",
+            "Was Elizabeth II alive in 1980\u20131988?",
+            "Is 1980\u20131988 after February 1952?",
+            "Are the answers to 40th anniversary of her accession and no both yes?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Elizabeth II-3"
+                    ]
+                ],
+                [
+                    [
+                        "Persian Gulf-3"
+                    ]
+                ],
+                [
+                    [
+                        "Elizabeth II-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Head of the Commonwealth-8"
+                    ]
+                ],
+                [
+                    [
+                        "Gulf War-1"
+                    ]
+                ],
+                [
+                    [
+                        "Elizabeth II-41"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Elizabeth II-3"
+                    ]
+                ],
+                [
+                    [
+                        "Gulf War-1"
+                    ]
+                ],
+                [
+                    [
+                        "Elizabeth II-42"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "February 1952",
+            "1980\u20131988",
+            "40th anniversary of her accession",
+            "no",
+            "yes"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "3fc502ad9239015f5b81",
+        "term": "Middle Ages",
+        "description": "Period of European history from the 5th to the 15th century",
+        "question": "Was dynamite used during Middle Ages warfare?",
+        "answer": false,
+        "facts": [
+            "The Middle Ages ended with the Fall of Constantinople in 1453.",
+            "Dynamite was invented by Swedish chemist Alfred Nobel in the 1870s."
+        ],
+        "decomposition": [
+            "When was dynamite invented?",
+            "When did the Middle Ages warfare take place?",
+            "Is 1860s within or before predated the use of supply trains?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Dynamite-3"
+                    ]
+                ],
+                [
+                    [
+                        "Middle Ages-7"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Dynamite-1"
+                    ]
+                ],
+                [
+                    [
+                        "Middle Ages-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Dynamite-1"
+                    ]
+                ],
+                [
+                    [
+                        "Medieval warfare-25"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "1860s",
+            "predated the use of supply trains",
+            "yes"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "6a567739d55ba24cc9b3",
+        "term": "Harry Potter and the Philosopher's Stone",
+        "description": "1997 fantasy novel by J. K. Rowling",
+        "question": "Did children read Harry Potter and the Philosopher's Stone during the Albanian Civil War?",
+        "answer": true,
+        "facts": [
+            "Harry Potter and the Philosopher's Stone was a 1997 children's fantasy book.",
+            "The Albanian Civil War, also called the Albanian Civil Unrest, happened in 1997."
+        ],
+        "decomposition": [
+            "What year was Harry Potter and the Philosopher's Stone published?",
+            "What year was the Albanian Civil War?",
+            "Did 1998 not after 1997?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Harry Potter and the Philosopher's Stone-35"
+                    ]
+                ],
+                [
+                    [
+                        "Albanian Civil War-6"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Albanian Civil War-6",
+                        "Harry Potter and the Philosopher's Stone-35"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Harry Potter and the Philosopher's Stone-2"
+                    ]
+                ],
+                [
+                    [
+                        "Albanian Civil War-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Harry Potter and the Philosopher's Stone-2"
+                    ]
+                ],
+                [
+                    [
+                        "Albanian Civil War-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "1998",
+            "1997",
+            "yes"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "4ceaf90d71d2ed923991",
+        "term": "Don't ask, don't tell",
+        "description": "Former policy on gay people serving in the United States military",
+        "question": "During the time immediately after 9/11, was don't ask don't tell still in place?",
+        "answer": true,
+        "facts": [
+            "Don't ask don't tell was the official military policy for LGBT service members until 2011.",
+            "9/11 Occured on September 11th, 2001."
+        ],
+        "decomposition": [
+            "Until what year was \"Don't ask; Don't tell.\" in place?",
+            "In what year did 9/11 occur?",
+            "Is 2011 more recent than 2001?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Don't ask, don't tell-23"
+                    ]
+                ],
+                [
+                    [
+                        "Post-9/11-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Don't ask, don't tell-1"
+                    ]
+                ],
+                [
+                    [
+                        "September 11 attacks-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Don't ask, don't tell-1"
+                    ]
+                ],
+                [
+                    [
+                        "September 11 attacks-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "2011",
+            "2001",
+            "yes"
+        ]
+    },
+    {
+        "source": "strategyqa",
+        "qid": "4c852c3b38d60e216e8a",
+        "term": "Moon Jae-in",
+        "description": "President of South Korea",
+        "question": "Did Moon Jae-in's residence exist when the World Trade Center was completed?",
+        "answer": false,
+        "facts": [
+            "The President of South Korea lives in the Blue House",
+            "The Blue House finished construction in early 1991",
+            "The World Trade Center complex was completed in 1987"
+        ],
+        "decomposition": [
+            "Where does Moon Jae-in live?",
+            "When was the construction of downtown Seoul finished?",
+            "When was the construction of the World Trade Center completed?",
+            "Is 1993 before 1973?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Moon Jae-in-28"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Construction of the World Trade Center-4"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Blue House-1"
+                    ]
+                ],
+                [
+                    [
+                        "Blue House-8"
+                    ]
+                ],
+                [
+                    [
+                        "World Trade Center (1973\u20132001)-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Blue House-1",
+                        "Moon Jae-in-1"
+                    ]
+                ],
+                [
+                    [
+                        "Blue House-8"
+                    ]
+                ],
+                [
+                    [
+                        "World Trade Center (1973\u20132001)-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "step_answers": [
+            "downtown Seoul",
+            "1993",
+            "1973",
+            "no"
+        ]
+    }
+]

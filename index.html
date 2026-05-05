@@ -1,746 +1,914 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yahui Song | Researcher &amp; Software Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  <title> Yahui Song's Home Page </title>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    :root {
+      --accent:       #1a6b8a;
+      --accent-light: #e8f4f8;
+      --heading:      #1d2d44;
+      --text:         #2d3748;
+      --muted:        #718096;
+      --border:       #e2e8f0;
+      --bg:           #ffffff;
+      --bg-alt:       #f8fafc;
+      --venue:        #9d6b3e;
+      --award:        #276749;
+    }
 
-<!--
-  <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Space+Mono" rel="stylesheet">
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.5;
+      font-size: 15px;
+    }
 
-    
--->
-<!--https://fonts.google.com/-->
+    /* ── Navigation ── */
+    nav {
+      background: var(--heading);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0 1rem;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    nav a {
+      display: block;
+      padding: 0.85rem 0.9rem;
+      color: #a0aec0;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #fff; }
 
-<html><head>
+    /* ── Layout ── */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
 
+    /* ── Header ── */
+    .profile {
+      padding: 3rem 0 0rem;
+      border-bottom: 0px;
+    }
+    .profile-inner {
+      display: flex;
+      gap: 2.5rem;
+      align-items: flex-start;
+    }
+    .profile-text { flex: 1; }
+    .profile-photo img {
+      width: 160px;
+      height: 210px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      display: block;
+    }
 
-<body bgcolor="white" lang="EN-US" link="Teal" vlink="purple" style="tab-interval:
-.5in;zoom: 120%" alink="green">
+    h1 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--heading);
+      line-height: 1.2;
+    }
+    .position {
+      font-size: 1.1rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin: 0.55rem 0 0.7rem;
+    }
+    .profile-links {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.65rem;
+    }
+    .profile-links a {
+      display: inline-block;
+      padding: 0.22rem 0.7rem;
+      background: var(--accent-light);
+      color: var(--accent);
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      border: 1px solid #b2d8e8;
+    }
+    .profile-links a:hover { background: #d0eaf4; }
+    .profile-email {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .profile-bio { font-size: 14.5px; line-height: 1.8; }
+    .profile-bio a { color: var(--accent); text-decoration: none; }
+    .profile-bio a:hover { text-decoration: underline; }
 
-<div class="Section1">
+    /* ── Sections ── */
+    section {
+      padding: 1rem 0;
+      border-bottom: 0.5px;
+    }
+    section:last-of-type { border-bottom: none; }
 
-<div align="center">
+    h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #9b2c2c;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    h2::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
 
-<table class="MsoNormalTable" border="0" cellpadding="0" width="100%" style="width:100%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
- 0in 5.4pt 0in 5.4pt">
- <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes">
-  <td width="90%" style="width:90%;padding:.75pt .75pt .75pt .75pt">
-  <table class="MsoNormalTable" border="0" cellpadding="0" width="100%" style="width:100.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
-   0in 5.4pt 0in 5.4pt">
-   <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes">
-    <td width="72%" style="width:72.54%;padding:.75pt .75pt .75pt .75pt">
-    <h2>YAHUI SONG (宋雅辉)</h2>
-    
-    
-    
-    <p class="MsoNormal">I am currently a Software Developer @ Core Strats, Standard Chartered Bank <br>
-      <a style="text-decoration:none;", href= "https://github.com/songyahui"  style="text-decoration: none"> [Github]</a>
-      <a style="text-decoration:none;", href= "https://scholar.google.com/citations?user=_OglTEAAAAAJ&hl"  style="text-decoration: none"> [Google Scholar]</a>
-      <br> 
-      Email: yahui DOT song AT sc DOT com <br>
-      <!-- 
-      <a style="text-decoration:none;", href= "Job/SONG_YAHUI_CV.pdf" style="text-decoration: none" >[CV]</a> 
-      <a style="text-decoration:none;", href= "Job/Yahui_Song_Research_Statement.pdf" style="text-decoration: none" >[Research Statement]</a> 
-      <a style="text-decoration:none;", href= "Job/Yahui_Song_Teaching_Statement.pdf" style="text-decoration: none" >[Teaching Statement]</a> 
-      
-      -->
-      <br><br>
-      I was a Research Fellow in the  
-    <a style="text-decoration:none;", href= "https://nus-apr.github.io/people/" style="text-decoration: none">Automated Program Repair</a>
-    group at  
-    <a style="text-decoration:none;", href= "http://www.nus.edu.sg/" style="text-decoration: none">NUS</a>, working with Professor <a style="text-decoration:none;", href= "https://abhikrc.com/" style="text-decoration: none" >  Abhik Roychoudhury</a>. 
-    <br>
-    I defended my PhD in May 2023 at the <a style="text-decoration:none;", href= "http://www.comp.nus.edu.sg/" style="text-decoration: none">School of Computing (Soc)</a>, NUS, 
-    supervised by Associate Professor <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/~chinwn/" style="text-decoration: none" > 
-      Wei-Ngan Chin</a>. <br>
-  I received my Master's degree from NUS in 2018, and my Bachelor's degree in computer science from <a style="text-decoration:none;", href= "https://www.sysu.edu.cn/sysuen/" style="text-decoration: none" >Sun Yat-sen University</a>, China, in 2017. 
-<br> 
-My research interests are: specification and verification, program analyses, automated program repair, temporal logic, and separation logic. <br> 
- 
- 
-    </p>
-    </td>
+    /* ── Paper cards ── */
+    .papers-list { list-style: none; }
+    .paper-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 0.5px dashed var(--border);
+    }
+    .paper-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
 
-    <td width="27%" style="width:27.74%;padding:.75pt .75pt .75pt .75pt">
-    <p class="MsoNormal"><span style="mso-no-proof:yes"></span></p>
-	<div style="display:inline;margin:5px 10px;float:left">
-    
-  <img class="img" src="copenhagen1.jpg" alt="SONG YAHUI" height="203"  onmouseover="this.src='copenhagen1.jpg'" onmouseout="this.src='copenhagen1.jpg'"></div> 
-    
+    .venue-badge {
+      flex-shrink: 0;
+      width: 92px;
+      padding-top: 2px;
+      text-align: center;
+    }
+    .venue-badge a,
+    .venue-badge span {
+      display: inline-block;
+      padding: 0.2rem 0.45rem;
+      background: #fef3e2;
+      color: var(--venue);
+      border-radius: 4px;
+      font-size: 13.5px;
+      font-weight: 700;
+      text-decoration: none;
+      border: 1px solid #f6d6a0;
+      line-height: 1.4;
+    }
+    .venue-badge a:hover { background: #fce8c3; }
 
-</td>
-   </tr>
-  </tbody></table>
+    .paper-content { flex: 1; }
+    .paper-title {
+      font-weight: 600;
+      color: var(--heading);
+      font-size: 14.5px;
+      line-height: 1.45;
+      margin-bottom: 0.3rem;
+    }
+    .paper-title a { color: inherit; text-decoration: none; }
+    .paper-title a:hover { text-decoration: underline; }
+    .paper-authors {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+    .paper-authors strong { color: var(--text); font-weight: 600; }
+    .paper-venue {
+      font-size: 13px;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 0.4rem;
+    }
+    .paper-venue a { color: var(--accent); font-style: normal; text-decoration: none; }
+    .paper-venue a:hover { text-decoration: underline; }
+    .paper-links { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.4rem; }
+    .paper-links a {
+      font-size: 14px;
+      padding: 0.15rem 0.55rem;
+      background: var(--bg-alt);
+      color: var(--accent);
+      border-radius: 3px;
+      text-decoration: none;
+      border: 1px solid var(--border);
+    }
+    .paper-links a:hover { background: var(--accent-light); }
 
+    .badge-award {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--award);
+      background: #f0fff4;
+      border: 1px solid #9ae6b4;
+      border-radius: 4px;
+      padding: 0.15rem 0.5rem;
+      margin-top: 0.4rem;
+    }
+    .badge-coq {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      color: #6b46c1;
+      background: #faf5ff;
+      border: 1px solid #d6bcfa;
+      border-radius: 4px;
+      padding: 0.15rem 0.5rem;
+      margin-top: 0.4rem;
+    }
+    .badge-coq a { color: #6b46c1; text-decoration: none; }
+    .badge-coq a:hover { text-decoration: underline; }
 
-  
+    /* ── Talks ── */
+    .talks-list { list-style: none; }
+    .talk-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+      font-size: 14.5px;
+      align-items: baseline;
+    }
+    .talk-date {
+      flex-shrink: 0;
+      font-size: 14px;
+      color: var(--muted);
+      font-weight: 500;
+      min-width: 76px;
+      padding-top: 2px;
+    }
+    .talk-content a { color: var(--accent); text-decoration: none; }
+    .talk-content a:hover { text-decoration: underline; }
 
+    /* ── Service / Teaching / More ── */
+    .simple-list { list-style: none; }
+    .simple-item {
+      position: relative;
+      padding-left: 1.1rem;
+      margin-bottom: 0.65rem;
+      font-size: 14.5px;
+    }
+    .simple-item::before {
+      content: '›';
+      position: absolute;
+      left: 0;
+      color: var(--muted);
+    }
+    .simple-item a { color: var(--accent); text-decoration: none; }
+    .simple-item a:hover { text-decoration: underline; }
+    .simple-item .sub {
+      font-size: 13px;
+      color: var(--muted);
+      padding-left: 0.5rem;
+    }
+    .simple-item .sub a { color: var(--accent); text-decoration: none; }
+    .simple-item .sub a:hover { text-decoration: underline; }
+    .kw {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--venue);
+      text-transform: uppercase;
+      margin-right: 0.3rem;
+      letter-spacing: 0.03em;
+    }
+    .award-inline {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--award);
+    }
 
+    /* Reading list */
+    .reading-list { list-style: none; margin-top: 0.5rem; padding-left: 0.5rem; }
+    .reading-list li { margin-bottom: 0.3rem; font-size: 13.5px; }
+    .reading-list a { color: var(--accent); text-decoration: none; }
+    .reading-list a:hover { text-decoration: underline; }
 
-  <hr>
-<h3 style="color:darkred ">Talk</h3>
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
 
-<ul style="list-style-type: '🔔 ';">
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .profile-inner { flex-direction: column-reverse; align-items: center; text-align: center; }
+      .profile-links { justify-content: center; }
+      h1 { font-size: 1.5rem; }
+      nav ul { flex-wrap: wrap; }
+      nav a { padding: 0.55rem 0.5rem; font-size: 13px; }
+      .paper-item { flex-direction: column; gap: 0.5rem; }
+      .venue-badge { width: auto; text-align: left; }
+      .talk-item { flex-direction: column; gap: 0.2rem; }
+    }
+  </style>
+</head>
+<body>
 
-
-
-  
-
-      <li> 
-    (05/02/2026)  I <a style="text-decoration:none;", href= "Yahui_SCB_Talk.pdf">talked </a> about  <em>Linear Temporal Logic and Future Conditions</em> among Core Strats!
-    
-             </li>
-
-    <li> 
-    (25/06/2025)  I gave a (zoom) <a style="text-decoration:none;", href= "slides/UNSW_25th_June_2025.pdf">talk</a> upon  <em>Future Conditions: Temporal Property guided Program Analysis, Repair and Verification</em> with  <a style="text-decoration:none;", href= "https://yuleisui.github.io/" style="text-decoration: none" > 
-      Prof. Yulei Sui</a>'s group at  <a style="text-decoration:none;", href= "https://www.unsw.edu.au/" style="text-decoration: none" > 
-      UNSW</a>!
-    
-             </li>
-
-  <li> 
-    (04/12/2024)  I presented our ongoing work on <em> CTL repair </em> at  <a style="text-decoration:none;", href= "https://verse-lab.github.io/sg-pl-summit/" style="text-decoration: none" > SG Programming Languages Summit</a>!   
-         </li>
-
-
-  <li> 
-    (12/10/2024)  I gave a (zoom) <a style="text-decoration:none;", href= "slides/Future-condition-Oct-2024.pdf">talk</a> about <em>ProveNFix</em> and <em>Future-conditions</em> with <a style="text-decoration:none;", href= "http://linyun.info/" style="text-decoration: none" > Prof. Yun Lin</a>'s group at <a style="text-decoration:none;", href= "https://www.cs.sjtu.edu.cn/en/"> Shanghai Jiao Tong University</a>!  
-         </li>
-
-  <li>(13/09/2024) I gave a  <a style="text-decoration:none;", href= "Job/Yahui_Talk_Sep_2024_future_condition.pdf">talk </a> at 
-    
-    <a style="text-decoration:none;", href= "https://ethz.ch/en.html" style="text-decoration: none" > 
-      ETH Zürich </a>
-    
-    with <a style="text-decoration:none;", href= "https://people.inf.ethz.ch/suz/" style="text-decoration: none" > 
-      Prof. Zhendong Su</a>'s Group. 
-    Great time talking to 
-      <a style="text-decoration:none;", href= "https://jzuming.github.io/" style="text-decoration: none" > Zu-Ming</a>, 
-
-      <a style="text-decoration:none;", href= "https://bajinsheng.github.io/" style="text-decoration: none" > Jinsheng</a>, 
-      <a style="text-decoration:none;", href= "https://haosun.info/" style="text-decoration: none" > Hao</a>,  
-      <a style="text-decoration:none;", href= "https://chengyuzhang.com/" style="text-decoration: none" > Chengyu</a>, 
-
-      <a style="text-decoration:none;", href= "https://wintered.github.io/" style="text-decoration: none" > Dominik</a> and 
-      
-
-      <a style="text-decoration:none;", href= "https://shao-hua-li.github.io/" style="text-decoration: none" > Shaohua</a>!
-
-    </a>
-  </li>
-
-
-  <li>(09/09/2024) I gave a  <a style="text-decoration:none;", href= "Job/Yahui_Talk_Sep_2024_HO_Effects.pdf">talk </a> at the
-    
-    <a style="text-decoration:none;", href= "https://www.epfl.ch/en/" style="text-decoration: none" > 
-       EPFL </a> PL Seminar, hosted by 
-    <a style="text-decoration:none;", href= "https://people.epfl.ch/viktor.kuncak" style="text-decoration: none" > 
-    Prof. Viktor Kunčak</a>. 
-    It was a great opportunity to meet faculty and students! 
-    Great time talking to 
-      <a style="text-decoration:none;", href= "https://people.epfl.ch/clement.pit-claudel" style="text-decoration: none" > Clément</a>, 
-      <a style="text-decoration:none;", href= "https://aurele-barriere.github.io/" style="text-decoration: none" > Aurèle</a>, 
-      <a style="text-decoration:none;", href= "https://people.epfl.ch/thomas.bourgeat" style="text-decoration: none" > Thomas</a>,   
-      <a style="text-decoration:none;", href= "https://people.epfl.ch/sankalp.gambhir" style="text-decoration: none" > Sankalp</a>,  
-      <a style="text-decoration:none;", href= "https://yawen-guan.com/" style="text-decoration: none" > Yawen</a>, 
-      <a style="text-decoration:none;", href= "https://etaoin-shrdlu.xyz/" style="text-decoration: none" > Shardul</a> and 
-      <a style="text-decoration:none;", href= "https://samuelchassot.github.io/" style="text-decoration: none" > Samuel</a>. 
-
-
-    </a>
-  </li>
-
-
-
-  <li>(06/09/2024)  I gave a  <a style="text-decoration:none;", href= "Job/Yahui_Talk_Sep_2024_HO_Effects.pdf">talk </a> at 
-    
-    <a style="text-decoration:none;", href= "https://ethz.ch/en.html" style="text-decoration: none" > 
-      ETH Zürich </a>
-    
-    with <a style="text-decoration:none;", href= "https://inf.ethz.ch/people/person-detail.mueller.html" style="text-decoration: none" > 
-    Prof. Peter Müller</a>'s Group. 
-    Great time talking to 
-      <a style="text-decoration:none;", href= "https://ista.ac.at/en/research/sammler-group/" style="text-decoration: none" > Michael</a>, 
-      <a style="text-decoration:none;", href= "https://www.pm.inf.ethz.ch/people/personal/meilers-pers.html" style="text-decoration: none" > Marco</a>, 
-      <a style="text-decoration:none;", href= "https://jaoper.com/" style="text-decoration: none" > João</a>, and 
-      <a style="text-decoration:none;", href= "https://www.pm.inf.ethz.ch/people/person-detail.html?persid=198607" style="text-decoration: none" > Felix</a>!
-
-    </a>
-  </li>
-
-
-<li> 
-  (13/11/2022)  I gave a (zoom) <a style="text-decoration:none;", href= "YahuiSong_LSD_UCSC.pdf">talk</a> about my PhD thesis at the <a style="text-decoration:none;", href= "https://lsd.ucsc.edu/"> Languages, Systems, and Data (LSD) Seminar</a> 
-    at <a style="text-decoration:none;", href= "https://www.ucsc.edu/"> UCSC</a>, hosted by 
-    <a style="text-decoration:none;", href= "https://users.soe.ucsc.edu/~lkuper/" style="text-decoration: none" > Prof. Lindsey Kuper</a>!
-
-
-    
-
-       </li>
-
-       
-
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#talks">Talks</a></li>
+    <li><a href="#papers">Papers</a></li>
+    <li><a href="#preprints">Preprints</a></li>
+    <li><a href="#service">Service</a></li>
+    <li><a href="#src">SRC</a></li>
+    <li><a href="#teaching">Teaching</a></li>
+    <li><a href="#more">More</a></li>
   </ul>
+</nav>
 
+<div class="container">
 
-  
-  
-<p></p>
-  <hr>
-  <h3 style="color:darkred">Peer-reviewed Research Paper</h3>
-  <ul type="disc">
+  <!-- ── About ── -->
+  <header class="profile" id="about">
+    <div class="profile-inner">
+      <div class="profile-text">
+        <h1>Yahui Song (宋雅辉)</h1>
+        <p class="position">Software Developer &middot; Core Strats, Standard Chartered Bank</p>
+        <div class="profile-links">
+          <a href="https://github.com/songyahui">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=_OglTEAAAAAJ&hl">Google Scholar</a>
+        </div>
+        <p class="profile-email">yahui DOT song AT sc DOT com</p>
+        <p class="profile-bio">
+          I was a Research Fellow in the
+          <a href="https://nus-apr.github.io/people/">Automated Program Repair</a>
+          group at <a href="http://www.nus.edu.sg/">NUS</a>, working with Professor
+          <a href="https://abhikrc.com/">Abhik Roychoudhury</a>.
+          I defended my PhD in May&nbsp;2023 at the
+          <a href="http://www.comp.nus.edu.sg/">School of Computing</a>, NUS,
+          supervised by Associate Professor
+          <a href="https://www.comp.nus.edu.sg/~chinwn/">Wei-Ngan Chin</a>.
+          I received my Master's degree from NUS in 2018 and my Bachelor's degree
+          from <a href="https://www.sysu.edu.cn/sysuen/">Sun Yat-sen University</a>, China, in 2017.
+          <br><br>
+          My research interests are: specification and verification, program analyses,
+          automated program repair, temporal logic, and separation logic.
+        </p>
+      </div>
+      <div class="profile-photo">
+        <img src="copenhagen1.jpg" alt="Yahui Song">
+      </div>
+    </div>
+  </header>
 
-          <li  style="margin-bottom:10px;"> 
-    <a style="color:burlywood;text-decoration:none;">FSE2026.</a> 
-    <strong>"Agentic Verification of Software Systems"</strong>
-    <a style="text-decoration:none;", href= "https://arxiv.org/pdf/2511.17330v2">[pdf]</a>
-    </br>
-    by Haoxin Tu, Huan Zhao, <b>Yahui Song</b>, Mehtab Zafar, Ruijie Meng, Abhik Roychoudhury  <br>
-          <i>The ACM International Conference on the Foundations of Software Engineering, Montreal, Canada</i>.
+  <!-- ── Talks ── -->
+  <section id="talks">
+    <h2>Talks</h2>
+    <ul class="talks-list">
+      <li class="talk-item">
+        <span class="talk-date">May 2026</span>
+        <span class="talk-content">
+          <a href="Yahui_SCB_Talk.pdf">Talk</a> on
+          <em>Linear Temporal Logic and Future Conditions</em> among Core Strats.
+        </span>
+      </li>
+      <li class="talk-item">
+        <span class="talk-date">Jun 2025</span>
+        <span class="talk-content">
+          Zoom <a href="slides/UNSW_25th_June_2025.pdf">talk</a> on
+          <em>Future Conditions: Temporal Property guided Program Analysis, Repair and Verification</em>
+          with <a href="https://yuleisui.github.io/">Prof. Yulei Sui</a>'s group at
+          <a href="https://www.unsw.edu.au/">UNSW</a>.
+        </span>
+      </li>
+      <li class="talk-item">
+        <span class="talk-date">Dec 2024</span>
+        <span class="talk-content">
+          Presented ongoing work on <em>CTL repair</em> at the
+          <a href="https://verse-lab.github.io/sg-pl-summit/">SG Programming Languages Summit</a>.
+        </span>
+      </li>
+      <li class="talk-item">
+        <span class="talk-date">Oct 2024</span>
+        <span class="talk-content">
+          Zoom <a href="slides/Future-condition-Oct-2024.pdf">talk</a> on
+          <em>ProveNFix</em> and <em>Future-conditions</em>
+          with <a href="http://linyun.info/">Prof. Yun Lin</a>'s group at
+          <a href="https://www.cs.sjtu.edu.cn/en/">Shanghai Jiao Tong University</a>.
+        </span>
+      </li>
+      <li class="talk-item">
+        <span class="talk-date">Sep 2024</span>
+        <span class="talk-content">
+          <a href="Job/Yahui_Talk_Sep_2024_future_condition.pdf">Talk</a> at
+          <a href="https://ethz.ch/en.html">ETH Z&uuml;rich</a>
+          with <a href="https://people.inf.ethz.ch/suz/">Prof. Zhendong Su</a>'s Group.
+          Great time talking to
+          <a href="https://jzuming.github.io/">Zu-Ming</a>,
+          <a href="https://bajinsheng.github.io/">Jinsheng</a>,
+          <a href="https://haosun.info/">Hao</a>,
+          <a href="https://chengyuzhang.com/">Chengyu</a>,
+          <a href="https://wintered.github.io/">Dominik</a>, and
+          <a href="https://shao-hua-li.github.io/">Shaohua</a>.
+        </span>
+      </li>
+      <li class="talk-item">
+        <span class="talk-date">Sep 2024</span>
+        <span class="talk-content">
+          <a href="Job/Yahui_Talk_Sep_2024_HO_Effects.pdf">Talk</a> at the
+          <a href="https://www.epfl.ch/en/">EPFL</a> PL Seminar, hosted by
+          <a href="https://people.epfl.ch/viktor.kuncak">Prof. Viktor Kun&ccaron;ak</a>.
+          Great time talking to
+          <a href="https://people.epfl.ch/clement.pit-claudel">Cl&eacute;ment</a>,
+          <a href="https://aurele-barriere.github.io/">Aur&egrave;le</a>,
+          <a href="https://people.epfl.ch/thomas.bourgeat">Thomas</a>,
+          <a href="https://people.epfl.ch/sankalp.gambhir">Sankalp</a>,
+          <a href="https://yawen-guan.com/">Yawen</a>,
+          <a href="https://etaoin-shrdlu.xyz/">Shardul</a>, and
+          <a href="https://samuelchassot.github.io/">Samuel</a>.
+        </span>
+      </li>
+      <li class="talk-item">
+        <span class="talk-date">Sep 2024</span>
+        <span class="talk-content">
+          <a href="Job/Yahui_Talk_Sep_2024_HO_Effects.pdf">Talk</a> at
+          <a href="https://ethz.ch/en.html">ETH Z&uuml;rich</a>
+          with <a href="https://inf.ethz.ch/people/person-detail.mueller.html">Prof. Peter M&uuml;ller</a>'s Group.
+          Great time talking to
+          <a href="https://ista.ac.at/en/research/sammler-group/">Michael</a>,
+          <a href="https://www.pm.inf.ethz.ch/people/personal/meilers-pers.html">Marco</a>,
+          <a href="https://jaoper.com/">Jo&atilde;o</a>, and
+          <a href="https://www.pm.inf.ethz.ch/people/person-detail.html?persid=198607">Felix</a>.
+        </span>
+      </li>
+      <li class="talk-item">
+        <span class="talk-date">Nov 2022</span>
+        <span class="talk-content">
+          Zoom <a href="YahuiSong_LSD_UCSC.pdf">talk</a> on my PhD thesis at the
+          <a href="https://lsd.ucsc.edu/">Languages, Systems, and Data (LSD) Seminar</a>
+          at <a href="https://www.ucsc.edu/">UCSC</a>, hosted by
+          <a href="https://users.soe.ucsc.edu/~lkuper/">Prof. Lindsey Kuper</a>.
+        </span>
+      </li>
+    </ul>
+  </section>
 
-    <br><br>
-  
-    </li>
+  <!-- ── Papers ── -->
+  <section id="papers">
+    <h2>Peer-Reviewed Research Papers</h2>
+    <ul class="papers-list">
 
-      <li  style="margin-bottom:10px;"> 
-    <a style="color:burlywood;text-decoration:none;">TSE2026.</a> 
-    <strong>"Computation Tree Logic Guided Program Repair"</strong>
-    <a style="text-decoration:none;", href= "https://www.computer.org/csdl/journal/ts/5555/01/11218954/2b9TsEWWaze">[pdf]</a>
-    <a style="text-decoration:none;", href= "https://zenodo.org/records/15896690">[artifact]</a>
-    </br>
-    by Yu Liu*,<b>Yahui Song</b>*, Martin Mirchev, Abhik Roychoudhury  <br>
-          <i>IEEE Transactions on Software Engineering</i>.
-
-    <br><br>
-  
-    </li>
-
-
-        <li  style="margin-bottom:10px;"> 
-      <a style="color:burlywood;text-decoration:none;", href="https://2025.splashcon.org/home/sas-2025">SAS2025.</a>
-      <strong>"Specifying and Verifying Future Conditions"</strong> 
-
-            <a style="text-decoration:none;", href= "SAS2025.pdf">[pdf]</a> 
-
-            
-            <a style="text-decoration:none;", href= "https://zenodo.org/records/16690276">[artifact]</a>
-
-      <a style="text-decoration:none;", href= "https://github.com/songyahui/infer_future.git">[code]</a>
-      <a style="text-decoration:none;", href= "SAS2025_slides.pdf">[slides]</a>
-      <a style="text-decoration:none;", href= "SAS2025_specs.pdf">[specs]</a>
-
-    </br>
-      by <b>Yahui Song</b>, Darius Foo, Wei-Ngan Chin. <br>
-      <i>The 32nd Static Analysis Symposium, Singapore</i>.
-             
-         <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><span>FSE 2026</span></div>
+        <div class="paper-content">
+          <div class="paper-title">"Agentic Verification of Software Systems"</div>
+          <div class="paper-authors">Haoxin Tu, Huan Zhao, <strong>Yahui Song</strong>, Mehtab Zafar, Ruijie Meng, Abhik Roychoudhury</div>
+          <div class="paper-venue">ACM International Conference on the Foundations of Software Engineering, Montreal, Canada</div>
+          <div class="paper-links"><a href="https://arxiv.org/pdf/2511.17330v2">pdf</a></div>
+        </div>
       </li>
 
-
-    <li  style="margin-bottom:10px;"> 
-
-      <a style="color:burlywood;text-decoration:none;", href="https://etaps.org/2025/conferences/tacas/">TACAS2025.</a> 
-      <!--  <a style="text-decoration:none;", href= "https://link.springer.com/chapter/10.1007/978-981-99-8311-7_13" ></a> -->
-      <strong>"Inferring Incorrectness Specifications for Object-Oriented Programs"</strong> 
-      <a style="text-decoration:none;", href= "TACAS2025.pdf">[pdf]</a> 
-
-
-
-      
-    </br>
-      by Wenhua Li, Quang Loc Le, <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-      <i>The 31st International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Hamilton, Canada</i>. 
-      
-      
-         <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><span>TSE 2026</span></div>
+        <div class="paper-content">
+          <div class="paper-title">"Computation Tree Logic Guided Program Repair"</div>
+          <div class="paper-authors">Yu Liu*, <strong>Yahui Song</strong>*, Martin Mirchev, Abhik Roychoudhury</div>
+          <div class="paper-venue">IEEE Transactions on Software Engineering</div>
+          <div class="paper-links">
+            <a href="https://www.computer.org/csdl/journal/ts/5555/01/11218954/2b9TsEWWaze">pdf</a>
+            <a href="https://zenodo.org/records/15896690">artifact</a>
+          </div>
+        </div>
       </li>
 
-
-
-    <li  style="margin-bottom:10px;"> 
-      <a style="color:burlywood;text-decoration:none;", href="https://icfp24.sigplan.org/">ICFP2024.</a>
-      <strong>"Specification and Verification for Unrestricted Algebraic Effects and Handling"</strong></a>
-      <a style="text-decoration:none;", href= "ICFP24/ICFP2024.pdf">[pdf]</a> 
-      <a style="text-decoration:none;", href= "ICFP24/ICFP2024_TR.pdf">[appendix]</a>
-      <a style="text-decoration:none;", href= "https://github.com/songyahui/AlgebraicEffect">[code]</a>
-      <a style="text-decoration:none;", href= "ICFP24/ICFP24_Slides.pdf">[slides]</a>
-
-    </br>
-      by <b>Yahui Song</b>, Darius Foo, Wei-Ngan Chin. <br>
-      <i>The 29th ACM SIGPLAN International Conference on Functional Programming, Milan, Italy</i>.
-             
-         <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://2025.splashcon.org/home/sas-2025">SAS 2025</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Specifying and Verifying Future Conditions"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Darius Foo, Wei-Ngan Chin</div>
+          <div class="paper-venue">32nd Static Analysis Symposium, Singapore</div>
+          <div class="paper-links">
+            <a href="SAS2025.pdf">pdf</a>
+            <a href="https://zenodo.org/records/16690276">artifact</a>
+            <a href="https://github.com/songyahui/infer_future.git">code</a>
+            <a href="SAS2025_slides.pdf">slides</a>
+            <a href="SAS2025_specs.pdf">specs</a>
+          </div>
+        </div>
       </li>
 
-    <li  style="margin-bottom:10px;"> 
-      <a style="color:burlywood;text-decoration:none;", href="https://www.fm24.polimi.it/">FM2024.</a>
-      <strong>"Staged Specification Logic for Verifying Higher-Order Imperative Programs"</strong> </a>
-      <a style="text-decoration:none;", href= "FM2024.pdf">[pdf]</a> 
-      <a style="text-decoration:none;", href= "FM2024_TR.pdf">[appendix]</a>
-      <a style="text-decoration:none;", href= "https://github.com/songyahui/AlgebraicEffect">[code]</a>
-
-    </br>
-      by Darius Foo, <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-      <i>The 26th International Symposium on Formal Methods, Milan, Italy</i>.<br>
-      <i style="background-color:yellow;">Our "Staged Logic" has now been fully 
-        <a style="background-color:yellow;", href= "https://github.com/dariusf/staged">formalized in Coq</a>, 
-        thanks to 
-        <a style="background-color:yellow;", href= "https://dariusf.github.io/"> Darius</a>!
-      </i>
-             
-        <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://etaps.org/2025/conferences/tacas/">TACAS 2025</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Inferring Incorrectness Specifications for Object-Oriented Programs"</div>
+          <div class="paper-authors">Wenhua Li, Quang Loc Le, <strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">31st International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Hamilton, Canada</div>
+          <div class="paper-links"><a href="TACAS2025.pdf">pdf</a></div>
+        </div>
       </li>
 
-    <li  style="margin-bottom:10px;"> 
-
-      <a style="color:burlywood;text-decoration:none;", href="https://conf.researchr.org/home/fse-2024">FSE2024.</a> 
-      <!-- <a style="text-decoration:none;", href= "https://dl.acm.org/doi/10.1145/3643737" > </a> -->
-      <strong>"ProveNFix: Temporal Property guided Program Repair"</strong> 
-      <a style="text-decoration:none;", href= "ProveNFix.pdf">[pdf]</a> 
-      <a style="text-decoration:none;", href= "ProveNFix_tr.pdf">[appendix]</a> 
-      <a style="text-decoration:none;", href= "https://github.com/songyahui/infer_TempFix">[code]</a>
-      <a style="text-decoration:none;", href= "ProveNFix_Artifact_Evaluation.pdf">[artifact]</a>
-
-      <a style="text-decoration:none;", href= "FSE24_slides.pdf">[slides]</a>
-
-
-
-    </br>
-      by <b>Yahui Song</b>, Xiang Gao, Wenhua Li, Wei-Ngan Chin, Abhik Roychoudhury. <br>
-      <i>The ACM International Conference on the Foundations of Software Engineering, Porto de Galinhas, Brazil</i>. <br>
-      <strong style="color:green;">ACM SIGSOFT Distinguished Paper Award</strong>
-      
-      
-         <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://icfp24.sigplan.org/">ICFP 2024</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Specification and Verification for Unrestricted Algebraic Effects and Handling"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Darius Foo, Wei-Ngan Chin</div>
+          <div class="paper-venue">29th ACM SIGPLAN International Conference on Functional Programming, Milan, Italy</div>
+          <div class="paper-links">
+            <a href="ICFP24/ICFP2024.pdf">pdf</a>
+            <a href="ICFP24/ICFP2024_TR.pdf">appendix</a>
+            <a href="https://github.com/songyahui/AlgebraicEffect">code</a>
+            <a href="ICFP24/ICFP24_Slides.pdf">slides</a>
+          </div>
+        </div>
       </li>
 
-    <li  style="margin-bottom:10px;"> 
-
-      <a style="color:burlywood;text-decoration:none;", href="https://conf.researchr.org/home/aplas-2023">APLAS2023.</a> 
-      <!--  <a style="text-decoration:none;", href= "https://link.springer.com/chapter/10.1007/978-981-99-8311-7_13" ></a> -->
-      <strong>"Incorrectness Proofs for Object-Oriented Programs via Subclass Reflection"</strong> 
-      <a style="text-decoration:none;", href="APLAS2023.pdf">[pdf]</a>
-      <a style="text-decoration:none;", href="APLAS2023Slides.pdf">[slides]</a>
-
-
-
-      
-    </br>
-      by Wenhua Li, Quang Loc Le, <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-      <i>The 21st Asian Symposium on Programming Languages and Systems, Taipei</i>. 
-      
-      
-         <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://www.fm24.polimi.it/">FM 2024</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Staged Specification Logic for Verifying Higher-Order Imperative Programs"</div>
+          <div class="paper-authors">Darius Foo, <strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">26th International Symposium on Formal Methods, Milan, Italy</div>
+          <div class="paper-links">
+            <a href="FM2024.pdf">pdf</a>
+            <a href="FM2024_TR.pdf">appendix</a>
+            <a href="https://github.com/songyahui/AlgebraicEffect">code</a>
+          </div>
+          <div><span class="badge-coq">Staged Logic fully <a href="https://github.com/dariusf/staged">formalized in Coq</a> by <a href="https://dariusf.github.io/">Darius</a></span></div>
+        </div>
       </li>
 
-
-    <li  style="margin-bottom:10px;"> 
-
-      <a style="color:burlywood;text-decoration:none;", href="https://etaps.org/2023/tacas">TACAS2023.</a> 
-      <!-- <a style="text-decoration:none;", href= "https://link.springer.com/chapter/10.1007/978-3-031-30823-9_29" ></a> -->
-      <strong>"Automated Verification for Real-Time Systems"</strong> 
-      <a style="text-decoration:none;", href= "TACAS2023.pdf">[pdf]</a> 
-      <a style="text-decoration:none;", href= "timed_slides.pdf">[slides]</a>
-      <a style="text-decoration:none;", href= "https://github.com/songyahui/Timed_Verification">[code]</a>
-      <a style="text-decoration:none;", href= "tacas23_appendix.pdf">[proofs]</a>
-
-
-      
-    </br>
-      by <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-      <i>The 29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Paris, France</i>. 
-      
-      
-         <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://conf.researchr.org/home/fse-2024">FSE 2024</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"ProveNFix: Temporal Property guided Program Repair"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Xiang Gao, Wenhua Li, Wei-Ngan Chin, Abhik Roychoudhury</div>
+          <div class="paper-venue">ACM International Conference on the Foundations of Software Engineering, Porto de Galinhas, Brazil</div>
+          <div class="paper-links">
+            <a href="ProveNFix.pdf">pdf</a>
+            <a href="ProveNFix_tr.pdf">appendix</a>
+            <a href="https://github.com/songyahui/infer_TempFix">code</a>
+            <a href="ProveNFix_Artifact_Evaluation.pdf">artifact</a>
+            <a href="FSE24_slides.pdf">slides</a>
+          </div>
+          <div><span class="badge-award">ACM SIGSOFT Distinguished Paper Award</span></div>
+        </div>
       </li>
 
-    
-    <li  style="margin-bottom:10px;"> 
-      <a style="color:burlywood;text-decoration:none;", href="https://conf.researchr.org/home/aplas-2022">APLAS2022.</a>
-      <!-- <a style="text-decoration:none;", href= "https://link.springer.com/chapter/10.1007/978-3-031-21037-2_5" > </a> -->
-      <strong>"Automated Temporal Verification for Algebraic Effects"</strong> 
-      <a style="text-decoration:none;", href="APLAS2022.pdf">[pdf]</a>
-      <a style="text-decoration:none;", href= "APLAS22_Effects_my.pdf">[slides]</a>
-      <a style="text-decoration:none;", href= "https://github.com/songyahui/AlgebraicEffect">[code]</a>
-
-    </br>
-      by <b>Yahui Song</b>, Darius Foo, Wei-Ngan Chin. <br>
-      <i>The 20th Asian Symposium on Programming Languages and Systems, Auckland, New Zealand</i>.
-             
-         <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://conf.researchr.org/home/aplas-2023">APLAS 2023</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Incorrectness Proofs for Object-Oriented Programs via Subclass Reflection"</div>
+          <div class="paper-authors">Wenhua Li, Quang Loc Le, <strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">21st Asian Symposium on Programming Languages and Systems, Taipei</div>
+          <div class="paper-links">
+            <a href="APLAS2023.pdf">pdf</a>
+            <a href="APLAS2023Slides.pdf">slides</a>
+          </div>
+        </div>
       </li>
 
-
-    <li  style="margin-bottom:10px;"> 
-      <a style="color:burlywood;text-decoration:none;", href="https://popl21.sigplan.org/home/VMCAI-2021">VMCAI2021.</a> 
-      <!-- <a style="text-decoration:none;", href= "https://link.springer.com/chapter/10.1007/978-3-030-67067-2_19" ></a>  -->
-        <strong>"A Synchronous Effects Logic for Temporal Verification of Pure Esterel"</strong>
-      <a style="text-decoration:none;", href= "VMCAI2021.pdf">[pdf]</a>
-      <a style="text-decoration:none;", href= "VMCAI.pdf">[slides]</a>
-      <a style="text-decoration:none;", href= "https://github.com/songyahui/SyncedEffects">[code]</a>
-      <!-- <a style="text-decoration:none;", href= "https://www.youtube.com/watch?v=NKowPEtK4OY">[video]</a> -->
-      <a style="text-decoration:none;", href= "http://loris-5.d2.comp.nus.edu.sg/SyncedEffects/verify.html?ex=APLAS20_fig6.765.c&type=c&options=sess&result=APLAS20_fig6.765.c.txt">[demo]</a>
-
-    </br>
-      by <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-      <i>The 22nd International Conference on Verification, Model Checking, and Abstract Interpretation, Online</i>.
-      
-         <br><br>
-      </li>
-    
-    <li  style="margin-bottom:10px;"> 
-      <a style="color:burlywood;text-decoration:none;", href="https://formal-analysis.com/icfem/2020/">ICFEM2020.</a> 
-      <!--<a style="text-decoration:none;", href= "https://link.springer.com/chapter/10.1007/978-3-030-63406-3_5"></a>  -->
-        <strong> "Automated Temporal Verification of Integrated Dependent Effects"  </strong>
-      <a style="text-decoration:none;", href= "ICFEM20.pdf">[pdf]</a>
-      <a style="text-decoration:none;", href= ICFEM2020.pdf>[slides]</a>
-      <a style="text-decoration:none;", href= "https://github.com/songyahui/EFFECTS">[code]</a>
-      <!--<a style="text-decoration:none;", href= "https://www.youtube.com/watch?v=xztQ-6aCR8E">[video]</a> -->
-      <a style="text-decoration:none;", href= "http://loris-5.d2.comp.nus.edu.sg/EffectNew/index.html?ex=send_valid&type=c&options=sess">[demo]</a>
-
-    </br>
-      by <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-      <i>The 22nd International Conference on Formal Engineering Methods, Singapore</i>.
-
-         <br><br>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://etaps.org/2023/tacas">TACAS 2023</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Automated Verification for Real-Time Systems"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Paris, France</div>
+          <div class="paper-links">
+            <a href="TACAS2023.pdf">pdf</a>
+            <a href="timed_slides.pdf">slides</a>
+            <a href="https://github.com/songyahui/Timed_Verification">code</a>
+            <a href="tacas23_appendix.pdf">proofs</a>
+          </div>
+        </div>
       </li>
 
-              
-
-</ul>
-<hr>
-
-<h3 style="color:darkred">Theses and Preprints</h3>
-<ul type="disc">
-
-
-
-  <li  style="margin-bottom:10px;"> 
-    <a style="color:burlywood;text-decoration:none;">Arxiv.</a> 
-    <strong>"Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning"</strong>
-    <a style="text-decoration:none;", href= "https://arxiv.org/abs/2502.13416">[pdf]</a>
-    </br>
-    by Ningke Li*, <b>Yahui Song</b>*, Kailong Wang, Yuekang Li, Ling Shi, Yi Liu, Haoyu Wang  <br><br>
-  
-    </li>
-
-
-
-
-      <li  style="margin-bottom:10px;"> 
-    <a style="color:burlywood;text-decoration:none;">PhD Thesis.</a> 
-      <strong>"Symbolic Temporal Verification Techniques with Extended Regular Expressions"</strong> 
-    
-      <a style="text-decoration:none;", href= "phdThesis.pdf">[pdf]</a>
-          <a style="text-decoration:none;", href= "Yahui_PhD_Defence.pdf">[slides]</a>
-    </br>
-    <i>Degree of Doctor of Philosophy, Department of Computer Science, National University of Singapore.</a> </i>  
-              <br>
-      Supervisor: <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/bio/chinwn/"> 
-        Wei-Ngan Chin</a>.<br>
-      Committee: <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/people/joxan/"> 
-        Joxan Jaffar</a>, 
-        <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/people/dongjs/"> 
-          Jin Song Dong</a>.<br>
-      <br>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://conf.researchr.org/home/aplas-2022">APLAS 2022</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Automated Temporal Verification for Algebraic Effects"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Darius Foo, Wei-Ngan Chin</div>
+          <div class="paper-venue">20th Asian Symposium on Programming Languages and Systems, Auckland, New Zealand</div>
+          <div class="paper-links">
+            <a href="APLAS2022.pdf">pdf</a>
+            <a href="APLAS22_Effects_my.pdf">slides</a>
+            <a href="https://github.com/songyahui/AlgebraicEffect">code</a>
+          </div>
+        </div>
       </li>
 
-
-  
-
-
-  <li  style="margin-bottom:10px;"> 
-    <a style="color:burlywood;text-decoration:none;">Manuscript.</a> 
-    <strong>"Automated Temporal Verification for Preemptive Asynchronous Programs"</strong>
-    <a style="text-decoration:none;", href= "ecoop23-paper104.pdf">[pdf]</a>
-    <a style="text-decoration:none;", href= "https://github.com/songyahui/Semantics_HIPHOP">[code]</a>
-    </br>
-    by <b>Yahui Song</b>, Wei-Ngan Chin. <br><br>
-  
-    </li>
-  
-
-
-  <li  style="margin-bottom:10px;"> 
-    <a style="color:burlywood;text-decoration:none;">Manuscript.</a> 
-    <!--<strong style="color:burlywood;text-decoration:none;">Accepted For Presentation.</strong>  --> 
-    <strong>"An SQL Frontend on top of OCaml for Data Analysis"</strong> (Presented in <a  href="https://ifl22.github.io/">IFL2022</a>) 
-    <a style="text-decoration:none;", href= "IFL2022.pdf">[pdf]</a>
-    <a style="text-decoration:none;", href= "ifl22.pdf">[slides]</a>
-    <a style="text-decoration:none;", href= "https://github.com/dyzsr/ocaml-selectml">[code]</a>
-  </br>
-    by Yan Dong, <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-    <i>The 34th Symposium on Implementation and Application of Functional Languages, Copenhagen, Denmark</i>. 
-    
-       <br><br>
-    </li>
-
-    <li  style="margin-bottom:10px;"> 
-      <a style="color:burlywood;text-decoration:none;">Master Thesis.</a>  
-        <strong>"Programming Abstraction for IoT Devices"</strong> 
-        <a style="text-decoration:none;", href= "Thesis.pdf">[pdf]</a>
-        <a style="text-decoration:none;", href= "https://www.youtube.com/watch?v=p3CbJI8lLIs&feature=youtu.be">[demo]</a>
-      </br>
-      <i>Degree of Master of Computing, Department of Computer Science, National University of Singapore.</a> </i>
-        
-           <br>
-      Supervisor: <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/bio/chinwn/"> 
-        Wei-Ngan Chin</a>, co-supervised by <a style="text-decoration:none;", href= "https://researchmap.jp/faisal">Mahmudul Faisal Al Ameen</a>.<br>
-        Committee: <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/people/khoosc/"> 
-          Siau-Cheng Khoo</a>, 
-          <a style="text-decoration:none;"> 
-            Hugh Anderson</a>.<br>      
-        <br>
-        </li>
-
-   
-
-
-  </ul>  
-<hr>
-
-<h3 style="color:darkred">Service</h3>
-<ul type="disc">
-
-  
-
-  <li style="margin-bottom:5px;">Program Committee <em> of </em> 
-
-    <a style="text-decoration:none;", href= "https://icfp26.sigplan.org/committee/haskellsymp-2026-papers-program-committee"> Haskell'26</a>,
-    <a style="text-decoration:none;", href= "https://dl.acm.org/journal/tosem"> TOSEM'25</a>,
-    <a style="text-decoration:none;", href= "https://conf.researchr.org/committee/icse-2026/icse-2026-research-track-research-track"> ICSE'26</a>,
-    <a style="text-decoration:none;", href= "https://icfp25.sigplan.org/track/icfp-2025-papers"> ICFP'25</a>,  
-    <a style="text-decoration:none;", href= "https://2025.splashcon.org/track/splash-2025-SRC"> SRC@SPLASH'25</a>,  
-    <a style="text-decoration:none;"> HOPE'25</a>, 
-    <a style="text-decoration:none;"> OCaml'25</a>,    
-    <a style="text-decoration:none;", href= "https://program-repair.org/workshop-2025/"> APR@ICSE'25</a>, 
-    <a style="text-decoration:none;", href= "https://tase2024.github.io/c_pcm.html"> TASE'24 and its Special Journal Issue</a>, 
-    <a style="text-decoration:none;", href= "https://uva-mcps-lab.github.io/RV21/callforpapers.html"> STTT'21 (RV'21 Special Journal Issue)</a>.
-    </li>
-
-
-  <li style="margin-bottom:5px;"> Artifact Evaluation Committee <em> of: </em>  
-    <a style="text-decoration:none;", href= "http://www.i-cav.org/2023/"> CAV'23</a>,  
-    <a style="text-decoration:none;", href= "http://i-cav.org/2022/call-for-papers/"> CAV'22</a>,  
-    <a style="text-decoration:none;", href= "https://pldi22.sigplan.org"> PLDI'22</a>,
-    <a style="text-decoration:none;", href= "https://popl22.sigplan.org"> POPL'22</a>, 
-    <a style="text-decoration:none;", href= "https://etaps.org/2022/esop"> ESOP'22</a>. </li>
-  <li style="margin-bottom:5px;">  Subreviewer <em> of: </em>  <a style="text-decoration:none;", href= "https://popl22.sigplan.org"> POPL'22</a>. </li>
-
-  <li style="margin-bottom:5px;"> <a style="text-decoration:none;", href= "https://pldi19.sigplan.org"> PLDI'19</a> <em>PLMW Scholarship, Student Volunteering </em> in Phoenix, Arizona, United States.</li>
-
-
-</ul>
-<hr>
-
-
-
-<h3 style="color:darkred">Student Research Competition</h3>
-<ul type="disc">
-
-  <li  style="margin-bottom:10px;"> 
-    <!--<strong style="color:burlywood;text-decoration:none;">Student Research Competition.</strong> -->
-    <a style="color:burlywood;text-decoration:none;", href= "https://2022.splashcon.org/track/splash-2022-SRC">SPLASH2022.</a> 
-
-    <a style="text-decoration:none;", href= "https://dl.acm.org/doi/abs/10.1145/3563768.3563953"><strong>"Automated Verification for Real-Time Systems using Implicit Clocks and an Extended Antimirov Algorithm"</strong></a> 
-    <a style="text-decoration:none;", href= "SPLASH_SRC_22_Poster.pdf">[poster]</a>
-    <a style="text-decoration:none;", href= "SPLASH2022SRC.pdf">[pdf]</a>
-    <a style="text-decoration:none;", href= "https://github.com/songyahui/TimedVerification">[code]</a>
-    <a style="text-decoration:none;", href= "splash22Certificate.pdf">[certificate]</a>
-
-
-   
-  </br>
-    by <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-    <i>SPLASH SRC, Auckland, New Zealand</i>. 
-
-
-    
-    
-       <br><br>
-    </li>
-  
-
-
-  <li  style="margin-bottom:10px;"> 
-    <a style="color:burlywood;text-decoration:none;", href= "https://conf.researchr.org/home/aplas-2019">APLAS2019.</a>
-    <!-- <strong style="color:burlywood;text-decoration:none;">POSTER.</strong>  </br> -->
-    <strong>"Automated Temporal Verification via Rewriting Conditional Dependent Effects"</strong> 
-    <a style="text-decoration:none;", href= "aplas_poster_19.pdf">[pdf]</a>
-  </br>
-    by <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-    <i>The 17th Asian Symposium on Programming Languages and Systems, Indonesia</i>.
-       <br><br>
-    </li>
-
-
-
-
-
-    <li  style="margin-bottom:10px;"> 
-      <a style="color:burlywood;text-decoration:none;", href= "http://aplas2018.org">APLAS2018.</a> 
-        <strong>"Arrowrized Abstraction for IOT programs"</strong>  
-        <a style="text-decoration:none;", href= "my_poster.pdf">[pdf]</a>
-           <br>
-        by <b>Yahui Song</b>, Wei-Ngan Chin. <br>
-        <i>The 16th Asian Symposium on Programming Languages and Systems, New Zealand</i>.
-        <br>
-           <strong style="color:green;", href= "poster_award.jpg">First Prize Student Research Competition</strong>  
-           <br><br>
-        </li>
-
-            
-
-</ul>
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-<h3 style="color:darkred">Teaching Experience</h3>
-<ul type="disc">
-
-<li style="margin-bottom:5px;">  I am the TA for <em>IT5100A: Typed Functional Programming in Practice</em> with <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/bio/chinwn/">Dr. Wei-Ngan Chin</a> and <a style="text-decoration:none;", href= "https://sg.linkedin.com/in/razvan-voicu-89061711">Dr. Razvan Voicu</a>.
-    <br>- Semester 2, 2021/2022. </li>
-  
-
-<li style="margin-bottom:5px;">  
-  <strong style="color:green;">Honor List of Student Tutors for Excellence of Teaching, 2020-2021.</strong>
-    <a style="text-decoration:none;", href= "teaching_award.pdf">[certificate]</a>
-    </li>
-
-<li style="margin-bottom:5px;">  TA for <em>TIC2701: Principles of Programming Languages</em> with <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/bio/adi-yoga/">Dr. PRABAWA Adi Yoga Sidi</a>.
-  <br>- Semester 1, 2020/2021. <a style="text-decoration:none;", href= "TEACHERREPORTTIC2701.pdf">[feedback report]</a></li>
-
-<li style="margin-bottom:5px;">  TA for <em>CS2104: Programming Language Concepts</em> with <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/bio/chinwn/">Dr. Wei-Ngan Chin</a>.
-  <br>- Semester 1, 2020/2021. <a style="text-decoration:none;", href= "TEACHERREPORTCS2104.pdf">[feedback report]</a></li>
-
-<li style="margin-bottom:5px;">  Grader for <em>YSC1212 in Yale-NUS College: Introduction to Computer Science</em> with <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/~hobor/">Dr. Aquinas Hobor</a>.
-  <br>- Semester 1, 2020/2021. </li>
-
-<li style="margin-bottom:5px;">  TA for <em>CS4215: Programming Language Implementation</em> with <a style="text-decoration:none;", href= "https://sg.linkedin.com/in/razvan-voicu-89061711">Dr. Razvan Voicu</a>.
-  <br>- Semester 2, 2018/2019.</li>
-  
-
-<li style="margin-bottom:5px;">  TA for <em>CS3203: Software Engineering Project</em> with <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/bio/zhaojin/">Dr. ZHAO Jin</a> and <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/bio/ccris/">Dr. Cristina CARBUNARU</a>.
-  <br>- Semester 2, 2020/2021.   
-  <br>- Semester 1 & 2, 2019/2020. <a style="text-decoration:none;", href= "CS3203SYH19_20_1.pdf">[feedback report]</a>
-  <br>- Semester 2, 2018/2019. <a style="text-decoration:none;", href= "CS3203SYH18_19_2.pdf">[feedback report]</a>
-</li>
-
-<li style="margin-bottom:5px;">  TA for <em>CS3219: Software Engineering Principles and Patterns</em> with <a style="text-decoration:none;", href= "https://www.comp.nus.edu.sg/cs/bio/bimlesh/">Dr. Bimlesh WADHWA</a>.
-  <br>- Semester 1, 2020/2021. 
-  <br>- Semester 1 & 2, 2019/2020.
-  <br>- Semester 1, 2018/2019.   
-  <br>- Semester 1, 2017/2018.
-</li>
-</ul>
-<hr>
-
-
-
-
-
-
- 
-<h3 style="color:darkred">More</h3>
-<ul type="disc">
-
-
-
-<li style="margin-bottom:5px;"> 
-  <a style="color:burlywood;text-decoration:none;">INTERNSHIP.</a> I did an exciting internship in the <em> Security lab of Huawei </em> in Singapore,  
-    supervised by <a style="text-decoration:none;", href= "https://scholar.google.com/citations?user=5ehyiboAAAAJ&hl=zh-CN">Dr. Shengchao Qin</a> 
-    and co-supervised by <a style="text-decoration:none;", href= "https://scholar.google.com/citations?user=lcbZHF8AAAAJ&hl=zh-CN">Dr. Mengda He</a>.
-     <a style="text-decoration:none;", href= "HUAWEI.jpeg">[Certificate]</a></li>
-
-
-
-<li style="margin-bottom:5px;"> NUS Soc Research Week 2021 <em>Presentation </em> in Singapore. 
-  <a style="text-decoration:none;", href= "http://loris-5.d2.comp.nus.edu.sg/MixedSyncAsync/introduction.html">[demo]</a>
-  <!--<a style="text-decoration:none;", href= "https://www.youtube.com/watch?v=zB-aL6VjpVY">[video]</a> --> 
-  <a style="text-decoration:none;", href= "timed_effects/timed_eff.pdf">[slides]</a>
-
-</li>
-
-
-<li style="margin-bottom:5px;"> The 31st symposium on Implementation and Application of Functional Languages
-    <em> Draft Paper for Presentation </em> in NUS, Singapore. <a style="text-decoration:none;", href= "IFL2019.pdf">[slides]</a></li>
-
-
-<li style="margin-bottom:5px;"> NUS Soc Research Week 2019 <em>Presentation </em> in Singapore. <a style="text-decoration:none;", href= "7Aug_Friot_YahuiSong.pdf">[slides]</a></li>
-
-
-
-
-<li  style="margin-bottom:5px;"> 
-  <a style="color:burlywood;text-decoration:none;">HACKATHON.</a> GSAC 2018 Singapore Hackathon (ALIBABA & LAZADA): scheduling algorithm competition
-    <a style="text-decoration:none;", href= "https://mp.weixin.qq.com/s/8-FcbKGmfjeZPldyS_bUrw">(First Prize)</a>.
-    </li> 
-
-<li  style="margin-bottom:5px;"> 
-  <a>Papers that I am reading:</a>
-  <br> <a href="https://dl.acm.org/doi/pdf/10.1145/3729267">Robustifying Debug Information Updates in LLVM via Control-Flow Conformance Analysis</a>
-
-  <br> <a href="https://dl.acm.org/doi/pdf/10.1145/3720476">Modal Effect Types</a>
-
-  <br>
-    <a href="https://arxiv.org/pdf/2010.05812">A Complete Approach to Loop Verification with Invariants and Summaries</a>
-  <br>
-    <a href="https://www.sosy-lab.org/research/pub/2025-TACAS.Improvements_in_Software_Verification_and_Witness_Validation_SV-COMP_2025.pdf">Improvements in Software Verification and Witness Validation: SV-COMP 2025</a>
-
-  <br>
-    <a href=Future.hs>FutureCond.hs</a>
-  
-
-  </li> 
-
-
-</ul>
-
-
-<!--
-<hr>
-
-  <h3 style="color:darkred">Others</h3>
-  <ul type="disc">
-   <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
-       auto;mso-list:l3 level1 lfo6;tab-stops:list .5in"><a style="text-decoration:none;", href= "https://www.youtube.com/watch?v=p3CbJI8lLIs&feature=youtu.be"> Language Abstraction for IoT Experiments on Raspberry Pi 3.</a> </li>
-  </ul>
--->
-  
-   </tr>
-  </tbody></table>
-
-  </td>
- </tr>
-</tbody></table>
-
-<p class="MsoNormal"><span style="color:windowtext"><o:p>&nbsp;</o:p></span></p>
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://popl21.sigplan.org/home/VMCAI-2021">VMCAI 2021</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"A Synchronous Effects Logic for Temporal Verification of Pure Esterel"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">22nd International Conference on Verification, Model Checking, and Abstract Interpretation, Online</div>
+          <div class="paper-links">
+            <a href="VMCAI2021.pdf">pdf</a>
+            <a href="VMCAI.pdf">slides</a>
+            <a href="https://github.com/songyahui/SyncedEffects">code</a>
+            <a href="http://loris-5.d2.comp.nus.edu.sg/SyncedEffects/verify.html?ex=APLAS20_fig6.765.c&type=c&options=sess&result=APLAS20_fig6.765.c.txt">demo</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://formal-analysis.com/icfem/2020/">ICFEM 2020</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Automated Temporal Verification of Integrated Dependent Effects"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">22nd International Conference on Formal Engineering Methods, Singapore</div>
+          <div class="paper-links">
+            <a href="ICFEM20.pdf">pdf</a>
+            <a href="ICFEM2020.pdf">slides</a>
+            <a href="https://github.com/songyahui/EFFECTS">code</a>
+            <a href="http://loris-5.d2.comp.nus.edu.sg/EffectNew/index.html?ex=send_valid&type=c&options=sess">demo</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- ── Theses & Preprints ── -->
+  <section id="preprints">
+    <h2>Theses &amp; Preprints</h2>
+    <ul class="papers-list">
+
+      <li class="paper-item">
+        <div class="venue-badge"><span>Arxiv</span></div>
+        <div class="paper-content">
+          <div class="paper-title">"Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning"</div>
+          <div class="paper-authors">Ningke Li*, <strong>Yahui Song</strong>*, Kailong Wang, Yuekang Li, Ling Shi, Yi Liu, Haoyu Wang</div>
+          <div class="paper-links"><a href="https://arxiv.org/abs/2502.13416">pdf</a></div>
+        </div>
+      </li>
+
+      <li class="paper-item">
+        <div class="venue-badge"><span>PhD Thesis</span></div>
+        <div class="paper-content">
+          <div class="paper-title">"Symbolic Temporal Verification Techniques with Extended Regular Expressions"</div>
+          <div class="paper-authors">Doctor of Philosophy, Department of Computer Science, National University of Singapore</div>
+          <div class="paper-venue">
+            Supervisor: <a href="https://www.comp.nus.edu.sg/cs/bio/chinwn/">Wei-Ngan Chin</a> &middot;
+            Committee: <a href="https://www.comp.nus.edu.sg/cs/people/joxan/">Joxan Jaffar</a>,
+            <a href="https://www.comp.nus.edu.sg/cs/people/dongjs/">Jin Song Dong</a>
+          </div>
+          <div class="paper-links">
+            <a href="phdThesis.pdf">pdf</a>
+            <a href="Yahui_PhD_Defence.pdf">slides</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="paper-item">
+        <div class="venue-badge"><span>Manuscript</span></div>
+        <div class="paper-content">
+          <div class="paper-title">"Automated Temporal Verification for Preemptive Asynchronous Programs"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-links">
+            <a href="ecoop23-paper104.pdf">pdf</a>
+            <a href="https://github.com/songyahui/Semantics_HIPHOP">code</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="paper-item">
+        <div class="venue-badge"><span>Manuscript</span></div>
+        <div class="paper-content">
+          <div class="paper-title">"An SQL Frontend on top of OCaml for Data Analysis"</div>
+          <div class="paper-authors">Yan Dong, <strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">Presented at <a href="https://ifl22.github.io/">IFL2022</a> &middot; 34th Symposium on Implementation and Application of Functional Languages, Copenhagen, Denmark</div>
+          <div class="paper-links">
+            <a href="IFL2022.pdf">pdf</a>
+            <a href="ifl22.pdf">slides</a>
+            <a href="https://github.com/dyzsr/ocaml-selectml">code</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="paper-item">
+        <div class="venue-badge"><span>Master Thesis</span></div>
+        <div class="paper-content">
+          <div class="paper-title">"Programming Abstraction for IoT Devices"</div>
+          <div class="paper-authors">Master of Computing, Department of Computer Science, National University of Singapore</div>
+          <div class="paper-venue">
+            Supervisor: <a href="https://www.comp.nus.edu.sg/cs/bio/chinwn/">Wei-Ngan Chin</a>,
+            co-supervised by <a href="https://researchmap.jp/faisal">Mahmudul Faisal Al Ameen</a> &middot;
+            Committee: <a href="https://www.comp.nus.edu.sg/cs/people/khoosc/">Siau-Cheng Khoo</a>, Hugh Anderson
+          </div>
+          <div class="paper-links">
+            <a href="Thesis.pdf">pdf</a>
+            <a href="https://www.youtube.com/watch?v=p3CbJI8lLIs&feature=youtu.be">demo</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- ── Service ── -->
+  <section id="service">
+    <h2>Service</h2>
+    <ul class="simple-list">
+      <li class="simple-item">
+        <strong>Program Committee:</strong>
+        <a href="https://icfp26.sigplan.org/committee/haskellsymp-2026-papers-program-committee">Haskell'26</a>,
+        <a href="https://dl.acm.org/journal/tosem">TOSEM'25</a>,
+        <a href="https://conf.researchr.org/committee/icse-2026/icse-2026-research-track-research-track">ICSE'26</a>,
+        <a href="https://icfp25.sigplan.org/track/icfp-2025-papers">ICFP'25</a>,
+        <a href="https://2025.splashcon.org/track/splash-2025-SRC">SRC@SPLASH'25</a>,
+        HOPE'25, OCaml'25,
+        <a href="https://program-repair.org/workshop-2025/">APR@ICSE'25</a>,
+        <a href="https://tase2024.github.io/c_pcm.html">TASE'24 and its Special Journal Issue</a>,
+        <a href="https://uva-mcps-lab.github.io/RV21/callforpapers.html">STTT'21 (RV'21 Special Journal Issue)</a>
+      </li>
+      <li class="simple-item">
+        <strong>Artifact Evaluation Committee:</strong>
+        <a href="http://www.i-cav.org/2023/">CAV'23</a>,
+        <a href="http://i-cav.org/2022/call-for-papers/">CAV'22</a>,
+        <a href="https://pldi22.sigplan.org">PLDI'22</a>,
+        <a href="https://popl22.sigplan.org">POPL'22</a>,
+        <a href="https://etaps.org/2022/esop">ESOP'22</a>
+      </li>
+      <li class="simple-item">
+        <strong>Subreviewer:</strong>
+        <a href="https://popl22.sigplan.org">POPL'22</a>
+      </li>
+      <li class="simple-item">
+        <a href="https://pldi19.sigplan.org">PLDI'19</a> PLMW Scholarship &amp; Student Volunteering &mdash; Phoenix, Arizona, USA
+      </li>
+    </ul>
+  </section>
+
+  <!-- ── Student Research Competition ── -->
+  <section id="src">
+    <h2>Student Research Competition</h2>
+    <ul class="papers-list">
+
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://2022.splashcon.org/track/splash-2022-SRC">SPLASH 2022</a></div>
+        <div class="paper-content">
+          <div class="paper-title">
+            <a href="https://dl.acm.org/doi/abs/10.1145/3563768.3563953">
+              "Automated Verification for Real-Time Systems using Implicit Clocks and an Extended Antimirov Algorithm"
+            </a>
+          </div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">SPLASH SRC, Auckland, New Zealand</div>
+          <div class="paper-links">
+            <a href="SPLASH_SRC_22_Poster.pdf">poster</a>
+            <a href="SPLASH2022SRC.pdf">pdf</a>
+            <a href="https://github.com/songyahui/TimedVerification">code</a>
+            <a href="splash22Certificate.pdf">certificate</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="paper-item">
+        <div class="venue-badge"><a href="https://conf.researchr.org/home/aplas-2019">APLAS 2019</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Automated Temporal Verification via Rewriting Conditional Dependent Effects"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">17th Asian Symposium on Programming Languages and Systems, Indonesia</div>
+          <div class="paper-links"><a href="aplas_poster_19.pdf">pdf</a></div>
+        </div>
+      </li>
+
+      <li class="paper-item">
+        <div class="venue-badge"><a href="http://aplas2018.org">APLAS 2018</a></div>
+        <div class="paper-content">
+          <div class="paper-title">"Arrowrized Abstraction for IoT Programs"</div>
+          <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
+          <div class="paper-venue">16th Asian Symposium on Programming Languages and Systems, New Zealand</div>
+          <div class="paper-links"><a href="my_poster.pdf">pdf</a></div>
+          <div><span class="badge-award">First Prize, Student Research Competition</span></div>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- ── Teaching ── -->
+  <section id="teaching">
+    <h2>Teaching Experience</h2>
+    <ul class="simple-list">
+      <li class="simple-item">
+        TA &mdash; <em>IT5100A: Typed Functional Programming in Practice</em>
+        with <a href="https://www.comp.nus.edu.sg/cs/bio/chinwn/">Dr. Wei-Ngan Chin</a>
+        and <a href="https://sg.linkedin.com/in/razvan-voicu-89061711">Dr. Razvan Voicu</a>
+        <span class="sub">&middot; Sem 2, 2021/2022</span>
+      </li>
+      <li class="simple-item">
+        <span class="award-inline">Honor List of Student Tutors for Excellence of Teaching, 2020&ndash;2021</span>
+        <a href="teaching_award.pdf" style="font-size:12px;margin-left:0.4rem;color:var(--accent);text-decoration:none;">[certificate]</a>
+      </li>
+      <li class="simple-item">
+        TA &mdash; <em>TIC2701: Principles of Programming Languages</em>
+        with <a href="https://www.comp.nus.edu.sg/cs/bio/adi-yoga/">Dr. PRABAWA Adi Yoga Sidi</a>
+        <span class="sub">&middot; Sem 1, 2020/2021 &middot; <a href="TEACHERREPORTTIC2701.pdf">feedback report</a></span>
+      </li>
+      <li class="simple-item">
+        TA &mdash; <em>CS2104: Programming Language Concepts</em>
+        with <a href="https://www.comp.nus.edu.sg/cs/bio/chinwn/">Dr. Wei-Ngan Chin</a>
+        <span class="sub">&middot; Sem 1, 2020/2021 &middot; <a href="TEACHERREPORTCS2104.pdf">feedback report</a></span>
+      </li>
+      <li class="simple-item">
+        Grader &mdash; <em>YSC1212: Introduction to Computer Science</em> (Yale-NUS College)
+        with <a href="https://www.comp.nus.edu.sg/~hobor/">Dr. Aquinas Hobor</a>
+        <span class="sub">&middot; Sem 1, 2020/2021</span>
+      </li>
+      <li class="simple-item">
+        TA &mdash; <em>CS4215: Programming Language Implementation</em>
+        with <a href="https://sg.linkedin.com/in/razvan-voicu-89061711">Dr. Razvan Voicu</a>
+        <span class="sub">&middot; Sem 2, 2018/2019</span>
+      </li>
+      <li class="simple-item">
+        TA &mdash; <em>CS3203: Software Engineering Project</em>
+        with <a href="https://www.comp.nus.edu.sg/cs/bio/zhaojin/">Dr. ZHAO Jin</a>
+        and <a href="https://www.comp.nus.edu.sg/cs/bio/ccris/">Dr. Cristina CARBUNARU</a>
+        <span class="sub">
+          &middot; Sem 2 2020/2021
+          &middot; Sem 1&amp;2 2019/2020 (<a href="CS3203SYH19_20_1.pdf">feedback</a>)
+          &middot; Sem 2 2018/2019 (<a href="CS3203SYH18_19_2.pdf">feedback</a>)
+        </span>
+      </li>
+      <li class="simple-item">
+        TA &mdash; <em>CS3219: Software Engineering Principles and Patterns</em>
+        with <a href="https://www.comp.nus.edu.sg/cs/bio/bimlesh/">Dr. Bimlesh WADHWA</a>
+        <span class="sub">&middot; Sem 1 2020/2021 &middot; Sem 1&amp;2 2019/2020 &middot; Sem 1 2018/2019 &middot; Sem 1 2017/2018</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ── More ── -->
+  <section id="more">
+    <h2>More</h2>
+    <ul class="simple-list">
+      <li class="simple-item">
+        <span class="kw">Internship</span>
+        Security Lab of Huawei, Singapore &mdash;
+        supervised by <a href="https://scholar.google.com/citations?user=5ehyiboAAAAJ&hl=zh-CN">Dr. Shengchao Qin</a>
+        and co-supervised by <a href="https://scholar.google.com/citations?user=lcbZHF8AAAAJ&hl=zh-CN">Dr. Mengda He</a>
+        &middot; <a href="HUAWEI.jpeg">certificate</a>
+      </li>
+      <li class="simple-item">
+        NUS SoC Research Week 2021 Presentation, Singapore
+        &middot; <a href="http://loris-5.d2.comp.nus.edu.sg/MixedSyncAsync/introduction.html">demo</a>
+        &middot; <a href="timed_effects/timed_eff.pdf">slides</a>
+      </li>
+      <li class="simple-item">
+        31st Symposium on Implementation and Application of Functional Languages &mdash; Draft Paper for Presentation, NUS, Singapore
+        &middot; <a href="IFL2019.pdf">slides</a>
+      </li>
+      <li class="simple-item">
+        NUS SoC Research Week 2019 Presentation, Singapore
+        &middot; <a href="7Aug_Friot_YahuiSong.pdf">slides</a>
+      </li>
+      <li class="simple-item">
+        <span class="kw">Hackathon</span>
+        GSAC 2018 Singapore Hackathon (Alibaba &amp; Lazada): scheduling algorithm competition
+        &middot; <a href="https://mp.weixin.qq.com/s/8-FcbKGmfjeZPldyS_bUrw">First Prize</a>
+      </li>
+      <li class="simple-item">
+        <strong>Papers I'm reading:</strong>
+        <ul class="reading-list">
+          <li><a href="https://dl.acm.org/doi/pdf/10.1145/3729267">Robustifying Debug Information Updates in LLVM via Control-Flow Conformance Analysis</a></li>
+          <li><a href="https://dl.acm.org/doi/pdf/10.1145/3720476">Modal Effect Types</a></li>
+          <li><a href="https://arxiv.org/pdf/2010.05812">A Complete Approach to Loop Verification with Invariants and Summaries</a></li>
+          <li><a href="https://www.sosy-lab.org/research/pub/2025-TACAS.Improvements_in_Software_Verification_and_Witness_Validation_SV-COMP_2025.pdf">Improvements in Software Verification and Witness Validation: SV-COMP 2025</a></li>
+          <li><a href="Future.hs">FutureCond.hs</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
 </div>
-</div>
+
+<footer>Yahui Song &middot; Last updated May 2026</footer>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-75882173-1', 'auto');
   ga('send', 'pageview');
-
 </script>
+
 </body>
 </html>
-

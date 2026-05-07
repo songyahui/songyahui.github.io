@@ -25,8 +25,8 @@
       font-family: 'Inter', sans-serif;
       color: var(--text);
       background: var(--bg);
-      line-height: 1.5;
-      font-size: 15px;
+      line-height: 1.65;
+      font-size: 16px;
     }
 
     /* ── Navigation ── */
@@ -48,7 +48,7 @@
       padding: 0.85rem 0.9rem;
       color: #a0aec0;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
       letter-spacing: 0.07em;
       text-transform: uppercase;
@@ -76,7 +76,7 @@
     .profile-text { flex: 1; }
     .profile-photo img {
       width: 160px;
-      height: 210px;
+      height: 220px;
       object-fit: cover;
       border-radius: 10px;
       border: 1px solid var(--border);
@@ -84,13 +84,13 @@
     }
 
     h1 {
-      font-size: 1.7rem;
+      font-size: 2rem;
       font-weight: 700;
       color: var(--heading);
       line-height: 1.2;
     }
     .position {
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       color: var(--accent);
       font-weight: 500;
       margin: 0.55rem 0 0.7rem;
@@ -107,18 +107,18 @@
       background: var(--accent-light);
       color: var(--accent);
       border-radius: 4px;
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 500;
       text-decoration: none;
       border: 1px solid #b2d8e8;
     }
     .profile-links a:hover { background: #d0eaf4; }
     .profile-email {
-      font-size: 13px;
+      font-size: 14px;
       color: var(--muted);
       margin-bottom: 1rem;
     }
-    .profile-bio { font-size: 14.5px; line-height: 1.8; }
+    .profile-bio { font-size: 15.5px; line-height: 1.8; }
     .profile-bio a { color: var(--accent); text-decoration: none; }
     .profile-bio a:hover { text-decoration: underline; }
 
@@ -171,7 +171,7 @@
       background: #fef3e2;
       color: var(--venue);
       border-radius: 4px;
-      font-size: 13.5px;
+      font-size: 14px;
       font-weight: 700;
       text-decoration: none;
       border: 1px solid #f6d6a0;
@@ -179,33 +179,57 @@
     }
     .venue-badge a:hover { background: #fce8c3; }
 
-    .paper-content { flex: 1; }
+    .paper-content {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      min-width: 0;
+    }
     .paper-title {
+      order: 1;
+      flex: 0 1 auto;
       font-weight: 600;
       color: var(--heading);
-      font-size: 14.5px;
+      font-size: 15.5px;
       line-height: 1.45;
       margin-bottom: 0.3rem;
+      margin-right: 0.5rem;
     }
     .paper-title a { color: inherit; text-decoration: none; }
     .paper-title a:hover { text-decoration: underline; }
     .paper-authors {
-      font-size: 13px;
+      order: 3;
+      flex: 0 0 100%;
+      font-size: 14px;
       color: var(--muted);
       margin-bottom: 0.25rem;
     }
     .paper-authors strong { color: var(--text); font-weight: 600; }
     .paper-venue {
-      font-size: 13px;
+      order: 4;
+      flex: 0 0 100%;
+      font-size: 14px;
       color: var(--muted);
       font-style: italic;
       margin-bottom: 0.4rem;
     }
     .paper-venue a { color: var(--accent); font-style: normal; text-decoration: none; }
     .paper-venue a:hover { text-decoration: underline; }
-    .paper-links { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.4rem; }
+    .paper-links {
+      order: 2;
+      flex: 0 0 auto;
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-top: 0;
+    }
+    .paper-content > div:not(.paper-title):not(.paper-links):not(.paper-authors):not(.paper-venue) {
+      order: 5;
+      flex: 0 0 100%;
+    }
     .paper-links a {
-      font-size: 14px;
+      font-size: 13px;
       padding: 0.15rem 0.55rem;
       background: var(--bg-alt);
       color: var(--accent);
@@ -246,12 +270,12 @@
       display: flex;
       gap: 1rem;
       margin-bottom: 0.75rem;
-      font-size: 14.5px;
+      font-size: 15.5px;
       align-items: baseline;
     }
     .talk-date {
       flex-shrink: 0;
-      font-size: 14px;
+      font-size: 14.5px;
       color: var(--muted);
       font-weight: 500;
       min-width: 76px;
@@ -266,7 +290,7 @@
       position: relative;
       padding-left: 1.1rem;
       margin-bottom: 0.65rem;
-      font-size: 14.5px;
+      font-size: 15.5px;
     }
     .simple-item::before {
       content: '›';
@@ -277,14 +301,14 @@
     .simple-item a { color: var(--accent); text-decoration: none; }
     .simple-item a:hover { text-decoration: underline; }
     .simple-item .sub {
-      font-size: 13px;
+      font-size: 14px;
       color: var(--muted);
       padding-left: 0.5rem;
     }
     .simple-item .sub a { color: var(--accent); text-decoration: none; }
     .simple-item .sub a:hover { text-decoration: underline; }
     .kw {
-      font-size: 13px;
+      font-size: 13.5px;
       font-weight: 700;
       color: var(--venue);
       text-transform: uppercase;
@@ -292,14 +316,14 @@
       letter-spacing: 0.03em;
     }
     .award-inline {
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 600;
       color: var(--award);
     }
 
     /* Reading list */
     .reading-list { list-style: none; margin-top: 0.5rem; padding-left: 0.5rem; }
-    .reading-list li { margin-bottom: 0.3rem; font-size: 13.5px; }
+    .reading-list li { margin-bottom: 0.3rem; font-size: 14.5px; }
     .reading-list a { color: var(--accent); text-decoration: none; }
     .reading-list a:hover { text-decoration: underline; }
 
@@ -307,7 +331,7 @@
     footer {
       text-align: center;
       padding: 2rem;
-      font-size: 13px;
+      font-size: 14px;
       color: var(--muted);
       border-top: 1px solid var(--border);
       margin-top: 1rem;
@@ -319,7 +343,7 @@
       .profile-links { justify-content: center; }
       h1 { font-size: 1.5rem; }
       nav ul { flex-wrap: wrap; }
-      nav a { padding: 0.55rem 0.5rem; font-size: 13px; }
+      nav a { padding: 0.55rem 0.5rem; font-size: 14px; }
       .paper-item { flex-direction: column; gap: 0.5rem; }
       .venue-badge { width: auto; text-align: left; }
       .talk-item { flex-direction: column; gap: 0.2rem; }
@@ -476,7 +500,7 @@
       <li class="paper-item">
         <div class="venue-badge"><span>FSE 2026</span></div>
         <div class="paper-content">
-          <div class="paper-title">"Agentic Verification of Software Systems"</div>
+          <div class="paper-title">Agentic Verification of Software Systems</div>
           <div class="paper-authors">Haoxin Tu, Huan Zhao, <strong>Yahui Song</strong>, Mehtab Zafar, Ruijie Meng, Abhik Roychoudhury</div>
           <div class="paper-venue">ACM International Conference on the Foundations of Software Engineering, Montreal, Canada</div>
           <div class="paper-links"><a href="https://arxiv.org/pdf/2511.17330v2">pdf</a></div>
@@ -486,7 +510,7 @@
       <li class="paper-item">
         <div class="venue-badge"><span>TSE 2026</span></div>
         <div class="paper-content">
-          <div class="paper-title">"Computation Tree Logic Guided Program Repair"</div>
+          <div class="paper-title">Computation Tree Logic Guided Program Repair</div>
           <div class="paper-authors">Yu Liu*, <strong>Yahui Song</strong>*, Martin Mirchev, Abhik Roychoudhury</div>
           <div class="paper-venue">IEEE Transactions on Software Engineering</div>
           <div class="paper-links">
@@ -499,7 +523,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://2025.splashcon.org/home/sas-2025">SAS 2025</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Specifying and Verifying Future Conditions"</div>
+          <div class="paper-title">Specifying and Verifying Future Conditions</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Darius Foo, Wei-Ngan Chin</div>
           <div class="paper-venue">32nd Static Analysis Symposium, Singapore</div>
           <div class="paper-links">
@@ -515,7 +539,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://etaps.org/2025/conferences/tacas/">TACAS 2025</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Inferring Incorrectness Specifications for Object-Oriented Programs"</div>
+          <div class="paper-title">Inferring Incorrectness Specifications for Object-Oriented Programs</div>
           <div class="paper-authors">Wenhua Li, Quang Loc Le, <strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">31st International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Hamilton, Canada</div>
           <div class="paper-links"><a href="TACAS2025.pdf">pdf</a></div>
@@ -525,7 +549,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://icfp24.sigplan.org/">ICFP 2024</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Specification and Verification for Unrestricted Algebraic Effects and Handling"</div>
+          <div class="paper-title">Specification and Verification for Unrestricted Algebraic Effects and Handling</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Darius Foo, Wei-Ngan Chin</div>
           <div class="paper-venue">29th ACM SIGPLAN International Conference on Functional Programming, Milan, Italy</div>
           <div class="paper-links">
@@ -540,7 +564,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://www.fm24.polimi.it/">FM 2024</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Staged Specification Logic for Verifying Higher-Order Imperative Programs"</div>
+          <div class="paper-title">Staged Specification Logic for Verifying Higher-Order Imperative Programs</div>
           <div class="paper-authors">Darius Foo, <strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">26th International Symposium on Formal Methods, Milan, Italy</div>
           <div class="paper-links">
@@ -555,7 +579,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://conf.researchr.org/home/fse-2024">FSE 2024</a></div>
         <div class="paper-content">
-          <div class="paper-title">"ProveNFix: Temporal Property guided Program Repair"</div>
+          <div class="paper-title">ProveNFix: Temporal Property guided Program Repair</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Xiang Gao, Wenhua Li, Wei-Ngan Chin, Abhik Roychoudhury</div>
           <div class="paper-venue">ACM International Conference on the Foundations of Software Engineering, Porto de Galinhas, Brazil</div>
           <div class="paper-links">
@@ -572,7 +596,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://conf.researchr.org/home/aplas-2023">APLAS 2023</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Incorrectness Proofs for Object-Oriented Programs via Subclass Reflection"</div>
+          <div class="paper-title">Incorrectness Proofs for Object-Oriented Programs via Subclass Reflection</div>
           <div class="paper-authors">Wenhua Li, Quang Loc Le, <strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">21st Asian Symposium on Programming Languages and Systems, Taipei</div>
           <div class="paper-links">
@@ -585,7 +609,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://etaps.org/2023/tacas">TACAS 2023</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Automated Verification for Real-Time Systems"</div>
+          <div class="paper-title">Automated Verification for Real-Time Systems</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Paris, France</div>
           <div class="paper-links">
@@ -600,7 +624,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://conf.researchr.org/home/aplas-2022">APLAS 2022</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Automated Temporal Verification for Algebraic Effects"</div>
+          <div class="paper-title">Automated Temporal Verification for Algebraic Effects</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Darius Foo, Wei-Ngan Chin</div>
           <div class="paper-venue">20th Asian Symposium on Programming Languages and Systems, Auckland, New Zealand</div>
           <div class="paper-links">
@@ -614,7 +638,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://popl21.sigplan.org/home/VMCAI-2021">VMCAI 2021</a></div>
         <div class="paper-content">
-          <div class="paper-title">"A Synchronous Effects Logic for Temporal Verification of Pure Esterel"</div>
+          <div class="paper-title">A Synchronous Effects Logic for Temporal Verification of Pure Esterel</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">22nd International Conference on Verification, Model Checking, and Abstract Interpretation, Online</div>
           <div class="paper-links">
@@ -629,7 +653,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://formal-analysis.com/icfem/2020/">ICFEM 2020</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Automated Temporal Verification of Integrated Dependent Effects"</div>
+          <div class="paper-title">Automated Temporal Verification of Integrated Dependent Effects</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">22nd International Conference on Formal Engineering Methods, Singapore</div>
           <div class="paper-links">
@@ -652,7 +676,7 @@
       <li class="paper-item">
         <div class="venue-badge"><span>Arxiv</span></div>
         <div class="paper-content">
-          <div class="paper-title">"Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning"</div>
+          <div class="paper-title">Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning</div>
           <div class="paper-authors">Ningke Li*, <strong>Yahui Song</strong>*, Kailong Wang, Yuekang Li, Ling Shi, Yi Liu, Haoyu Wang</div>
           <div class="paper-links"><a href="https://arxiv.org/abs/2502.13416">pdf</a></div>
         </div>
@@ -661,7 +685,7 @@
       <li class="paper-item">
         <div class="venue-badge"><span>PhD Thesis</span></div>
         <div class="paper-content">
-          <div class="paper-title">"Symbolic Temporal Verification Techniques with Extended Regular Expressions"</div>
+          <div class="paper-title">Symbolic Temporal Verification Techniques with Extended Regular Expressions</div>
           <div class="paper-authors">Doctor of Philosophy, Department of Computer Science, National University of Singapore</div>
           <div class="paper-venue">
             Supervisor: <a href="https://www.comp.nus.edu.sg/cs/bio/chinwn/">Wei-Ngan Chin</a> &middot;
@@ -678,7 +702,7 @@
       <li class="paper-item">
         <div class="venue-badge"><span>Manuscript</span></div>
         <div class="paper-content">
-          <div class="paper-title">"Automated Temporal Verification for Preemptive Asynchronous Programs"</div>
+          <div class="paper-title">Automated Temporal Verification for Preemptive Asynchronous Programs</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-links">
             <a href="ecoop23-paper104.pdf">pdf</a>
@@ -690,7 +714,7 @@
       <li class="paper-item">
         <div class="venue-badge"><span>Manuscript</span></div>
         <div class="paper-content">
-          <div class="paper-title">"An SQL Frontend on top of OCaml for Data Analysis"</div>
+          <div class="paper-title">An SQL Frontend on top of OCaml for Data Analysis</div>
           <div class="paper-authors">Yan Dong, <strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">Presented at <a href="https://ifl22.github.io/">IFL2022</a> &middot; 34th Symposium on Implementation and Application of Functional Languages, Copenhagen, Denmark</div>
           <div class="paper-links">
@@ -704,7 +728,7 @@
       <li class="paper-item">
         <div class="venue-badge"><span>Master Thesis</span></div>
         <div class="paper-content">
-          <div class="paper-title">"Programming Abstraction for IoT Devices"</div>
+          <div class="paper-title">Programming Abstraction for IoT Devices</div>
           <div class="paper-authors">Master of Computing, Department of Computer Science, National University of Singapore</div>
           <div class="paper-venue">
             Supervisor: <a href="https://www.comp.nus.edu.sg/cs/bio/chinwn/">Wei-Ngan Chin</a>,
@@ -765,7 +789,7 @@
         <div class="paper-content">
           <div class="paper-title">
             <a href="https://dl.acm.org/doi/abs/10.1145/3563768.3563953">
-              "Automated Verification for Real-Time Systems using Implicit Clocks and an Extended Antimirov Algorithm"
+              Automated Verification for Real-Time Systems using Implicit Clocks and an Extended Antimirov Algorithm
             </a>
           </div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
@@ -782,7 +806,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="https://conf.researchr.org/home/aplas-2019">APLAS 2019</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Automated Temporal Verification via Rewriting Conditional Dependent Effects"</div>
+          <div class="paper-title">Automated Temporal Verification via Rewriting Conditional Dependent Effects</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">17th Asian Symposium on Programming Languages and Systems, Indonesia</div>
           <div class="paper-links"><a href="aplas_poster_19.pdf">pdf</a></div>
@@ -792,7 +816,7 @@
       <li class="paper-item">
         <div class="venue-badge"><a href="http://aplas2018.org">APLAS 2018</a></div>
         <div class="paper-content">
-          <div class="paper-title">"Arrowrized Abstraction for IoT Programs"</div>
+          <div class="paper-title">Arrowrized Abstraction for IoT Programs</div>
           <div class="paper-authors"><strong>Yahui Song</strong>, Wei-Ngan Chin</div>
           <div class="paper-venue">16th Asian Symposium on Programming Languages and Systems, New Zealand</div>
           <div class="paper-links"><a href="my_poster.pdf">pdf</a></div>

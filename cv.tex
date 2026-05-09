@@ -12,6 +12,7 @@
 \usepackage{multicol}
 \usepackage{enumitem}
 \definecolor{linkblue}{RGB}{0,96,128}
+\newcommand{\Cpp}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\scriptsize\textbf{++}}}
 
 %% ---- Personal Data ---------------------------------------------------------
 \name{Yahui}{Song}
@@ -20,7 +21,7 @@
 \phone[mobile]{+65 80850344}
 \email{yahuisong123@gmail.com}
 \homepage{songyahui.github.io}
-\social[github]{songyahui}
+%\social[github]{songyahui}
 %\extrainfo{\href{https://scholar.google.com/citations?user=_OglTEAAAAAJ&hl}{Google Scholar}}
 
 %% ============================================================================
@@ -29,9 +30,9 @@
 
 %% ---- Working Experience ----------------------------------------------------
 \section{Working Experience}
-\cventry{07/2025--present}{Quantitative Developer (Haskell, C++)}{Standard Chartered Bank}{Singapore, Core Strats}{}{}
-\cventry{02/2023--07/2025}{Research Fellow}{National University of Singapore}{School of Computing}{}{}
-\cventry{08/2016--06/2017}{Software Developer (C++ Backend)}{Haoyun Technologies Co., Ltd}{Guangzhou}{}{}
+\cventry{07/2025--present}{Quantitative Developer (Haskell, \Cpp)}{Standard Chartered Bank}{Singapore, Core Strats}{}{}
+\cventry{02/2023--07/2025}{Research Fellow (OCaml, C)}{National University of Singapore}{School of Computing}{}{}
+\cventry{08/2016--06/2017}{Software Developer (\Cpp Backend)}{Haoyun Technologies Co., Ltd}{Guangzhou}{}{}
 
 %% ---- Education -------------------------------------------------------------
 \section{Education}
@@ -46,73 +47,77 @@
 
 %% ---- Research Interest -----------------------------------------------------
 \section{Research Interest}
-My research focuses on programming languages, particularly functional programming,
-specification and verification, logics such as temporal logic and separation logic,
-as well as their applications in bug finding and automated program repair.
+My research focuses on programming languages and program analysis, particularly
+functional programming, specification and verification, static analysis, and logics
+such as temporal logic and separation logic, as well as their applications in bug
+finding, automated program repair, and software correctness proofs.
+On the engineering side, I have a strong interest in systems programming with \Cpp,
+including high-performance library design, type-safe abstractions, and applying
+formal methods to real-world \Cpp codebases.
 
-%% ---- Peer-Reviewed Research Papers -----------------------------------------
-\section{Peer-Reviewed Research Papers}
+%% ---- Publications ----------------------------------------------------------
+\section{Publications}
 
-\cvitem{FSE 2026}{Haoxin Tu, Huan Zhao, \textbf{Yahui Song}, Mehtab Zafar, Ruijie Meng, Abhik Roychoudhury.
-  \newline\emph{Agentic Verification of Software Systems.}
+\cvitem{FSE 2026}{\emph{Agentic Verification of Software Systems.}
+  \newline Haoxin Tu, Huan Zhao, \textbf{Yahui Song}, Mehtab Zafar, Ruijie Meng, Abhik Roychoudhury.
   \newline ACM International Conference on the Foundations of Software Engineering, Montreal, Canada.}
 
-\cvitem{TSE 2026}{Yu Liu*, \textbf{Yahui Song}*, Martin Mirchev, Abhik Roychoudhury.
-  \newline\emph{Computation Tree Logic Guided Program Repair.}
+\cvitem{TSE 2026}{\emph{Computation Tree Logic Guided Program Repair.}
+  \newline Yu Liu*, \textbf{Yahui Song}*, Martin Mirchev, Abhik Roychoudhury.
   \newline IEEE Transactions on Software Engineering.}
 
-\cvitem{SAS 2025}{\textbf{Yahui Song}, Darius Foo, Wei-Ngan Chin.
-  \newline\emph{Specifying and Verifying Future Conditions.}
+\cvitem{SAS 2025}{\emph{Specifying and Verifying Future Conditions.}
+  \newline \textbf{Yahui Song}, Darius Foo, Wei-Ngan Chin.
   \newline 32nd Static Analysis Symposium, Singapore.}
 
-\cvitem{TACAS 2025}{Wenhua Li, Quang Loc Le, \textbf{Yahui Song}, Wei-Ngan Chin.
-  \newline\emph{Inferring Incorrectness Specifications for Object-Oriented Programs.}
+\cvitem{TACAS 2025}{\emph{Inferring Incorrectness Specifications for Object-Oriented Programs.}
+  \newline Wenhua Li, Quang Loc Le, \textbf{Yahui Song}, Wei-Ngan Chin.
   \newline 31st International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Hamilton, Canada.}
 
-\cvitem{ICFP 2024}{\textbf{Yahui Song}, Darius Foo, Wei-Ngan Chin.
-  \newline\emph{Specification and Verification for Unrestricted Algebraic Effects and Handling.}
+\cvitem{ICFP 2024}{\emph{Specification and Verification for Unrestricted Algebraic Effects and Handling.}
+  \newline \textbf{Yahui Song}, Darius Foo, Wei-Ngan Chin.
   \newline 29th ACM SIGPLAN International Conference on Functional Programming, Milan, Italy.}
 
-\cvitem{FM 2024}{Darius Foo, \textbf{Yahui Song}, Wei-Ngan Chin.
-  \newline\emph{Staged Specification Logic for Verifying Higher-Order Imperative Programs.}
+\cvitem{FM 2024}{\emph{Staged Specification Logic for Verifying Higher-Order Imperative Programs.}
+  \newline Darius Foo, \textbf{Yahui Song}, Wei-Ngan Chin.
   \newline 26th International Symposium on Formal Methods, Milan, Italy.}
 
-\cvitem{FSE 2024}{\textbf{Yahui Song}, Xiang Gao, Wenhua Li, Wei-Ngan Chin, Abhik Roychoudhury.
-  \newline\emph{ProveNFix: Temporal Property guided Program Repair.}
+\cvitem{FSE 2024}{\emph{ProveNFix: Temporal Property guided Program Repair.}
+  \newline \textbf{Yahui Song}, Xiang Gao, Wenhua Li, Wei-Ngan Chin, Abhik Roychoudhury.
   \newline ACM International Conference on the Foundations of Software Engineering, Porto de Galinhas, Brazil.
   \newline\textbf{ACM SIGSOFT Distinguished Paper Award.}}
 
-\cvitem{APLAS 2023}{Wenhua Li, Quang Loc Le, \textbf{Yahui Song}, Wei-Ngan Chin.
-  \newline\emph{Incorrectness Proofs for Object-Oriented Programs via Subclass Reflection.}
+\cvitem{APLAS 2023}{\emph{Incorrectness Proofs for Object-Oriented Programs via Subclass Reflection.}
+  \newline Wenhua Li, Quang Loc Le, \textbf{Yahui Song}, Wei-Ngan Chin.
   \newline 21st Asian Symposium on Programming Languages and Systems, Taipei.}
 
-\cvitem{TACAS 2023}{\textbf{Yahui Song}, Wei-Ngan Chin.
-  \newline\emph{Automated Verification for Real-Time Systems.}
+\cvitem{TACAS 2023}{\emph{Automated Verification for Real-Time Systems.}
+  \newline \textbf{Yahui Song}, Wei-Ngan Chin.
   \newline 29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Paris, France.}
 
-\cvitem{APLAS 2022}{\textbf{Yahui Song}, Darius Foo, Wei-Ngan Chin.
-  \newline\emph{Automated Temporal Verification for Algebraic Effects.}
+\cvitem{APLAS 2022}{\emph{Automated Temporal Verification for Algebraic Effects.}
+  \newline \textbf{Yahui Song}, Darius Foo, Wei-Ngan Chin.
   \newline 20th Asian Symposium on Programming Languages and Systems, Auckland, New Zealand.}
 
-\cvitem{VMCAI 2021}{\textbf{Yahui Song}, Wei-Ngan Chin.
-  \newline\emph{A Synchronous Effects Logic for Temporal Verification of Pure Esterel.}
+\cvitem{VMCAI 2021}{\emph{A Synchronous Effects Logic for Temporal Verification of Pure Esterel.}
+  \newline \textbf{Yahui Song}, Wei-Ngan Chin.
   \newline 22nd International Conference on Verification, Model Checking, and Abstract Interpretation, Online.}
 
-\cvitem{ICFEM 2020}{\textbf{Yahui Song}, Wei-Ngan Chin.
-  \newline\emph{Automated Temporal Verification of Integrated Dependent Effects.}
+\cvitem{ICFEM 2020}{\emph{Automated Temporal Verification of Integrated Dependent Effects.}
+  \newline \textbf{Yahui Song}, Wei-Ngan Chin.
   \newline 22nd International Conference on Formal Engineering Methods, Singapore.}
 
 %% ---- Theses and Preprints --------------------------------------------------
 \section{Theses and Preprints}
 
-\begin{itemize}[leftmargin=1.4cm, label={\textbullet}, itemsep=4pt]
-\item \textbf{Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning} \hfill {\color{linkblue}(\href{https://arxiv.org/abs/2502.13416}{Arxiv})}\\
-  by Ningke Li$^{\star}$, \underline{Yahui Song}$^{\star}$, Kailong Wang, Yuekang Li, Ling Shi, Yi Liu, and Haoyu Wang.
+\begin{itemize}[leftmargin=0.5cm, label={\textbullet}, itemsep=4pt]
+\item \textbf{Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning} {\color{linkblue}(\href{https://arxiv.org/abs/2502.13416}{Arxiv})}\\
+  Ningke Li$^{\star}$, \underline{Yahui Song}$^{\star}$, Kailong Wang, Yuekang Li, Ling Shi, Yi Liu, and Haoyu Wang.
 
-\item \textbf{Symbolic Temporal Verification Techniques with Extended Regular Expressions} \hfill {\color{linkblue}(PHD THESIS (2023))}\\
+\item \textbf{Symbolic Temporal Verification Techniques with Extended Regular Expressions} {\color{linkblue}(PhD Thesis (2023))}\\
   Supervisor: Wei-Ngan Chin.~~Committee: Joxan Jaffar, Jin Song Dong.
 
-\item \textbf{Programming Abstraction for IoT Devices} \hfill {\color{linkblue}(MASTER THESIS (2018))}\\
+\item \textbf{Programming Abstraction for IoT Devices}  {\color{linkblue}(Master Thesis (2018))}\\
   Supervisor: Wei-Ngan Chin, co-supervised by Mahmudul Faisal Al Ameen.\\
   Committee: Siau-Cheng Khoo, Hugh Anderson.
 \end{itemize}
@@ -121,7 +126,7 @@ as well as their applications in bug finding and automated program repair.
 \section{Academic Service}
 
 \cvitem{PC Member}{Haskell'26, TOSEM'25, ICSE'26, ICFP'25, SRC@SPLASH'25, HOPE'25, OCaml'25,
-  APR@ICSE'25, TASE'24 (and its Special Journal Issue), STTT'21 (RV'21 Special Journal Issue)}
+  APR@ICSE'25, TASE'24 (and its Special Journal Issue), STTT'21}
 
 \cvitem{AEC Member}{CAV'23, CAV'22, PLDI'22, POPL'22, ESOP'22}
 
@@ -137,7 +142,7 @@ as well as their applications in bug finding and automated program repair.
 
 \cvitem{2018}{\textbf{First Prize} --- GSAC 2018 Singapore Hackathon (Alibaba \& Lazada), scheduling algorithm competition.}
 
-\cvitem{2019}{\textbf{PLMW Scholarship} --- PLDI 2019, Phoenix, Arizona, USA.}
+%\cvitem{2019}{\textbf{PLMW Scholarship} --- PLDI 2019, Phoenix, Arizona, USA.}
 
 
 \end{document}

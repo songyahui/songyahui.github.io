@@ -1,0 +1,327 @@
+%% Yahui Song — Curriculum Vitae
+%% Compiled with: xelatex cv.tex
+
+\documentclass[11pt, a4paper]{article}
+
+% ── Packages ──────────────────────────────────────────────────────────────────
+\usepackage{fontspec}
+\usepackage[margin=2cm, top=1.8cm, bottom=1.8cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage{parskip}
+
+% ── Colors ────────────────────────────────────────────────────────────────────
+\definecolor{accent}{RGB}{26, 96, 128}
+\definecolor{clrmuted}{RGB}{90, 82, 75}
+\definecolor{award}{RGB}{26, 102, 64}
+\definecolor{heading}{RGB}{36, 44, 56}
+\definecolor{clrrule}{RGB}{180, 168, 155}
+\definecolor{venuebg}{RGB}{254, 245, 231}
+\definecolor{venuefg}{RGB}{138, 92, 40}
+
+% ── Hyperref setup ────────────────────────────────────────────────────────────
+\hypersetup{
+  colorlinks = true,
+  urlcolor   = accent,
+  linkcolor  = accent,
+  pdftitle   = {Yahui Song --- Curriculum Vitae},
+  pdfauthor  = {Yahui Song},
+}
+
+% ── Section styling ───────────────────────────────────────────────────────────
+\titleformat{\section}
+  {\normalfont\small\bfseries\color{clrmuted}}
+  {}{0em}{\MakeUppercase}
+  [\vspace{-4pt}{\color{clrrule}\hrule}\vspace{4pt}]
+
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+% ── List styling ──────────────────────────────────────────────────────────────
+\setlist[itemize]{leftmargin=1.2em, itemsep=3pt, topsep=2pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=2.4em, itemsep=5pt, topsep=2pt, parsep=0pt}
+
+% ── Helpers ───────────────────────────────────────────────────────────────────
+\newcommand{\me}[1]{\underline{#1}}
+\newcommand{\venue}[1]{{\small\textit{#1}}}
+\newcommand{\highaward}[1]{{\small\color{award}\textbf{#1}}}
+\newcommand{\venuetag}[1]{%
+  \makebox[2.5cm][l]{%
+    \colorbox{venuebg}{%
+      \textcolor{venuefg}{\textbf{\footnotesize\strut\,#1\,}}}}}
+\newcommand{\yeartag}[1]{%
+  \makebox[1.5cm][l]{\textcolor{clrmuted}{\footnotesize #1}}}
+
+\pagestyle{empty}
+
+% ══════════════════════════════════════════════════════════════════════════════
+\begin{document}
+
+% ── Header ────────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{heading} Yahui Song}\\[6pt]
+  {\color{clrmuted} Software Developer, Core Strats\ $\cdot$\ Standard Chartered Bank}\\[4pt]
+  \href{https://github.com/songyahui}{GitHub}\ $\cdot$\
+  \href{https://scholar.google.com/citations?user=_OglTEAAAAAJ&hl}{Google Scholar}\ $\cdot$\
+  \href{https://www.linkedin.com/in/yahui-song-667047179/}{LinkedIn}\ $\cdot$\
+  \href{https://songyahui.github.io}{songyahui.github.io}\\
+  {\small\texttt{yahui DOT song AT sc DOT com}}
+\end{center}
+
+\vspace{6pt}
+
+% ── Research Interests ────────────────────────────────────────────────────────
+\section{Research Interests \& Motivation}
+
+My research sits at the intersection of \textbf{programming languages}, \textbf{formal methods},
+and \textbf{real-world software engineering}. I develop techniques for program verification,
+static analysis, automated repair, and correctness proofs, grounded in temporal logics,
+separation logic, and symbolic computation with extended regular expressions.
+
+Beyond academia, I am deeply interested in applying rigorous formal methods to
+\textbf{high-stakes domains} --- particularly \textbf{finance and trading systems}, where
+correctness, timing, and behavioural guarantees directly translate into economic value.
+My current role in \emph{Core Strats} at Standard Chartered Bank lets me bridge formal reasoning
+with production financial software, and I see great potential in bringing program-analysis tools
+to the correctness of quantitative models, risk engines, and automated-trading pipelines.
+
+% ── Education ─────────────────────────────────────────────────────────────────
+\section{Education}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+
+  \item \textbf{Ph.D.\ in Computer Science}, School of Computing, NUS
+        \hfill \textit{2018\,--\,2023}\\
+  Thesis: \emph{Symbolic Temporal Verification Techniques with Extended Regular Expressions}\\
+  Supervisor: Assoc.\ Prof.\ Wei-Ngan Chin \qquad
+  Committee: Prof.\ Joxan Jaffar, Prof.\ Jin Song Dong
+
+  \item \textbf{M.Comp.\ in Computer Science}, School of Computing, NUS
+        \hfill \textit{2017\,--\,2018}\\
+  Thesis: \emph{Programming Abstraction for IoT Devices}\\
+  Supervisor: Assoc.\ Prof.\ Wei-Ngan Chin
+
+  \item \textbf{B.Eng.\ in Computer Science}, Sun Yat-sen University, China
+        \hfill \textit{2013\,--\,2017}\\
+  Thesis: \emph{Design and Implementation of House Roaming Interaction System Based on Unity3D}\\
+  Focus: Software Engineering, Systems Analysis, Virtual Reality
+
+\end{itemize}
+
+% ── Professional Experience ───────────────────────────────────────────────────
+\section{Professional Experience}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+
+  \item \textbf{Software Developer --- Core Strats}, Standard Chartered Bank, Singapore
+        \hfill \textit{July 2025\,--\,Present}\\
+  Applying formal and algorithmic methods to financial software within the bank's quantitative
+  strategies group. Bridging programming-language research with production systems in the finance
+  domain.
+
+  \item \textbf{Research Fellow --- Automated Program Repair Group},
+        NUS
+        \hfill \textit{Jan 2023\,--\,July 2025}\\
+  Worked with Prof.\ Abhik Roychoudhury and Prof.\ Wei-Ngan Chin on temporal-property-guided program repair
+ and agentic software verification. Continued collaboration after
+  joining SCB.
+
+\end{itemize}
+
+% ── Peer-Reviewed Publications ────────────────────────────────────────────────
+\section{Peer-Reviewed Research Papers}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+
+  \item \venuetag{TSE 2026}
+  \textbf{Detecting LLM Fact-conflicting Hallucinations Enhanced \venue{by} Temporal-logic-based Reasoning}\\
+  \venue{by} Ningke Li$^*$, \me{Yahui Song}$^*$, Kailong Wang, Yuekang Li, Ling Shi, Yi Liu, Haoyu Wang\\
+  \venue{IEEE Transactions on Software Engineering}
+
+  \item \venuetag{TSE 2026}
+  \textbf{Computation Tree Logic Guided Program Repair}\\
+  \venue{by} Yu Liu$^*$, \me{Yahui Song}$^*$, Martin Mirchev, Abhik Roychoudhury\\
+  \venue{IEEE Transactions on Software Engineering}
+
+  \item \venuetag{FSE 2026}
+  \textbf{Agentic Verification of Software Systems}\\
+  \venue{by} Haoxin Tu, Huan Zhao, \me{Yahui Song}, Mehtab Zafar, Ruijie Meng, Abhik Roychoudhury\\
+  \venue{ACM International Conference on the Foundations of Software Engineering, Montreal, Canada}
+
+  \item \venuetag{SAS 2025}
+  \textbf{Specifying and Verifying Future Conditions}\\
+  \venue{by} \me{Yahui Song}, Darius Foo, Wei-Ngan Chin\\
+  \venue{32nd Static Analysis Symposium, Singapore}
+
+  \item \venuetag{TACAS 2025}
+  \textbf{Inferring Incorrectness Specifications for Object-Oriented Programs}\\
+  \venue{by} Wenhua Li, Quang Loc Le, \me{Yahui Song}, Wei-Ngan Chin\\
+  \venue{31st International Conference on Tools and Algorithms for the Construction and Analysis
+  of Systems, Hamilton, Canada}
+
+  \item \venuetag{ICFP 2024}
+  \textbf{Specification and Verification for Unrestricted Algebraic Effects and Handling}\\
+  \venue{by} \me{Yahui Song}, Darius Foo, Wei-Ngan Chin\\
+  \venue{29th ACM SIGPLAN International Conference on Functional Programming, Milan, Italy}
+
+  \item \venuetag{FM 2024}
+  \textbf{Staged Specification Logic for Verifying Higher-Order Imperative Programs}\\
+  \venue{by} Darius Foo, \me{Yahui Song}, Wei-Ngan Chin\\
+  \venue{26th International Symposium on Formal Methods, Milan, Italy}
+
+  \item \venuetag{FSE 2024}
+  \textbf{ProveNFix: Temporal Property Guided Program Repair}\\
+  \venue{by} \me{Yahui Song}, Xiang Gao, Wenhua Li, Wei-Ngan Chin, Abhik Roychoudhury\\
+  \venue{ACM International Conference on the Foundations of Software Engineering,
+  Porto de Galinhas, Brazil}\\
+  \highaward{ACM SIGSOFT Distinguished Paper Award}
+
+  \item \venuetag{APLAS 2023}
+  \textbf{Incorrectness Proofs for Object-Oriented Programs via Subclass Reflection}\\
+  \venue{by} Wenhua Li, Quang Loc Le, \me{Yahui Song}, Wei-Ngan Chin\\
+  \venue{21st Asian Symposium on Programming Languages and Systems, Taipei}
+
+  \item \venuetag{TACAS 2023}
+  \textbf{Automated Verification for Real-Time Systems}\\
+  \venue{by} \me{Yahui Song}, Wei-Ngan Chin\\
+  \venue{29th International Conference on Tools and Algorithms for the Construction and Analysis
+  of Systems, Paris, France}
+
+  \item \venuetag{APLAS 2022}
+  \textbf{Automated Temporal Verification for Algebraic Effects}\\
+  \venue{by} \me{Yahui Song}, Darius Foo, Wei-Ngan Chin\\
+  \venue{20th Asian Symposium on Programming Languages and Systems, Auckland, New Zealand}
+
+  \item \venuetag{VMCAI 2021}
+  \textbf{A Synchronous Effects Logic for Temporal Verification of Pure Esterel}\\
+  \venue{by} \me{Yahui Song}, Wei-Ngan Chin\\
+  \venue{22nd International Conference on Verification, Model Checking, and Abstract Interpretation}
+
+  \item \venuetag{ICFEM 2020}
+  \textbf{Automated Temporal Verification of Integrated Dependent Effects}\\
+  \venue{by} \me{Yahui Song}, Wei-Ngan Chin\\
+  \venue{22nd International Conference on Formal Engineering Methods, Singapore}
+
+\end{itemize}
+
+% ── Theses and Preprints ──────────────────────────────────────────────────────
+\section{Theses \& Preprints}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+
+  \item \venuetag{PhD Thesis}
+  \textbf{Symbolic Temporal Verification Techniques with Extended Regular Expressions}, \venue{Doctor of Philosophy, Department of Computer Science, NUS, 2023}\\
+  Supervisor: Wei-Ngan Chin \quad Committee: Joxan Jaffar, Jin Song Dong
+
+  \item \venuetag{MSc Thesis}
+  \textbf{Programming Abstraction for IoT Devices}, \venue{Master of Computing, Department of Computer Science, NUS, 2018}\\
+  Supervisor: Wei-Ngan Chin
+
+\end{itemize}
+
+% ── Invited Talks ─────────────────────────────────────────────────────────────
+\section{Talks}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+
+  \item \yeartag{May 2026}
+  \emph{Linear Temporal Logic and Future Conditions} --- Core Strats, Standard Chartered Bank
+
+  \item \yeartag{Jun 2025}
+  \emph{Future Conditions: Temporal Property Guided Program Analysis, Repair and Verification}\\
+  \hspace*{1.65cm}Zoom talk, Prof.\ Yulei Sui's group, University of New South Wales (UNSW)
+
+  \item \yeartag{Dec 2024}
+  \emph{CTL Repair} (ongoing work) --- SG Programming Languages Summit, Singapore
+
+  \item \yeartag{Oct 2024}
+  \emph{ProveNFix and Future Conditions}\\
+  \hspace*{1.65cm}Zoom talk, Prof.\ Yun Lin's group, Shanghai Jiao Tong University
+
+  \item \yeartag{Sep 2024}
+  \emph{Future Conditions} --- ETH Z\"{u}rich, Prof.\ Zhendong Su's Group
+
+  \item \yeartag{Sep 2024}
+  \emph{Higher-Order Effects} --- EPFL PL Seminar, hosted by Prof.\ Viktor Kun\v{c}ak
+
+  \item \yeartag{Sep 2024}
+  \emph{Higher-Order Effects} --- ETH Z\"{u}rich, Prof.\ Peter M\"{u}ller's Group
+
+  \item \yeartag{Nov 2022}
+  PhD thesis talk --- LSD Seminar, UC Santa Cruz, hosted by Prof.\ Lindsey Kuper
+
+\end{itemize}
+
+% ── Awards & Honours ──────────────────────────────────────────────────────────
+\section{Awards \& Honours}
+
+\begin{itemize}
+
+  \item {ACM SIGSOFT Distinguished Paper Award} --- FSE 2024
+
+  \item Honor List of Student Tutors for Excellence of Teaching, NUS, 2020--2021
+
+  \item NUS Research Scholarship, 2018--2022 (Ph.D)
+
+  \item {First Prize, Student Research Competition} --- APLAS 2018
+
+  \item {First Prize, GSAC 2018 Singapore Hackathon} ---
+        Scheduling Algorithm Competition (Alibaba \& Lazada)
+
+\end{itemize}
+
+% ── Service ───────────────────────────────────────────────────────────────────
+\section{Professional Service}
+
+\begin{itemize}
+
+  \item \textbf{Program Committee:}
+        JFP'26, Haskell'26, TOSEM'25, ICSE'26, ICFP'25, SRC@SPLASH'25, HOPE'25, OCaml'25,
+        APR@ICSE'25, TASE'24 and its Special Journal Issue,
+        STTT'21 (RV'21 Special Issue)
+
+  \item \textbf{Artifact Evaluation Committee:}
+        CAV'23, CAV'22, PLDI'22, POPL'22, ESOP'22
+
+\end{itemize}
+
+% ── Teaching ──────────────────────────────────────────────────────────────────
+\section{Teaching}
+
+\begin{itemize}
+
+  \item \textbf{TA} --- IT5100A: Typed Functional Programming in Practice
+        (Dr.\ Wei-Ngan Chin \& Dr.\ Razvan Voicu)
+        \hfill Sem 2, 2021/22
+
+  \item \textbf{TA} --- TIC2701: Principles of Programming Languages
+        \hfill Sem 1, 2020/21
+
+  \item \textbf{TA} --- CS2104: Programming Language Concepts
+        \hfill Sem 1, 2020/21
+
+  \item \textbf{Grader} --- YSC1212: Introduction to Computer Science (Yale-NUS College)
+        \hfill Sem 1, 2020/21
+
+  \item \textbf{TA} --- CS4215: Programming Language Implementation
+        \hfill Sem 2, 2018/19
+
+  \item \textbf{TA} --- CS3203: Software Engineering Project
+        \hfill Sem 2 2020/21; Sem 1\&2 2019/20; Sem 2 2018/19
+
+  \item \textbf{TA} --- CS3219: Software Engineering Principles and Patterns
+        \hfill Sem 1 2020/21; Sem 1\&2 2019/20; Sem 1 2018/19; Sem 1 2017/18
+
+\end{itemize}
+
+
+% ── Footer ────────────────────────────────────────────────────────────────────
+\vfill
+\begin{center}
+  \textcolor{clrmuted}{\footnotesize Last updated: August 2026 \quad
+  \href{https://songyahui.github.io}{songyahui.github.io}}
+\end{center}
+
+\end{document}

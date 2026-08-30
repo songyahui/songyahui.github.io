@@ -37,7 +37,7 @@
   {}{0em}{\MakeUppercase}
   [\vspace{-4pt}{\color{clrrule}\hrule}\vspace{4pt}]
 
-\titlespacing{\section}{0pt}{10pt}{6pt}
+\titlespacing{\section}{0pt}{15pt}{6pt}
 
 % ── List styling ──────────────────────────────────────────────────────────────
 \setlist[itemize]{leftmargin=1.2em, itemsep=3pt, topsep=2pt, parsep=0pt}
@@ -53,6 +53,16 @@
       \textcolor{venuefg}{\textbf{\footnotesize\strut\,#1\,}}}}}
 \newcommand{\yeartag}[1]{%
   \makebox[1.5cm][l]{\textcolor{clrmuted}{\footnotesize #1}}}
+
+\newcommand{\skilllabelwidth}{4.2cm}
+\newcommand{\skillrow}[2]{%
+  \item
+  \begin{minipage}[t]{\skilllabelwidth}%
+    \raggedright\textbf{\color{heading}#1}%
+  \end{minipage}%
+  \begin{minipage}[t]{\dimexpr\linewidth-\skilllabelwidth\relax}%
+    \raggedright #2%
+  \end{minipage}}
 
 \pagestyle{empty}
 
@@ -72,20 +82,17 @@
 
 \vspace{6pt}
 
-% ── Research Interests ────────────────────────────────────────────────────────
-\section{Research Interests \& Motivation}
-
-My research sits at the intersection of \textbf{programming languages}, \textbf{formal methods},
-and \textbf{real-world software engineering}. I develop techniques for program verification,
-static analysis, automated repair, and correctness proofs, grounded in temporal logics,
-separation logic, and symbolic computation with extended regular expressions.
-
-Beyond academia, I am deeply interested in applying rigorous formal methods to
-\textbf{high-stakes domains} --- particularly \textbf{finance and trading systems}, where
-correctness, timing, and behavioural guarantees directly translate into economic value.
-My current role in \emph{Core Strats} at Standard Chartered Bank lets me bridge formal reasoning
-with production financial software, and I see great potential in bringing program-analysis tools
-to the correctness of quantitative models, risk engines, and automated-trading pipelines.
+\section{Summary}
+  Software engineer with a Ph.D.\ in program verification and 13 peer-reviewed papers, including an
+  ACM SIGSOFT Distinguished Paper. I build \textbf{static analysis, verification and automated-repair
+  tooling} that runs on real codebases: \emph{ProveNFix}, my temporal-property-guided analyser and
+  repair tool, extends Meta Infer and has been evaluated on production C. Underneath it: separation
+  logic, temporal logic with extended regular expressions, algebraic effects and handlers,
+  and SMT solving with Z3. I am now a software developer in Standard
+  Chartered's Core Strats group, building trading systems in Haskell --- a setting where correctness
+  and timing carry direct financial consequence, and where I see clear potential to put these methods
+  to work. Comfortable owning a problem end to end: theory, implementation, evaluation, and the
+  engineering needed to get it adopted.
 
 % ── Education ─────────────────────────────────────────────────────────────────
 \section{Education}
@@ -110,6 +117,7 @@ to the correctness of quantitative models, risk engines, and automated-trading p
 
 \end{itemize}
 
+
 % ── Professional Experience ───────────────────────────────────────────────────
 \section{Professional Experience}
 
@@ -117,9 +125,8 @@ to the correctness of quantitative models, risk engines, and automated-trading p
 
   \item \textbf{Software Developer --- Core Strats}, Standard Chartered Bank, Singapore
         \hfill \textit{July 2025\,--\,Present}\\
-  Applying formal and algorithmic methods to financial software within the bank's quantitative
-  strategies group. Bridging programming-language research with production systems in the finance
-  domain.
+  Building trading systems in Haskell within the bank's quantitative strategies group, where
+  functional programming is used to keep correctness-critical financial logic tractable.
 
   \item \textbf{Research Fellow --- Automated Program Repair Group},
         NUS
@@ -131,18 +138,17 @@ to the correctness of quantitative models, risk engines, and automated-trading p
 \end{itemize}
 
 % ── Peer-Reviewed Publications ────────────────────────────────────────────────
-\section{Peer-Reviewed Research Papers}
+\section{Selected Publications}
+  {\small 8 of 13 peer-reviewed papers; full list on
+  \href{https://scholar.google.com/citations?user=_OglTEAAAAAJ&hl}{Google Scholar}.
+  $^*$ denotes equal contribution.}
+  \vspace{4pt}
 
 \begin{itemize}[leftmargin=0pt, label={}]
 
   \item \venuetag{TSE 2026}
   \textbf{Detecting LLM Fact-conflicting Hallucinations Enhanced \venue{by} Temporal-logic-based Reasoning}\\
   \venue{by} Ningke Li$^*$, \me{Yahui Song}$^*$, Kailong Wang, Yuekang Li, Ling Shi, Yi Liu, Haoyu Wang\\
-  \venue{IEEE Transactions on Software Engineering}
-
-  \item \venuetag{TSE 2026}
-  \textbf{Computation Tree Logic Guided Program Repair}\\
-  \venue{by} Yu Liu$^*$, \me{Yahui Song}$^*$, Martin Mirchev, Abhik Roychoudhury\\
   \venue{IEEE Transactions on Software Engineering}
 
   \item \venuetag{FSE 2026}
@@ -154,12 +160,6 @@ to the correctness of quantitative models, risk engines, and automated-trading p
   \textbf{Specifying and Verifying Future Conditions}\\
   \venue{by} \me{Yahui Song}, Darius Foo, Wei-Ngan Chin\\
   \venue{32nd Static Analysis Symposium, Singapore}
-
-  \item \venuetag{TACAS 2025}
-  \textbf{Inferring Incorrectness Specifications for Object-Oriented Programs}\\
-  \venue{by} Wenhua Li, Quang Loc Le, \me{Yahui Song}, Wei-Ngan Chin\\
-  \venue{31st International Conference on Tools and Algorithms for the Construction and Analysis
-  of Systems, Hamilton, Canada}
 
   \item \venuetag{ICFP 2024}
   \textbf{Specification and Verification for Unrestricted Algebraic Effects and Handling}\\
@@ -178,79 +178,17 @@ to the correctness of quantitative models, risk engines, and automated-trading p
   Porto de Galinhas, Brazil}\\
   \highaward{ACM SIGSOFT Distinguished Paper Award}
 
-  \item \venuetag{APLAS 2023}
-  \textbf{Incorrectness Proofs for Object-Oriented Programs via Subclass Reflection}\\
-  \venue{by} Wenhua Li, Quang Loc Le, \me{Yahui Song}, Wei-Ngan Chin\\
-  \venue{21st Asian Symposium on Programming Languages and Systems, Taipei}
-
   \item \venuetag{TACAS 2023}
   \textbf{Automated Verification for Real-Time Systems}\\
   \venue{by} \me{Yahui Song}, Wei-Ngan Chin\\
   \venue{29th International Conference on Tools and Algorithms for the Construction and Analysis
   of Systems, Paris, France}
 
-  \item \venuetag{APLAS 2022}
-  \textbf{Automated Temporal Verification for Algebraic Effects}\\
-  \venue{by} \me{Yahui Song}, Darius Foo, Wei-Ngan Chin\\
-  \venue{20th Asian Symposium on Programming Languages and Systems, Auckland, New Zealand}
-
   \item \venuetag{VMCAI 2021}
   \textbf{A Synchronous Effects Logic for Temporal Verification of Pure Esterel}\\
   \venue{by} \me{Yahui Song}, Wei-Ngan Chin\\
   \venue{22nd International Conference on Verification, Model Checking, and Abstract Interpretation}
 
-  \item \venuetag{ICFEM 2020}
-  \textbf{Automated Temporal Verification of Integrated Dependent Effects}\\
-  \venue{by} \me{Yahui Song}, Wei-Ngan Chin\\
-  \venue{22nd International Conference on Formal Engineering Methods, Singapore}
-
-\end{itemize}
-
-% ── Theses and Preprints ──────────────────────────────────────────────────────
-\section{Theses \& Preprints}
-
-\begin{itemize}[leftmargin=0pt, label={}]
-
-  \item \venuetag{PhD Thesis}
-  \textbf{Symbolic Temporal Verification Techniques with Extended Regular Expressions}, \venue{Doctor of Philosophy, Department of Computer Science, NUS, 2023}\\
-  Supervisor: Wei-Ngan Chin \quad Committee: Joxan Jaffar, Jin Song Dong
-
-  \item \venuetag{MSc Thesis}
-  \textbf{Programming Abstraction for IoT Devices}, \venue{Master of Computing, Department of Computer Science, NUS, 2018}\\
-  Supervisor: Wei-Ngan Chin
-
-\end{itemize}
-
-% ── Invited Talks ─────────────────────────────────────────────────────────────
-\section{Talks}
-
-\begin{itemize}[leftmargin=0pt, label={}]
-
-  \item \yeartag{May 2026}
-  \emph{Linear Temporal Logic and Future Conditions} --- Core Strats, Standard Chartered Bank
-
-  \item \yeartag{Jun 2025}
-  \emph{Future Conditions: Temporal Property Guided Program Analysis, Repair and Verification}\\
-  \hspace*{1.65cm}Zoom talk, Prof.\ Yulei Sui's group, University of New South Wales (UNSW)
-
-  \item \yeartag{Dec 2024}
-  \emph{CTL Repair} (ongoing work) --- SG Programming Languages Summit, Singapore
-
-  \item \yeartag{Oct 2024}
-  \emph{ProveNFix and Future Conditions}\\
-  \hspace*{1.65cm}Zoom talk, Prof.\ Yun Lin's group, Shanghai Jiao Tong University
-
-  \item \yeartag{Sep 2024}
-  \emph{Future Conditions} --- ETH Z\"{u}rich, Prof.\ Zhendong Su's Group
-
-  \item \yeartag{Sep 2024}
-  \emph{Higher-Order Effects} --- EPFL PL Seminar, hosted by Prof.\ Viktor Kun\v{c}ak
-
-  \item \yeartag{Sep 2024}
-  \emph{Higher-Order Effects} --- ETH Z\"{u}rich, Prof.\ Peter M\"{u}ller's Group
-
-  \item \yeartag{Nov 2022}
-  PhD thesis talk --- LSD Seminar, UC Santa Cruz, hosted by Prof.\ Lindsey Kuper
 
 \end{itemize}
 
@@ -263,57 +201,22 @@ to the correctness of quantitative models, risk engines, and automated-trading p
 
   \item Honor List of Student Tutors for Excellence of Teaching, NUS, 2020--2021
 
-  \item NUS Research Scholarship, 2018--2022 (Ph.D)
-
   \item {First Prize, Student Research Competition} --- APLAS 2018
 
-  \item {First Prize, GSAC 2018 Singapore Hackathon} ---
-        Scheduling Algorithm Competition (Alibaba \& Lazada)
-
-\end{itemize}
-
-% ── Service ───────────────────────────────────────────────────────────────────
-\section{Professional Service}
-
-\begin{itemize}
-
-  \item \textbf{Program Committee:}
-        JFP'26, Haskell'26, TOSEM'25, ICSE'26, ICFP'25, SRC@SPLASH'25, HOPE'25, OCaml'25,
-        APR@ICSE'25, TASE'24 and its Special Journal Issue,
-        STTT'21 (RV'21 Special Issue)
-
-  \item \textbf{Artifact Evaluation Committee:}
-        CAV'23, CAV'22, PLDI'22, POPL'22, ESOP'22
+  \item {First Prize, GSAC 2018 Singapore Hackathon} --- Scheduling Algorithm Competition (Alibaba \& Lazada)
 
 \end{itemize}
 
 % ── Teaching ──────────────────────────────────────────────────────────────────
-\section{Teaching}
-
+\section{Service \& Talks}
 \begin{itemize}
-
-  \item \textbf{TA} --- IT5100A: Typed Functional Programming in Practice
-        (Dr.\ Wei-Ngan Chin \& Dr.\ Razvan Voicu)
-        \hfill Sem 2, 2021/22
-
-  \item \textbf{TA} --- TIC2701: Principles of Programming Languages
-        \hfill Sem 1, 2020/21
-
-  \item \textbf{TA} --- CS2104: Programming Language Concepts
-        \hfill Sem 1, 2020/21
-
-  \item \textbf{Grader} --- YSC1212: Introduction to Computer Science (Yale-NUS College)
-        \hfill Sem 1, 2020/21
-
-  \item \textbf{TA} --- CS4215: Programming Language Implementation
-        \hfill Sem 2, 2018/19
-
-  \item \textbf{TA} --- CS3203: Software Engineering Project
-        \hfill Sem 2 2020/21; Sem 1\&2 2019/20; Sem 2 2018/19
-
-  \item \textbf{TA} --- CS3219: Software Engineering Principles and Patterns
-        \hfill Sem 1 2020/21; Sem 1\&2 2019/20; Sem 1 2018/19; Sem 1 2017/18
-
+  \item \textbf{Invited talks} at ETH Z\"{u}rich, EPFL,
+        UC Santa Cruz, UNSW, and Shanghai Jiao Tong University.
+  \item \textbf{Program committee:} JFP'26, Haskell'26, TOSEM'25, ICSE'26, ICFP'25, SRC@SPLASH'25, HOPE'25, OCaml'25,
+        APR@ICSE'25, TASE'24 and its Special Journal Issue, etc.
+  \item \textbf{Artifact evaluation:} CAV'23, CAV'22, PLDI'22, POPL'22, ESOP'22.
+  \item \textbf{Teaching:} 15 semesters as a teaching assistant at NUS across seven programming
+        languages and software engineering courses; NUS Honour List for teaching, 2020--2021.
 \end{itemize}
 
 
